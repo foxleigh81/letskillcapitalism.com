@@ -5,7 +5,6 @@ import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 
 import NoteBlock from '../components/note-block'
-import IconLibrary from '../components/icon-library'
 
 // import '../css/blog-post.css'; // make it pretty!
 
@@ -28,7 +27,6 @@ const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
     'note-block': NoteBlock,
-    'icon-library': IconLibrary,
   },
 }).Compiler
 
