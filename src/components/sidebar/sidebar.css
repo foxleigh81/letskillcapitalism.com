@@ -1,0 +1,14 @@
+.side-bar {
+  float:left;
+  padding: 20px;
+  padding-right: 40px;
+}
+
+.side-bar ul {
+ margin-left: 10px;
+}
+
+.side-bar li {
+  display: block;
+  list-style: none;
+}
