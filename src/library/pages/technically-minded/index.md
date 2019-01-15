@@ -1,5 +1,5 @@
 ---
-template: category-landing
+template: category
 title: Technically Minded
 date: "2019-01-21"
 ---

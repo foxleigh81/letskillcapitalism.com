@@ -4,10 +4,25 @@
 const getSlugsWithData = (data, context) => {
   const slugSet = new Set(
     data.map(({ node }) => {
-      const { slug, title } = { slug: node.fields.slug, title: node.frontmatter.title }
+      const {
+        slug,
+        hero,
+        title,
+        tags,
+        date,
+      } = {
+        slug: node.fields.slug,
+        hero: node.fields.hero,
+        title: node.frontmatter.title,
+        tags: node.frontmatter.tags,
+        date: node.frontmatter.date,
+      }
       const output = {
         slug,
+        hero,
         title,
+        date,
+        tags,
       }
       if (context.length) {
         // Context has been set, filter only items within the context
@@ -24,7 +39,10 @@ const getSlugsWithData = (data, context) => {
     if (typeof v !== 'undefined') {
       return slugs.push({
         slug: v.slug,
+        hero: v.hero,
         title: v.title,
+        tags: v.tags,
+        date: v.date,
       })
     }
     return null

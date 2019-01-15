@@ -4,14 +4,13 @@ import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 
-import NoteBlock from '../components/note-block'
-import Sidebar from '../components/sidebar'
+import CategoryList from '../components/category-list'
 
 // import '../css/blog-post.css'; // make it pretty!
 
 // Run the Graphql query
 export const pageQuery = graphql`
-  query WithSideBarByPath($slug: String!) {
+  query HomepageByPath($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       htmlAst
       frontmatter {
@@ -22,29 +21,26 @@ export const pageQuery = graphql`
 `
 
 // Register any components which are to be available in this template
+
 // eslint-disable-next-line new-cap
 const renderAst = new rehypeReact({
   createElement: React.createElement,
-  components: { 'note-block': NoteBlock },
 }).Compiler
 
-export default function Template({ data, pageContext }) {
+export default function Template({ data }) {
   const { markdownRemark: post } = data // data.markdownRemark holds our post data
-  const { slug } = pageContext // Gives us a context for the sidebar to work from
-  const context = slug.split('/')[1]
   return (
-    <div className="page-container">
-      <Sidebar context={context} />
-      <article className="article-container">
-        <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
+    <div className="landing-page-container">
+      <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
+      <div className="blog-post">
         <h1>{post.frontmatter.title}</h1>
-        <div className="article-content">{renderAst(post.htmlAst)}</div>
-      </article>
+        <div className="blog-post-content">{renderAst(post.htmlAst)}</div>
+      </div>
+      <CategoryList context="/" />
     </div>
   )
 }
 
 Template.propTypes = {
   data: PropTypes.instanceOf(Object).isRequired,
-  pageContext: PropTypes.string.isRequired,
 }

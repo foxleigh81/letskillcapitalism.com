@@ -5,6 +5,7 @@
  */
 
 const path = require('path')
+const fs = require('fs')
 
 const { createFilePath } = require('gatsby-source-filesystem')
 
@@ -13,9 +14,9 @@ exports.createPages = ({ actions, graphql }) => {
 
   // Register templates
   const templateRegister = {
-    nosidebar: path.resolve('src/templates/nosidebar.js'),
-    withsidebar: path.resolve('src/templates/withsidebar.js'),
-    landing: path.resolve('src/templates/landing.js'),
+    homepage: path.resolve('src/templates/homepage.js'),
+    article: path.resolve('src/templates/article.js'),
+    category: path.resolve('src/templates/category.js'),
   }
 
   return graphql(`
@@ -44,7 +45,7 @@ exports.createPages = ({ actions, graphql }) => {
       // otherwise use the article template by default
       const component = (node.frontmatter.template)
         ? templateRegister[node.frontmatter.template]
-        : templateRegister.nosidebar
+        : templateRegister.article
 
       createPage({
         path: node.fields.slug,
@@ -62,10 +63,17 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   // Add slug to MarkdownRemark node
   if (node.internal.type === 'MarkdownRemark') {
     const slug = createFilePath({ node, getNode, basePath: 'library' })
+    const hero = (fs.existsSync(path.resolve(__dirname, `src/library/pages/${slug}hero.jpg`))) ? `${slug}hero.jpg` : ''
+
     createNodeField({
       node,
       name: 'slug',
       value: slug,
+    })
+    createNodeField({
+      node,
+      name: 'hero',
+      value: hero,
     })
   }
 }

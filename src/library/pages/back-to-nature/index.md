@@ -1,5 +1,5 @@
 ---
-template: category-landing
+template: category
 title: "Back to Nature"
 date: "2019-01-21"
 ---

@@ -1,4 +1,5 @@
 ---
+template: category
 title: "Meandering Insanity"
 date: "2019-01-21"
 ---

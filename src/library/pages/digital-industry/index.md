@@ -1,4 +1,5 @@
 ---
+template: category
 title: "Digital Industry"
 date: "2019-01-21"
 ---

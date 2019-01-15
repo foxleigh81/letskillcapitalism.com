@@ -1,5 +1,5 @@
 ---
-legacy: true 
+tags: "legacy"
 template: article 
 comments: true 
 author: Alex Foxleigh

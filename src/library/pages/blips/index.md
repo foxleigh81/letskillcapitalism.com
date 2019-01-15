@@ -1,5 +1,5 @@
 ---
-template: category-landing
+template: category
 title: "Blips"
 date: "2019-01-21"
 ---

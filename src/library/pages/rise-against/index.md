@@ -1,5 +1,5 @@
 ---
-template: category-landing
+template: category
 title: "Rise Against"
 date: "2019-01-21"
 ---

@@ -10,7 +10,7 @@ import NoteBlock from '../components/note-block'
 
 // Run the Graphql query
 export const pageQuery = graphql`
-  query LandingByPath($slug: String!) {
+  query ArticleByPath($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       htmlAst
       frontmatter {
