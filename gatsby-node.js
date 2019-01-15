@@ -28,6 +28,7 @@ exports.createPages = ({ actions, graphql }) => {
           node {
             fields{
               slug
+              hero
             }
             frontmatter {
               template
@@ -52,6 +53,7 @@ exports.createPages = ({ actions, graphql }) => {
         component,
         context: {
           slug: node.fields.slug,
+          hero: node.fields.hero,
         },
       })
     })
@@ -63,7 +65,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   // Add slug to MarkdownRemark node
   if (node.internal.type === 'MarkdownRemark') {
     const slug = createFilePath({ node, getNode, basePath: 'library' })
-    const hero = (fs.existsSync(path.resolve(__dirname, `src/library/pages/${slug}hero.jpg`))) ? `${slug}hero.jpg` : ''
+    const hero = (fs.existsSync(path.resolve(__dirname, `src/library/pages/${slug}hero.jpg`))) ? './hero.jpg' : ''
 
     createNodeField({
       node,

@@ -1,11 +1,9 @@
 import { Link, StaticQuery, graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
-import moment from 'moment'
+import Img from 'gatsby-image'
 
 import getSlugsWithData from '../../helpers/getSlugsWithData'
-
-import Image from '../image'
 
 // TODO: Refactor - there is a lot of repeated code here.
 
@@ -19,11 +17,11 @@ const CategoryList = ({ context }) => (
               id
               fields {
                 slug
-                hero
+                hero 
               }
               frontmatter {
                 title
-                date
+                date(formatString: "DD MMMM, YYYY")
                 tags
               }
             }
@@ -47,9 +45,10 @@ const CategoryList = ({ context }) => (
                   return (
                     <li key={top.id} className={`${top.tags} ${context}`}>
                       <article>
+                        
                         <Link to={top.slug}>
                           <h1>{top.title}</h1>
-                          <span className="date">{moment(top.date).format('Do MMMM YYYY')}</span>
+                          <span className="date">{top.date}</span>
                         </Link>
                       </article>
                     </li>
@@ -65,7 +64,7 @@ const CategoryList = ({ context }) => (
                     <article>
                       <Link to={top.slug}>
                         <h1>{top.title}</h1>
-                        <span className="date">{moment(top.date).format('Do MMMM YYYY')}</span>
+                        <span className="date">{top.date}</span>
                         <span className="category"><Link to={`/${category}/`}>{category.replace(/-/g, ' ')}</Link></span>
                       </Link>
                     </article>

@@ -13,10 +13,22 @@ export const pageQuery = graphql`
   query ArticleByPath($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       htmlAst
+      fields {
+        hero
+      }
       frontmatter {
         title
       }
     }
+    # file(relativePath: { eq: "technically-minded/what-should-we-expect-from-the-next-gen-of-vr/hero.jpg" }) {
+    #   childImageSharp {
+    #     # Specify the image processing specifications right in the query.
+    #     # Makes it trivial to update as your page's design changes.
+    #     fixed(width: 125, height: 125) {
+    #       originalName
+    #     }
+    #   }
+    # }
   }
 `
 
