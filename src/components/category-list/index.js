@@ -17,7 +17,6 @@ const CategoryList = ({ context }) => (
               id
               fields {
                 slug
-                hero 
               }
               frontmatter {
                 title
@@ -38,14 +37,13 @@ const CategoryList = ({ context }) => (
         <nav className="category-list">
           <ul>
             {slugsWithData.map((top) => {
-              // Remove context from slug results and split into an array
+              // Remove context from slug results and split into an array)
               if (context !== '/') {
                 // Display pages within a category (excluding index page)
                 if (!top.slug.match(/^\/([\w-]+)\/$/)) {
                   return (
                     <li key={top.id} className={`${top.tags} ${context}`}>
                       <article>
-                        
                         <Link to={top.slug}>
                           <h1>{top.title}</h1>
                           <span className="date">{top.date}</span>
@@ -64,9 +62,11 @@ const CategoryList = ({ context }) => (
                     <article>
                       <Link to={top.slug}>
                         <h1>{top.title}</h1>
-                        <span className="date">{top.date}</span>
-                        <span className="category"><Link to={`/${category}/`}>{category.replace(/-/g, ' ')}</Link></span>
                       </Link>
+                      <div className="meta-data">
+                        <span className="date">{top.date}</span>
+                        <Link className="category" to={`/${category}/`}>{category.replace(/-/g, ' ')}</Link>
+                      </div>
                     </article>
                   </li>
                 )

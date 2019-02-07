@@ -10,25 +10,18 @@ import NoteBlock from '../components/note-block'
 
 // Run the Graphql query
 export const pageQuery = graphql`
-  query ArticleByPath($slug: String!) {
+  query ArticleByPath($slug: String!, $postId: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       htmlAst
-      fields {
-        hero
-      }
       frontmatter {
         title
       }
     }
-    # file(relativePath: { eq: "technically-minded/what-should-we-expect-from-the-next-gen-of-vr/hero.jpg" }) {
-    #   childImageSharp {
-    #     # Specify the image processing specifications right in the query.
-    #     # Makes it trivial to update as your page's design changes.
-    #     fixed(width: 125, height: 125) {
-    #       originalName
-    #     }
-    #   }
-    # }
+    imageSharp(fields: {postId: { eq: $postId }}) {
+      fixed {
+          src
+        }
+      }
   }
 `
 
@@ -41,11 +34,13 @@ const renderAst = new rehypeReact({
 }).Compiler
 
 export default function Template({ data }) {
-  const { markdownRemark: post } = data // data.markdownRemark holds our post data
+  const post = data.markdownRemark // data.markdownRemark holds our post data
+  const hero = data.imageSharp // data.markdownRemark holds our post data
   return (
     <div className="landing-page-container">
       <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
       <div className="blog-post">
+        {hero && <img src={hero.fixed.src} alt={post.frontmatter.title} />}
         <h1>{post.frontmatter.title}</h1>
         <div className="blog-post-content">{renderAst(post.htmlAst)}</div>
       </div>

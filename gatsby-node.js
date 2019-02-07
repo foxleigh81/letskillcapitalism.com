@@ -5,9 +5,9 @@
  */
 
 const path = require('path')
-const fs = require('fs')
 
 const { createFilePath } = require('gatsby-source-filesystem')
+
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -26,9 +26,9 @@ exports.createPages = ({ actions, graphql }) => {
       ) {
         edges {
           node {
+            id
             fields{
               slug
-              hero
             }
             frontmatter {
               template
@@ -52,30 +52,39 @@ exports.createPages = ({ actions, graphql }) => {
         path: node.fields.slug,
         component,
         context: {
+          postId: node.id,
           slug: node.fields.slug,
-          hero: node.fields.hero,
         },
       })
     })
   })
 }
 
+const remarkToDir = new Map()
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
+
   // Add slug to MarkdownRemark node
   if (node.internal.type === 'MarkdownRemark') {
     const slug = createFilePath({ node, getNode, basePath: 'library' })
-    const hero = (fs.existsSync(path.resolve(__dirname, `src/library/pages/${slug}hero.jpg`))) ? './hero.jpg' : ''
-
+    const { dir } = getNode(node.parent)
+    remarkToDir.set(dir, node.id)
     createNodeField({
       node,
       name: 'slug',
       value: slug,
     })
+  }
+
+  if (node.internal.type === 'ImageSharp') {
+    const { dir, name } = getNode(node.parent)
+    if (name !== 'hero') return
+    const postId = remarkToDir.get(dir)
     createNodeField({
+      name: 'postId',
       node,
-      name: 'hero',
-      value: hero,
+      value: postId,
     })
   }
 }
