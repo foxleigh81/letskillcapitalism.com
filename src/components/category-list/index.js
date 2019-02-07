@@ -1,7 +1,6 @@
 import { Link, StaticQuery, graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
-import Img from 'gatsby-image'
 
 import getSlugsWithData from '../../helpers/getSlugsWithData'
 

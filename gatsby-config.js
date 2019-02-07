@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://thefoxnet.co.uk',
+        host: 'https://blog.alexfoxleigh.co.uk',
         policy: [{ userAgent: '*', disallow: '/' }],
       },
     },
@@ -29,8 +29,8 @@ module.exports = {
         path: `${__dirname}/src/library/pages`,
       },
     },
-    'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     'gatsby-plugin-styled-components',
     {
       resolve: 'gatsby-plugin-manifest',

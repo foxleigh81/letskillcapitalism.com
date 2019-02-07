@@ -47,7 +47,6 @@ exports.createPages = ({ actions, graphql }) => {
       const component = (node.frontmatter.template)
         ? templateRegister[node.frontmatter.template]
         : templateRegister.article
-
       createPage({
         path: node.fields.slug,
         component,
@@ -60,27 +59,30 @@ exports.createPages = ({ actions, graphql }) => {
   })
 }
 
-const remarkToDir = new Map()
+const remarkToDir = []
 
-exports.onCreateNode = ({ node, getNode, actions }) => {
+exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   // Add slug to MarkdownRemark node
   if (node.internal.type === 'MarkdownRemark') {
-    const slug = createFilePath({ node, getNode, basePath: 'library' })
-    const { dir } = getNode(node.parent)
-    remarkToDir.set(dir, node.id)
+    const value = createFilePath({ node, getNode, basePath: 'library' })
     createNodeField({
       node,
       name: 'slug',
-      value: slug,
+      value,
+    })
+    const { dir } = getNode(node.parent)
+    remarkToDir.push({
+      dir,
+      id: node.id,
     })
   }
 
   if (node.internal.type === 'ImageSharp') {
     const { dir, name } = getNode(node.parent)
     if (name !== 'hero') return
-    const postId = remarkToDir.get(dir)
+    const postId = remarkToDir.filter(v => v.dir === dir).map(v => v.id)[0]
     createNodeField({
       name: 'postId',
       node,

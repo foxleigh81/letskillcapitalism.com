@@ -12,6 +12,7 @@ import NoteBlock from '../components/note-block'
 export const pageQuery = graphql`
   query ArticleByPath($slug: String!, $postId: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
+      id
       htmlAst
       frontmatter {
         title
@@ -19,9 +20,9 @@ export const pageQuery = graphql`
     }
     imageSharp(fields: {postId: { eq: $postId }}) {
       fixed {
-          src
-        }
+        src
       }
+    }
   }
 `
 
