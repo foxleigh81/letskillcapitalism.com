@@ -9,7 +9,7 @@ const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
 
-exports.createPages = ({ actions, graphql }) => {
+exports.createPages = ({ actions, graphql, getNode }) => {
   const { createPage } = actions
 
   // Register templates
@@ -27,6 +27,9 @@ exports.createPages = ({ actions, graphql }) => {
         edges {
           node {
             id
+            parent {
+              id
+            }
             fields{
               slug
             }
@@ -47,19 +50,18 @@ exports.createPages = ({ actions, graphql }) => {
       const component = (node.frontmatter.template)
         ? templateRegister[node.frontmatter.template]
         : templateRegister.article
+      const { dir } = getNode(node.parent.id)
       createPage({
         path: node.fields.slug,
         component,
         context: {
-          postId: node.id,
+          dir,
           slug: node.fields.slug,
         },
       })
     })
   })
 }
-
-const remarkToDir = []
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
@@ -71,22 +73,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       name: 'slug',
       value,
-    })
-    const { dir } = getNode(node.parent)
-    remarkToDir.push({
-      dir,
-      id: node.id,
-    })
-  }
-
-  if (node.internal.type === 'ImageSharp') {
-    const { dir, name } = getNode(node.parent)
-    if (name !== 'hero') return
-    const postId = remarkToDir.filter(v => v.dir === dir).map(v => v.id)[0]
-    createNodeField({
-      name: 'postId',
-      node,
-      value: postId,
     })
   }
 }

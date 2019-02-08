@@ -10,17 +10,18 @@ import NoteBlock from '../components/note-block'
 
 // Run the Graphql query
 export const pageQuery = graphql`
-  query ArticleByPath($slug: String!, $postId: String!) {
+  query ArticleByPath($slug: String!, $dir: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
       htmlAst
       frontmatter {
         title
       }
     }
-    imageSharp(fields: {postId: { eq: $postId }}) {
-      fixed {
-        src
+    file (dir: { eq: $dir }, name: { eq: "hero" }) {
+      childImageSharp {
+        fixed {
+          src
+        }
       }
     }
   }
@@ -36,7 +37,7 @@ const renderAst = new rehypeReact({
 
 export default function Template({ data }) {
   const post = data.markdownRemark // data.markdownRemark holds our post data
-  const hero = data.imageSharp // data.markdownRemark holds our post data
+  const hero = data.file ? data.file.childImageSharp : null
   return (
     <div className="landing-page-container">
       <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
