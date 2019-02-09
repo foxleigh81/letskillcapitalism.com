@@ -1,0 +1,12 @@
+.legacy-banner {
+  color: $danger;
+  background-color: rgba($danger, .1);
+  border: 1px dotted $danger;
+  padding: $padding;
+  margin-bottom: $margin;
+  h1 {
+    font-size: $header-level-3;
+    font-weight: bold;
+    margin-bottom: $margin;
+  }
+}
