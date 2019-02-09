@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 
+import Header from '../components/header'
 import CategoryList from '../components/category-list'
 
 // import '../css/blog-post.css'; // make it pretty!
@@ -30,14 +31,17 @@ const renderAst = new rehypeReact({
 export default function Template({ data }) {
   const { markdownRemark: post } = data // data.markdownRemark holds our post data
   return (
-    <div className="landing-page-container">
-      <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
-      <div className="blog-post">
-        <h1>{post.frontmatter.title}</h1>
-        <div className="blog-post-content">{renderAst(post.htmlAst)}</div>
+    <>
+      <Header />
+      <div className="landing-page-container">
+        <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
+        <div className="blog-post">
+          <h1>{post.frontmatter.title}</h1>
+          <div className="blog-post-content">{renderAst(post.htmlAst)}</div>
+        </div>
+        <CategoryList context="/" />
       </div>
-      <CategoryList context="/" />
-    </div>
+    </>
   )
 }
 

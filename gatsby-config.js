@@ -8,6 +8,17 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
+    'gatsby-plugin-react-svg',
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-sass-resources',
+      options: {
+        resources: [
+          `${__dirname}/src/helpers/css/_reset.scss`,
+          `${__dirname}/src/helpers/css/_variables.scss`,
+        ],
+      },
+    },
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
@@ -31,7 +42,7 @@ module.exports = {
     },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    'gatsby-plugin-styled-components',
+
     {
       resolve: 'gatsby-plugin-manifest',
       options: {

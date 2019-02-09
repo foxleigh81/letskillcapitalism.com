@@ -2,7 +2,7 @@ import { Link, StaticQuery, graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 
-import getSlugsWithData from '../../helpers/getSlugsWithData'
+import getSlugsWithData from '../../helpers/js/getSlugsWithData'
 
 // TODO: Refactor - there is a lot of repeated code here.
 

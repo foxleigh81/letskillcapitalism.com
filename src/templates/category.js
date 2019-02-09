@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 
+import Header from '../components/header'
 import CategoryList from '../components/category-list'
 
 // import '../css/blog-post.css'; // make it pretty!
@@ -32,14 +33,17 @@ export default function Template({ data, pageContext }) {
   const { slug } = pageContext // Gives us a context for the category list component to work from
   const context = slug.split('/')[1]
   return (
-    <div className="landing-page-container">
-      <Helmet title={`Alex Foxleigh- ${post.frontmatter.title}`} />
-      <div className="blog-post">
-        <h1>{post.frontmatter.title}</h1>
-        <div className="blog-post-content">{renderAst(post.htmlAst)}</div>
+    <>
+      <Header />
+      <div className="landing-page-container">
+        <Helmet title={`Alex Foxleigh- ${post.frontmatter.title}`} />
+        <div className="blog-post">
+          <h1>{post.frontmatter.title}</h1>
+          <div className="blog-post-content">{renderAst(post.htmlAst)}</div>
+        </div>
+        <CategoryList context={context} />
       </div>
-      <CategoryList context={context} />
-    </div>
+    </>
   )
 }
 

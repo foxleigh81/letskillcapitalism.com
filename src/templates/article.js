@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 
+import Header from '../components/header'
 import NoteBlock from '../components/note-block'
 
 // import '../css/blog-post.css'; // make it pretty!
@@ -39,14 +40,17 @@ export default function Template({ data }) {
   const post = data.markdownRemark // data.markdownRemark holds our post data
   const hero = data.file ? data.file.childImageSharp : null
   return (
-    <div className="landing-page-container">
-      <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
-      <div className="blog-post">
-        {hero && <img src={hero.fixed.src} alt={post.frontmatter.title} />}
-        <h1>{post.frontmatter.title}</h1>
-        <div className="blog-post-content">{renderAst(post.htmlAst)}</div>
+    <>
+      <Header />
+      <div className="landing-page-container">
+        <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
+        <div className="blog-post">
+          {hero && <img src={hero.fixed.src} alt={post.frontmatter.title} />}
+          <h1>{post.frontmatter.title}</h1>
+          <div className="blog-post-content">{renderAst(post.htmlAst)}</div>
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 
