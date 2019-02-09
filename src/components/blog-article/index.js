@@ -7,9 +7,9 @@ import './styles.scss'
 // Import components
 import NoteBlock from '../note-block'
 import LegacyBanner from '../legacy-banner'
+import VideoEmbed from '../video-embed'
 
 const BlogArticle = ({ tags, hero, postData }) => {
-
   // Register any components which are to be available in this template via markdown
 
   // eslint-disable-next-line new-cap
@@ -17,6 +17,7 @@ const BlogArticle = ({ tags, hero, postData }) => {
     createElement: React.createElement,
     components: {
       'note-block': NoteBlock,
+      'video-embed': VideoEmbed,
     },
   }).Compiler
 
@@ -30,13 +31,15 @@ const BlogArticle = ({ tags, hero, postData }) => {
   }
 
   return (
-    <article className={`blog-article ${tags}`}>
+    <div className="blog-article-container">
       {legacyCheck(tags) && <LegacyBanner /> }
-      <header className={addClass} style={style}>
-        <h1>{postData.frontmatter.title}</h1>
-      </header>
-      <div className="blog-post-content">{renderAst(postData.htmlAst)}</div>
-    </article>
+      <article className={`blog-article ${tags}`}>
+        <header className={addClass} style={style}>
+          <h1>{postData.frontmatter.title}</h1>
+        </header>
+        <div className="blog-post-content">{renderAst(postData.htmlAst)}</div>
+      </article>
+    </div>
   )
 }
 

@@ -1,17 +1,47 @@
+.blog-article-container {
+  background-color: rgba(#333, .04);
+}
+
 .blog-article {
   position: relative;
-  padding: $padding;
-
+  background-color: #fff;
+  width: 75vw;
+  margin: 0 auto;
   header {
     background-color: black;
     color: $text-ld;
     padding: $padding;
-    
+    margin-bottom: $margin;
     &.has-hero {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
       height: 350px;
+    }
+  }
+
+  .blog-post-content {
+    padding: $padding * 2;
+    p {
+      margin-bottom: $margin;
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+    h1, h2, h3, h4, ul, p img {
+      font-weight: bold;
+      margin-top: $margin*2;
+      margin-bottom: $margin * 2;
+    }
+    ul {
+      font-weight: normal;
+      font-size: $paragraph;
+      list-style: disc;
+      margin-left: $margin * 3;
+    }
+    li {
+      margin-bottom: $margin;
     }
   }
 }
