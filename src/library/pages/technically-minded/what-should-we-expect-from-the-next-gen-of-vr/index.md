@@ -21,9 +21,7 @@ This may sound implausible but it's not, or at least, it won't be soon.
 
 Last year, AMD started releasing their mobile graphics chipsets known as the 'bifrost' series. The latest one the 'Mali-G71' has some impressive benchmarking scores:
 
- 
-
-\[caption id="attachment\_695" align="aligncenter" width="860"\]![Benchmark scores between Mali G71 and Nvidia GTX 1080](http://foxleigh.me/wp-content/uploads/2018/04/benchmark-1024x338.png) Graph taken from https://versus.com/en/arm-mali-g71-vs-nvidia-geforce-gtx-1080\[/caption\]
+![Benchmark scores between Mali G71 and Nvidia GTX 1080](http://foxleigh.me/wp-content/uploads/2018/04/benchmark-1024x338.png) Graph taken from https://versus.com/en/arm-mali-g71-vs-nvidia-geforce-gtx-1080
 
 The blue bar is the Mali-G71 and the orange is the Nvidia GTX 1080, now although the Mali is quite far behind, just take a look at that graph again, it's just below half the speed of the most powerful graphics card currently available on the market.
 
@@ -31,11 +29,7 @@ That means that a smartphone with this chip in it is already half the power of a
 
 Even now, we have fairly powerful gaming laptops, the size of those laptops can be reduced quite considerably if you take the display away from the build and put it into a connected headset, this makes standalone backpack VR rigs possible, right now!
 
- 
-
-## 2) Fully immersive displays.
-
- 
+## 2) Fully immersive displays
 
 One of the major problems with current gen VR is the Screen Door Effect (SDE), in a lot of games it's easy to forget about but when you want to watch a movie, play a game with a detailed UI (Elite Dangerous for example) or just sit down and do some work in VR, the SDE is a major block to that.
 
@@ -67,8 +61,6 @@ Inside out tracking done this way has positives and negatives
 - Once it is advanced enough, it can probably be used to track individual fingers and possible even facial expressions.
 - I'm pretty sure that this tech is very close to being reliable, for gen 1 it's already incredibly well-done and with so many companies working on this, it's not going to take long for someone to crack it.
 
- 
-
 ## 4) Haptic feedback
 
 I mentioned Haptic Feedback before in [my previous VR article](http://foxleigh.me/2018/04/09/the-future-of-vr/), but it is worth repeating as this is a major part of what will make VR really feel 'next gen'. Right now, we don't have hands or feet in VR. Sure, we can simulate our hands fairly well with controllers but to truly immerse us in the virtual world, we need to have complete control over each, individual finger.
@@ -77,15 +69,11 @@ We also need our feet back, even though we don't have infinite treadmills or gyr
 
 The company 'HaptX' have recently developed some haptic feedback gloves which not only give you control over your fingers but also give you the feeling of touching something, they even have the ability to apply resistance to your hands so you can feel yourself squeezing something.
 
-https://www.youtube.com/watch?v=2C2\_kbjtjRU
+<video-embed type="youtube" watch="0WQw4GmFGVg" />
 
 It should be noted though that these gloves a) have not been released yet and b) are not targeted at consumers at this point. It's not really surprising though, just looking at them you can tell that these things would be incredibly expensive to produce so putting them out to the professional market first makes a lot of sense whilst they figure out how to get their costs down. So I'm not expecting technology quite this advanced in Gen 2. However just high-fidelity finger tracking and feet tracking would be enough for me, for now.
 
- 
-
 * * *
-
- 
 
 With all this in mind, I imagine a real Gen 2 of VR is still probably a couple of years away. If I were to guess, I'd say 2020 at the earliest before we see a released headset with all of the above features out of the box. However for those of us who can afford it, a lot of the tech will probably become available as 'add ons' before then.
 
