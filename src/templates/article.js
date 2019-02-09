@@ -15,7 +15,11 @@ export const pageQuery = graphql`
       htmlAst
       frontmatter {
         tags
+        template
+        comments
+        author
         title
+        date
       }
     }
     file (dir: { eq: $dir }, name: { eq: "hero" }) {
