@@ -1,11 +1,10 @@
 import React from 'react'
-import rehypeReact from 'rehype-react'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 
 import Header from '../components/header'
-import NoteBlock from '../components/note-block'
+import BlogArticle from '../components/blog-article'
 
 // import '../css/blog-post.css'; // make it pretty!
 
@@ -15,6 +14,7 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       htmlAst
       frontmatter {
+        tags
         title
       }
     }
@@ -27,28 +27,16 @@ export const pageQuery = graphql`
     }
   }
 `
-
-// Register any components which are to be available in this template
-
-// eslint-disable-next-line new-cap
-const renderAst = new rehypeReact({
-  createElement: React.createElement,
-  components: { 'note-block': NoteBlock },
-}).Compiler
-
 export default function Template({ data }) {
   const post = data.markdownRemark // data.markdownRemark holds our post data
   const hero = data.file ? data.file.childImageSharp : null
   return (
     <>
       <Header />
-      <div className="landing-page-container">
+      <div className="article-page-container">
         <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
-        <div className="blog-post">
-          {hero && <img src={hero.fixed.src} alt={post.frontmatter.title} />}
-          <h1>{post.frontmatter.title}</h1>
-          <div className="blog-post-content">{renderAst(post.htmlAst)}</div>
-        </div>
+        <BlogArticle tags={post.frontmatter.tags} hero={hero} postData={post} />
+        
       </div>
     </>
   )
