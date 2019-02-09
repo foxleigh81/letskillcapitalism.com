@@ -1,0 +1,17 @@
+.blog-article {
+  position: relative;
+  padding: $padding;
+
+  header {
+    background-color: black;
+    color: $text-ld;
+    padding: $padding;
+    
+    &.has-hero {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 350px;
+    }
+  }
+}
