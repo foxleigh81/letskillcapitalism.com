@@ -4,34 +4,15 @@ import React from 'react'
 
 import getSlugsWithData from '../../helpers/js/getSlugsWithData'
 
-// TODO: Refactor - there is a lot of repeated code here.
-
-const CategoryList = ({ data, context }) => {
+const CategoryList = ({ posts, context }) => {
   const slugsWithData = getSlugsWithData(
-    data,
+    posts,
     context,
   )
   return (
     <nav className="category-list">
       <ul>
         {slugsWithData.map((top) => {
-          // Remove context from slug results and split into an array)
-          if (context !== '/') {
-            // Display pages within a category (excluding index page)
-            if (!top.slug.match(/^\/([\w-]+)\/$/)) {
-              return (
-                <li key={top.id} className={`${top.tags} ${context}`}>
-                  <article>
-                    <Link to={top.slug}>
-                      <h1>{top.title}</h1>
-                      <span className="date">{top.date}</span>
-                    </Link>
-                  </article>
-                </li>
-              )
-            }
-            return null
-          }
           // Display all pages (excluding index pages)
           if (!top.slug.match(/^\/([\w-]+)\/$/) && top.slug !== '/') {
             const category = top.slug.split('/')[1]
@@ -56,8 +37,10 @@ const CategoryList = ({ data, context }) => {
   )
 }
 
+
+
 CategoryList.propTypes = {
-  data: PropTypes.instanceOf(Object).isRequired,
+  posts: PropTypes.instanceOf(Object).isRequired,
   context: PropTypes.string,
 }
 

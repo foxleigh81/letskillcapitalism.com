@@ -69,10 +69,18 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   // Add slug to MarkdownRemark node
   if (node.internal.type === 'MarkdownRemark') {
     const value = createFilePath({ node, getNode, basePath: 'library' })
+    const { dir } = getNode(node.parent)
+    
     createNodeField({
       node,
       name: 'slug',
       value,
+    })
+
+    createNodeField({
+      node,
+      name: 'hero',
+      value: dir,
     })
   }
 }

@@ -1,11 +1,11 @@
 import React from 'react'
-import rehypeReact from 'rehype-react'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 
 import Header from '../components/header'
 import CategoryList from '../components/category-list'
+import BlogArticle from '../components/blog-article';
 
 // import '../css/blog-post.css'; // make it pretty!
 
@@ -20,7 +20,7 @@ export const pageQuery = graphql`
     }
     file (dir: { eq: $dir }, name: { eq: "hero" }) {
       childImageSharp {
-        fluid {
+        fluid(quality: 100) {
           src
         }
       }
@@ -31,6 +31,7 @@ export const pageQuery = graphql`
           id
           fields {
             slug
+            hero
           }
           frontmatter {
             title
@@ -43,13 +44,6 @@ export const pageQuery = graphql`
   }
 `
 
-// Register any components which are to be available in this template
-
-// eslint-disable-next-line new-cap
-const renderAst = new rehypeReact({
-  createElement: React.createElement,
-}).Compiler
-
 export default function Template({ data, pageContext }) {
   const { markdownRemark: post } = data // data.markdownRemark holds our post data
   const hero = data.file ? data.file.childImageSharp.fluid : null
@@ -58,14 +52,12 @@ export default function Template({ data, pageContext }) {
   const context = slug.split('/')[1]
   return (
     <>
-      <Header hero={hero.fluid.src} />
+      <Header />
       <div className="landing-page-container">
         <Helmet title={`Alex Foxleigh- ${post.frontmatter.title}`} />
-        <div className="blog-post">
-          <h1>{post.frontmatter.title}</h1>
-          <div className="blog-post-content">{renderAst(post.htmlAst)}</div>
-        </div>
-        <CategoryList data={articleQueryData.articleQueryData} context={context} />
+        <BlogArticle tags={post.frontmatter.tags} hero={hero} postData={post}>
+          <CategoryList posts={articleQueryData.edges} context={context} />
+        </BlogArticle>
       </div>
     </>
   )

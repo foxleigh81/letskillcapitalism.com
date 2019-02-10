@@ -31,6 +31,7 @@ export const pageQuery = graphql`
           id
           fields {
             slug
+            hero
           }
           frontmatter {
             title
@@ -49,11 +50,11 @@ export default function Template({ data }) {
   const { allMarkdownRemark: articleQueryData } = data
   return (
     <>
-      <Header hero={hero} />
+      <Header />
       <div className="landing-page-container">
         <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
         <BlogArticle tags={post.frontmatter.tags} hero={hero} postData={post}>
-          <CategoryList data={articleQueryData.edges} context="/" />
+          <CategoryList posts={articleQueryData.edges} context="/" />
         </BlogArticle>
       </div>
     </>
