@@ -25,6 +25,21 @@ export const pageQuery = graphql`
         }
       }
     }
+    allMarkdownRemark (sort: { order: DESC, fields: [frontmatter___date] }) {
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            date(formatString: "DD MMMM, YYYY")
+            tags
+          }
+        }
+      }
+    }
   }
 `
 
@@ -38,18 +53,19 @@ const renderAst = new rehypeReact({
 export default function Template({ data, pageContext }) {
   const { markdownRemark: post } = data // data.markdownRemark holds our post data
   const hero = data.file ? data.file.childImageSharp.fluid : null
+  const { allMarkdownRemark: articleQueryData } = data
   const { slug } = pageContext // Gives us a context for the category list component to work from
   const context = slug.split('/')[1]
   return (
     <>
-      <Header hero={hero.fixed.src} />
+      <Header hero={hero.fluid.src} />
       <div className="landing-page-container">
         <Helmet title={`Alex Foxleigh- ${post.frontmatter.title}`} />
         <div className="blog-post">
           <h1>{post.frontmatter.title}</h1>
           <div className="blog-post-content">{renderAst(post.htmlAst)}</div>
         </div>
-        <CategoryList context={context} />
+        <CategoryList data={articleQueryData.articleQueryData} context={context} />
       </div>
     </>
   )
