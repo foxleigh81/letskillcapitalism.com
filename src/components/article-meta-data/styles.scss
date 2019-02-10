@@ -1,0 +1,11 @@
+.meta-data {
+  .blog-article & {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: $paragraph;
+    text-align: right;
+    padding: $padding;
+    background-color: rgba(#000, .7);
+  }
+}
