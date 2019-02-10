@@ -37,8 +37,6 @@ const CategoryList = ({ posts, context }) => {
   )
 }
 
-
-
 CategoryList.propTypes = {
   posts: PropTypes.instanceOf(Object).isRequired,
   context: PropTypes.string,
