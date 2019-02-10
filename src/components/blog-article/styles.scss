@@ -1,13 +1,13 @@
-.blog-article-container {
-  background-color: rgba(#333, .04);
-}
-
 .blog-article {
   position: relative;
   background-color: #fff;
   width: 75vw;
   margin: 0 auto;
+  box-shadow: 0 0 20px rgba(#000, .05);
+
   header {
+    position: relative;
+    overflow: hidden;
     background-color: black;
     color: $text-ld;
     padding: $padding;
@@ -17,11 +17,17 @@
       background-size: cover;
       background-position: center;
       height: 350px;
+      h1 {
+        margin: $margin * 2;
+        width: 50%;
+        font-size: $baseFontSize * 6;
+        text-shadow: 2px 2px rgba(#000, .4);
+      }
     }
   }
 
   .blog-post-content {
-    padding: $padding * 2;
+    padding: $padding * 2 $padding * 5;
     p {
       margin-bottom: $margin;
       img {
@@ -33,7 +39,7 @@
       font-weight: bold;
       margin-top: $margin*2;
       margin-bottom: $margin * 2;
-    }
+  }
     ul {
       font-weight: normal;
       font-size: $paragraph;

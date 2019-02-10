@@ -40,7 +40,6 @@ export default function Template({ data }) {
       <div className="article-page-container">
         <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
         <BlogArticle tags={post.frontmatter.tags} hero={hero} postData={post} />
-        
       </div>
     </>
   )

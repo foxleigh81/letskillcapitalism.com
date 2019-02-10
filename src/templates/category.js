@@ -11,11 +11,18 @@ import CategoryList from '../components/category-list'
 
 // Run the Graphql query
 export const pageQuery = graphql`
-  query CategoryByPath($slug: String!) {
+  query CategoryByPath($slug: String!, $dir: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       htmlAst
       frontmatter {
         title
+      }
+    }
+    file (dir: { eq: $dir }, name: { eq: "hero" }) {
+      childImageSharp {
+        fixed {
+          src
+        }
       }
     }
   }
@@ -30,11 +37,12 @@ const renderAst = new rehypeReact({
 
 export default function Template({ data, pageContext }) {
   const { markdownRemark: post } = data // data.markdownRemark holds our post data
+  const hero = data.file ? data.file.childImageSharp : null
   const { slug } = pageContext // Gives us a context for the category list component to work from
   const context = slug.split('/')[1]
   return (
     <>
-      <Header />
+      <Header hero={hero.fixed.src} />
       <div className="landing-page-container">
         <Helmet title={`Alex Foxleigh- ${post.frontmatter.title}`} />
         <div className="blog-post">

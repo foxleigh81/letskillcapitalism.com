@@ -5,17 +5,25 @@ import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 
 import Header from '../components/header'
+import BlogArticle from '../components/blog-article'
 import CategoryList from '../components/category-list'
 
 // import '../css/blog-post.css'; // make it pretty!
 
 // Run the Graphql query
 export const pageQuery = graphql`
-  query HomepageByPath($slug: String!) {
+  query HomepageByPath($slug: String!, $dir: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       htmlAst
       frontmatter {
         title
+      }
+    }
+    file (dir: { eq: $dir }, name: { eq: "hero" }) {
+      childImageSharp {
+        fixed {
+          src
+        }
       }
     }
   }
@@ -30,15 +38,13 @@ const renderAst = new rehypeReact({
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data // data.markdownRemark holds our post data
+  const hero = data.file ? data.file.childImageSharp : null
   return (
     <>
-      <Header />
+      <Header hero={hero} />
       <div className="landing-page-container">
         <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
-        <div className="blog-post">
-          <h1>{post.frontmatter.title}</h1>
-          <div className="blog-post-content">{renderAst(post.htmlAst)}</div>
-        </div>
+        <BlogArticle tags={post.frontmatter.tags} hero={hero} postData={post} />
         <CategoryList context="/" />
       </div>
     </>
