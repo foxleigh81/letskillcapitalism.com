@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<div>
+  <h1>
+    <a
+      href="/"
+    >
+      Alex Foxleigh's Blog
+    </a>
+  </h1>
+</div>
+`;

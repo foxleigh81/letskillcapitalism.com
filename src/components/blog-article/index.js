@@ -10,7 +10,9 @@ import LegacyBanner from '../legacy-banner'
 import VideoEmbed from '../video-embed'
 import MetaData from '../article-meta-data'
 
-const BlogArticle = ({ tags, hero, postData }) => {
+const BlogArticle = ({
+  tags, hero, postData, children,
+}) => {
   // Register any components which are to be available in this template via markdown
 
   // eslint-disable-next-line new-cap
@@ -39,7 +41,10 @@ const BlogArticle = ({ tags, hero, postData }) => {
           <h1>{postData.frontmatter.title}</h1>
           <MetaData author={postData.frontmatter.author} date={postData.frontmatter.date} />
         </header>
-        <div className="blog-post-content">{renderAst(postData.htmlAst)}</div>
+        <div className="blog-post-content">
+          {renderAst(postData.htmlAst)}
+          { children }
+        </div>
       </article>
     </div>
   )
@@ -49,11 +54,13 @@ BlogArticle.propTypes = {
   tags: PropTypes.string,
   hero: PropTypes.instanceOf(Object),
   postData: PropTypes.instanceOf(Object).isRequired,
+  children: PropTypes.instanceOf(Object),
 }
 
 BlogArticle.defaultProps = {
   tags: '',
   hero: '',
+  children: null,
 }
 
 export default BlogArticle

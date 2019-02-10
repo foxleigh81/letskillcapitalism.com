@@ -29,13 +29,6 @@ export const pageQuery = graphql`
   }
 `
 
-// Register any components which are to be available in this template
-
-// eslint-disable-next-line new-cap
-const renderAst = new rehypeReact({
-  createElement: React.createElement,
-}).Compiler
-
 export default function Template({ data }) {
   const { markdownRemark: post } = data // data.markdownRemark holds our post data
   const hero = data.file ? data.file.childImageSharp : null
@@ -44,8 +37,9 @@ export default function Template({ data }) {
       <Header hero={hero} />
       <div className="landing-page-container">
         <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
-        <BlogArticle tags={post.frontmatter.tags} hero={hero} postData={post} />
-        <CategoryList context="/" />
+        <BlogArticle tags={post.frontmatter.tags} hero={hero} postData={post}>
+          <CategoryList context="/" />
+        </BlogArticle>
       </div>
     </>
   )

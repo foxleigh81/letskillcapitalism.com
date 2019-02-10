@@ -20,12 +20,13 @@ const MetaData = ({ author, date }) => {
 }
 
 MetaData.propTypes = {
-  date: PropTypes.string.isRequired,
+  date: PropTypes.string,
   author: PropTypes.string,
 }
 
 MetaData.defaultProps = {
   author: 'Alex Foxleigh',
+  date: '',
 }
 
 export default MetaData
