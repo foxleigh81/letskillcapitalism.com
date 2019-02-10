@@ -24,7 +24,7 @@ export const pageQuery = graphql`
     }
     file (dir: { eq: $dir }, name: { eq: "hero" }) {
       childImageSharp {
-        fixed {
+        fluid(quality: 100) {
           src
         }
       }
@@ -33,7 +33,7 @@ export const pageQuery = graphql`
 `
 export default function Template({ data }) {
   const post = data.markdownRemark // data.markdownRemark holds our post data
-  const hero = data.file ? data.file.childImageSharp : null
+  const hero = data.file ? data.file.childImageSharp.fluid : null
   return (
     <>
       <Header />

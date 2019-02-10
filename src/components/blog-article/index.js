@@ -25,7 +25,7 @@ const BlogArticle = ({
   }).Compiler
 
   const addClass = (hero) ? 'has-hero' : null
-  const style = (hero) ? { backgroundImage: `url(${hero.fixed.src})` } : {}
+  const style = (hero) ? { backgroundImage: `url(${hero.src})` } : {}
 
   // Check if article is legacy
   const legacyCheck = (t) => {

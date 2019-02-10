@@ -20,7 +20,7 @@ export const pageQuery = graphql`
     }
     file (dir: { eq: $dir }, name: { eq: "hero" }) {
       childImageSharp {
-        fixed {
+        fluid {
           src
         }
       }
@@ -37,7 +37,7 @@ const renderAst = new rehypeReact({
 
 export default function Template({ data, pageContext }) {
   const { markdownRemark: post } = data // data.markdownRemark holds our post data
-  const hero = data.file ? data.file.childImageSharp : null
+  const hero = data.file ? data.file.childImageSharp.fluid : null
   const { slug } = pageContext // Gives us a context for the category list component to work from
   const context = slug.split('/')[1]
   return (
