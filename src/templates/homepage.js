@@ -11,17 +11,19 @@ import CategoryList from '../components/category-list'
 
 // Run the Graphql query
 export const pageQuery = graphql`
-  query HomepageByPath($slug: String!, $dir: String!) {
+  query HomepageByPath($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       htmlAst
       frontmatter {
         title
       }
-    }
-    file (dir: { eq: $dir }, name: { eq: "hero" }) {
-      childImageSharp {
-        fluid(quality: 100) {
-          src
+      fields {
+        hero {
+          childImageSharp {
+            fluid {
+              src
+            }
+          }
         }
       }
     }
@@ -31,7 +33,13 @@ export const pageQuery = graphql`
           id
           fields {
             slug
-            hero
+            hero {
+              childImageSharp {
+                fluid {
+                  src
+                }
+              }
+            }
           }
           frontmatter {
             title
@@ -46,14 +54,13 @@ export const pageQuery = graphql`
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data // data.markdownRemark holds our post data
-  const hero = data.file ? data.file.childImageSharp.fluid : null
   const { allMarkdownRemark: articleQueryData } = data
   return (
     <>
       <Header />
       <div className="landing-page-container">
         <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
-        <BlogArticle tags={post.frontmatter.tags} hero={hero} postData={post}>
+        <BlogArticle tags={post.frontmatter.tags} postData={post}>
           <CategoryList posts={articleQueryData.edges} context="/" />
         </BlogArticle>
       </div>

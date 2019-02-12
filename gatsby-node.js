@@ -5,6 +5,7 @@
  */
 
 const path = require('path')
+const fs = require('fs')
 
 const { createFilePath } = require('gatsby-source-filesystem')
 
@@ -32,6 +33,13 @@ exports.createPages = ({ actions, graphql, getNode }) => {
             }
             fields{
               slug
+              hero {
+                childImageSharp {
+                  fixed {
+                    src
+                  }
+                }
+              }
             }
             frontmatter {
               template
@@ -57,30 +65,47 @@ exports.createPages = ({ actions, graphql, getNode }) => {
         context: {
           dir,
           slug: node.fields.slug,
+          hero: node.fields.hero,
         },
       })
     })
   })
 }
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
+exports.onCreateNode = async ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   // Add slug to MarkdownRemark node
   if (node.internal.type === 'MarkdownRemark') {
     const value = createFilePath({ node, getNode, basePath: 'library' })
-    const { dir } = getNode(node.parent)
-    
+    const { dir } = path.parse(node.fileAbsolutePath)
+    const heroImage = await new Promise((res, rej) => {
+      // get a list of files in `dir`
+      fs.readdir(dir, (err, files) => {
+        if (err) rej(err)
+
+        // if there's a file named `hero`, return it
+        res(files.find(file => file.includes('hero')))
+      })
+    })
+
+    // path.relative will return a (surprise!) a relative path from arg 1 to arg 2.
+    // you can use this to set up your default hero
+    const heroPath = heroImage
+      ? `./${heroImage}`
+      : path.relative(dir, 'src/images/no-hero.gif')
+
+    // create a node with relative path
     createNodeField({
       node,
-      name: 'slug',
-      value,
+      name: 'hero',
+      value: `./${heroPath}`,
     })
 
     createNodeField({
       node,
-      name: 'hero',
-      value: dir,
+      name: 'slug',
+      value,
     })
   }
 }

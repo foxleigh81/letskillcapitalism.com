@@ -5,23 +5,26 @@ import PropTypes from 'prop-types'
 
 import Header from '../components/header'
 import CategoryList from '../components/category-list'
-import BlogArticle from '../components/blog-article';
+import BlogArticle from '../components/blog-article'
 
 // import '../css/blog-post.css'; // make it pretty!
 
 // Run the Graphql query
 export const pageQuery = graphql`
-  query CategoryByPath($slug: String!, $dir: String!) {
+  query CategoryByPath($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       htmlAst
       frontmatter {
         title
       }
-    }
-    file (dir: { eq: $dir }, name: { eq: "hero" }) {
-      childImageSharp {
-        fluid(quality: 100) {
-          src
+      fields {
+        slug
+        hero {
+          childImageSharp {
+            fluid(quality: 100) {
+              src
+            }
+          }
         }
       }
     }
@@ -31,7 +34,13 @@ export const pageQuery = graphql`
           id
           fields {
             slug
-            hero
+            hero {
+              childImageSharp {
+                fluid(quality: 100) {
+                  src
+                }
+              }
+            }
           }
           frontmatter {
             title
@@ -46,7 +55,6 @@ export const pageQuery = graphql`
 
 export default function Template({ data, pageContext }) {
   const { markdownRemark: post } = data // data.markdownRemark holds our post data
-  const hero = data.file ? data.file.childImageSharp.fluid : null
   const { allMarkdownRemark: articleQueryData } = data
   const { slug } = pageContext // Gives us a context for the category list component to work from
   const context = slug.split('/')[1]
@@ -55,7 +63,7 @@ export default function Template({ data, pageContext }) {
       <Header />
       <div className="landing-page-container">
         <Helmet title={`Alex Foxleigh- ${post.frontmatter.title}`} />
-        <BlogArticle tags={post.frontmatter.tags} hero={hero} postData={post}>
+        <BlogArticle tags={post.frontmatter.tags} postData={post}>
           <CategoryList posts={articleQueryData.edges} context={context} />
         </BlogArticle>
       </div>

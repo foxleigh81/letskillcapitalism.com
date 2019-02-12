@@ -16,9 +16,11 @@ const CategoryList = ({ posts, context }) => {
           // Display all pages (excluding index pages)
           if (!top.slug.match(/^\/([\w-]+)\/$/) && top.slug !== '/') {
             const category = top.slug.split('/')[1]
+            const hasHero = top.hero.childImageSharp && true
+            const style = (hasHero) && { backgroundImage: `url(${top.hero.childImageSharp.fluid.src})` }
             return (
-              <li key={top.id} className={`${top.tags} ${category}`}>
-                <article>
+              <li key={top.id} className={`${top.tags} ${category} ${hasHero ? 'has-hero' : 'no-hero'}`}>
+                <article style={style}>
                   <Link to={top.slug}>
                     <h1>{top.title}</h1>
                   </Link>

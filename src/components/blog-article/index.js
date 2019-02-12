@@ -11,7 +11,7 @@ import VideoEmbed from '../video-embed'
 import MetaData from '../article-meta-data'
 
 const BlogArticle = ({
-  tags, hero, postData, children,
+  tags, postData, children,
 }) => {
   // Register any components which are to be available in this template via markdown
 
@@ -24,8 +24,8 @@ const BlogArticle = ({
     },
   }).Compiler
 
-  const addClass = (hero) ? 'has-hero' : null
-  const style = (hero) ? { backgroundImage: `url(${hero.src})` } : {}
+  const hasHero = postData.fields.hero.childImageSharp && true
+  const style = (hasHero) && { backgroundImage: `url(${postData.fields.hero.childImageSharp.fluid.src})` }
 
   // Check if article is legacy
   const legacyCheck = (t) => {
@@ -37,7 +37,7 @@ const BlogArticle = ({
     <div className="blog-article-container">
       {legacyCheck(tags) && <LegacyBanner /> }
       <article className={`blog-article ${tags}`}>
-        <header className={addClass} style={style}>
+        <header className={hasHero ? 'has-hero' : 'no-hero'} style={style}>
           <h1>{postData.frontmatter.title}</h1>
           <MetaData author={postData.frontmatter.author} date={postData.frontmatter.date} />
         </header>
@@ -52,14 +52,12 @@ const BlogArticle = ({
 
 BlogArticle.propTypes = {
   tags: PropTypes.string,
-  hero: PropTypes.instanceOf(Object),
   postData: PropTypes.instanceOf(Object).isRequired,
   children: PropTypes.instanceOf(Object),
 }
 
 BlogArticle.defaultProps = {
   tags: '',
-  hero: '',
   children: null,
 }
 
