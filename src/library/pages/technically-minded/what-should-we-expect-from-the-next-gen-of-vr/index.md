@@ -9,6 +9,8 @@ date: "2018-04-13"
 
 The Vive Pro is out and the Pimax is on the horizon, whilst it's too early to tell what the Pimax will be like, the reviews are in on the Vive Pro and they all seem to be "Meh, it's a nice little bump but hardly gen 2". So... What DOES Gen 2 look like?
 
+<!-- end -->
+
 ## 1) Wireless
 
 For me, this is the #1 thing that Gen 2 needs, we're starting to see Wireless add-ons for headsets now and that's great, but they still require a PC to power them.

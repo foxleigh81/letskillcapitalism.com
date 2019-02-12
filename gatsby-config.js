@@ -59,6 +59,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         gfm: true,
+        excerpt_separator: '<!-- end -->',
         plugins: [
           'gatsby-remark-component',
           'gatsby-remark-prismjs',

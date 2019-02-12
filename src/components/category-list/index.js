@@ -4,6 +4,8 @@ import React from 'react'
 
 import getSlugsWithData from '../../helpers/js/getSlugsWithData'
 
+import './style.scss'
+
 const CategoryList = ({ posts, context }) => {
   const slugsWithData = getSlugsWithData(
     posts,
@@ -27,6 +29,9 @@ const CategoryList = ({ posts, context }) => {
                   <div className="meta-data">
                     <span className="date">{top.date}</span>
                     <Link className="category" to={`/${category}/`}>{category.replace(/-/g, ' ')}</Link>
+                  </div>
+                  <div className="excerpt">
+                    {top.excerpt}
                   </div>
                 </article>
               </li>

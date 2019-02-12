@@ -10,12 +10,14 @@ const getSlugsWithData = (data, context) => {
         title,
         tags,
         date,
+        excerpt,
       } = {
         slug: node.fields.slug,
         hero: node.fields.hero,
         title: node.frontmatter.title,
         tags: node.frontmatter.tags,
         date: node.frontmatter.date,
+        excerpt: node.excerpt,
       }
       const output = {
         slug,
@@ -23,6 +25,7 @@ const getSlugsWithData = (data, context) => {
         title,
         date,
         tags,
+        excerpt,
       }
       if (context.length) {
         // Context has been set, filter only items within the context
@@ -43,6 +46,7 @@ const getSlugsWithData = (data, context) => {
         title: v.title,
         tags: v.tags,
         date: v.date,
+        excerpt: v.excerpt,
       })
     }
     return null
