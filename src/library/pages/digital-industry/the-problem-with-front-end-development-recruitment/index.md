@@ -9,6 +9,8 @@ date: "2016-08-24"
 
 I've been building websites for a [_very_](http://www.alexward.me.uk/skills) long time. When I first started back in the mid-late 90's there wasn't much of a distinction between front-end developers and back-end developers, we all had to know everything, you couldn't specialise as there wasn't really much of a need for that. "Build me a website" was about as much spec as you could expect.
 
+<!-- end -->
+
 Fast-forward a decade or so and the landscape became very different indeed, now specialism was where it was at, if you wanted to develop for the web (and didn't want to be full-stack) then your choices were clear, it was either 'front-end' or 'back-end'.
 
 The differences couldn't have been larger, front-end developers were often creative types (I referred to myself as a web designer until around 2008), for us, the joy of building a website came from turning code into something visual that we could see come to life. Learning HTML and CSS was like learning to wield a paintbrush. As JavaScript matured, we also started to use that (mainly through the jQuery framework) as it helped us to manipulate the DOM (Document Object Model - a fancy term for the elements of a page) and create some really cool animations.

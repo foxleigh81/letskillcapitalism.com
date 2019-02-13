@@ -9,7 +9,7 @@ date: "2017-06-26"
 
 This year is proving to be a great year for achieving my goals. Not only did I get married (goal 4) but I've now just published my book (Goal 5)!
 
- 
+<!-- end -->
 
 The book is my first foray into non-fiction and is a socio-economic philosophy book called 'Let's Kill Capitalism'.
 

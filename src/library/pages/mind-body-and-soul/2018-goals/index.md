@@ -11,6 +11,8 @@ This year has a hard act to follow, in 2017 I smashed all but one of my goals an
 
 I still have goals left to achieve though so let's get them down!
 
+<!-- end -->
+
 ## 1) Reach 200lbs
 
 One of these days I'm actually going to achieve this one, however this year I feel like I stand a fighting chance. Some of my worser demons have been exised now (I used to crave bad food a lot, especially if I was tired/stressed/grumpy/awake, now I very rarely do) and I've developed some pretty decent habits (I walk a lot more these days and although I'm definitely not a vegetarian, my diet is a lot less meat-based and a lot more plant-based than it used to be).

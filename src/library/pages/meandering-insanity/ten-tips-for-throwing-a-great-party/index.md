@@ -9,9 +9,11 @@ date: "2012-02-20"
 
 I'm not generally one to blow my own trumpet (it's a ribcage thing) but it has been said that I throw excellent parties, after a few years of doing this I started to get asked for advice on how to help people throw their own parties. As I have no desire to become a party planner, I have put together this handy guide containing all of my top tips.
 
+<!-- end -->
+
 ## TIP 1: It's all about the guest list.
 
-A common instinct of most people who are planning a party is to invite everyone they know. This - whilst admirable - is a mistake, whilst you may love all of your friends, it is a fairly safe assumption that they don't  necessarily love each other. It’s just as likely that you have a few social circles who never get to meet. It is there for important that you balance the guest list perfectly. Let me give you an example:
+A common instinct of most people who are planning a party is to invite everyone they know. This - whilst admirable - is a mistake, whilst you may love all of your friends, it is a fairly safe assumption that they don't - necessarily love each other. It’s just as likely that you have a few social circles who never get to meet. It is there for important that you balance the guest list perfectly. Let me give you an example:
 
 Let’s say you have three separate social circles:
 

@@ -11,6 +11,8 @@ I know, I know. I'm rubbish at updating this blog. In my defence though, I've be
 
 I'm very proud to introduce you to [BBQ Digital](https://www.bbqdigital.com).
 
+<!-- end -->
+
 [![bbq digital logo](http://foxleigh.me/wp-content/uploads/2014/10/bbq-logo.png)](http://foxleigh.me/wp-content/uploads/2014/10/bbq-logo.png)
 
 I've always wanted to run my own agency, I always felt that other agencies were too quick to cut-corners, even some incredibly reputable agencies I've worked with in the past have been eager to 'get it out of the door and get the money in', I struggled with this approach as I saw website design as an art form, something that needed to be crafted with love and attention. Not something that is cobbled together with a 'that'll do nod of approval from the line manager'.

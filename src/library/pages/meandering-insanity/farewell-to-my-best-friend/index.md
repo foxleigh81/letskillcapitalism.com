@@ -9,6 +9,8 @@ date: "2014-05-05"
 
 Anyone who says a dog is a man’s best friend never met Puddles. She was the most unique cat I've ever had the pleasure to know. Sadly last night she finally succumbed to her heart condition and had to be put to sleep. I miss her terribly and nobody will ever replace her. Let me tell you a bit about her.
 
+<!-- end -->
+
 [![](http://foxleigh.me/wp-content/uploads/2012/01/image03.jpg)](http://foxleigh.me/wp-content/uploads/2012/01/image03.jpg)
 
 Back in 2000 I had a job I hated and I was just [starting to suffer with depression](http://lxword.com/?p=91 "A beginners guide to depression."). I was not a very happy man, one night when I went to put the bins out; I saw a tiny little cat sat under one of the plastic chairs in my backyard. It was chucking it down and she seemed quite frightened. I had to go to work so I put a tarpaulin over the chair to make her a shelter and gave her some tuna. When I came back, she was still there; I told myself that if she were still there in the morning, I would let her inside.

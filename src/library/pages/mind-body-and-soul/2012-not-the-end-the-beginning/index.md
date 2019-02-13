@@ -9,6 +9,8 @@ date: "2012-01-12"
 
 There are a lot of posts on the Internet at the moment about the Mayan prophecies and all that rubbish, I have no doubt that life will go on after 2012 and I want it to be better than it currently is.
 
+<!-- end -->
+
 For most of my adult life I have been into the idea of self improvement and as a result I have acquired a great many skills over the years. However since becoming single for the first time in my adult life in mid-2010 I decided to switch my self improvement focus from learning fun new skills to loftier goals with a view to making some real changes to my life, I have already made some good progress with these changes but this year I am going to go all out into achieving as many of my goals on the list below as I possibly can.
 
 I have divided the list into categories as each category focuses on a different area of my life:

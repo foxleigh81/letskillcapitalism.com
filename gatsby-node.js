@@ -33,6 +33,7 @@ exports.createPages = ({ actions, graphql, getNode }) => {
             }
             fields{
               slug
+              category
               hero {
                 childImageSharp {
                   fixed {
@@ -66,6 +67,7 @@ exports.createPages = ({ actions, graphql, getNode }) => {
           dir,
           slug: node.fields.slug,
           hero: node.fields.hero,
+          category: node.fields.category,
         },
       })
     })
@@ -77,7 +79,7 @@ exports.onCreateNode = async ({ node, actions, getNode }) => {
 
   // Add slug to MarkdownRemark node
   if (node.internal.type === 'MarkdownRemark') {
-    const value = createFilePath({ node, getNode, basePath: 'library' })
+    const slug = createFilePath({ node, getNode, basePath: 'library' })
     const { dir } = path.parse(node.fileAbsolutePath)
     const heroImage = await new Promise((res, rej) => {
       // get a list of files in `dir`
@@ -105,7 +107,13 @@ exports.onCreateNode = async ({ node, actions, getNode }) => {
     createNodeField({
       node,
       name: 'slug',
-      value,
+      value: slug,
+    })
+
+    createNodeField({
+      node,
+      name: 'category',
+      value: slug.split('/')[1],
     })
   }
 }

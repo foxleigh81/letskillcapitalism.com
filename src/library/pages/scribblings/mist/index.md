@@ -9,6 +9,8 @@ date: "2012-02-03"
 
 I wrote this as part of an assignment last week, the assignment was to write a scene which linked two action scenes: a scene where a demon eats a young girls family and a scene where the demon returns to finish the job by eating her.  Here is the scene I wrote:
 
+<!-- end -->
+
 > Haley shuddered, she reached over her keyboard for a glass of water and drank deeply, each gulp pushing the memories further into the dark recesses of her mind.Eyes closed, breathe... eyes open. "What was I doing?" she thought, her screensaver had started playing, she hadn't realised she had zoned out for so long, she nudged her mouse, "oh, that's it, spreadsheets, how exciting" she thought, barely able to hide the sneer on her face.
 > 
 > She was above this, where had the thrill gone from her life? The adventure, the drama, the horror! "Oh GOD!" she thought as she realised that she did actually miss the horror.

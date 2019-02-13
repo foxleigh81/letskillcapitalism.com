@@ -9,6 +9,8 @@ date: "2012-02-01"
 
 I've not exactly made leaps and bounds with my 2012 goals but I have made some progress and they are coming along nicely. Here is what I have done so far:
 
+<!-- end -->
+
 ## Health
 
 I am still going to my martial arts classes, I have now officially signed up after my trial ended and I'm looking forward to receiving my white belt next week, I also have a black belt but that came free with a pair of jeans so I doubt they will let me wear it. Even after only three weeks I can already feel a great deal of difference, if I ignore the fact that I am constantly aching, I feel much better than I did when I started, my fitness level has already noticeably increased, if my progress continues at this rate then I have do doubt that by the time this year ends I will have the body I  have wanted to have for most of my life.

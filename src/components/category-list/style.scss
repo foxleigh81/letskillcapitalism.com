@@ -1,11 +1,37 @@
-.blog-post-content .category-list {
+.category-list {
   ul {
     list-style: none;
     margin: 0;
+    display: grid;
+    grid-column-gap: $margin;
+    grid-row-gap: $margin;
+    grid-template-columns: repeat(4, 24.4%)
+  }
+  &__header {
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, .40);
+    height: 200px;
+    background-blend-mode: darken;
+    vertical-align: middle;
   }
   li {
-    float: left;
-    width: 25%;
-    height: 200px;
+    margin-bottom: 0;
+    box-shadow: 0 0 10px rgba(#000, .1);
+  }
+  h1 {
+    color: $text-ld;
+    margin: 0;
+    padding: $padding * 2;
+    text-shadow: 2px 2px rgba(#000, .4);
+  }
+  &__meta-data {
+    margin-top: $margin * 2;
+    padding: 0 $padding * 2;
+  }
+  &__excerpt {
+    padding: $padding * 2;
+    line-height: 1.5;
   }
 }

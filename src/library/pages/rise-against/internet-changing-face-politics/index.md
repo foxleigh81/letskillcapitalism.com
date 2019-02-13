@@ -9,6 +9,8 @@ date: "2015-05-07"
 
 Today is the day. Today the people of the United Kingdom can vote to change the future of the country for the better (hopefully) but unlike elections of the past, the outcome of this one is being considered too close to call. We have the Internet to thank for that.
 
+<!-- end -->
+
 In 2010 we saw a glimpse of what could happen when the internet - or more accurately, social media - had its part to play. Throughout the 27 year history of the Liberal Democrats they never received much in the way of power and the general opinion was that if you voted for a party who was not Conservative or Labour, you were throwing your vote away and yet, in 2010 the Lib Dems received so many votes that they were able to form a coalition government with the Tories.
 
 This was in a huge part due to social media, most notably Twitter and Facebook. Now, for the first time ever, the media was controlled by the people, instead of the other way around. Thanks to the freedom of information offered by the Internet and the rapid proliferation of news and opinion which comes with social media, the nation was suddenly faced with a new idea:

@@ -9,6 +9,8 @@ date: "2016-02-02"
 
 A year ago I wrote an [article](http://lxword.com/2015/02/using-a-taskrunnner/) on how I didn't see the point in tools like Gulp and Grunt. One year later and I have to admit, the old me was an idiot.
 
+<!-- end -->
+
 **So what changed your mind?**
 
 In the last paragraph of the aforementioned article, I wrote:

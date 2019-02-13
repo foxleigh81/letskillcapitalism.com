@@ -9,6 +9,8 @@ date: "2015-02-04"
 
 A few years ago, shortly after moving from Windows to Mac (no regrets!) I discovered an amazing app called '[CodeKit](https://incident57.com/codekit/ "Codekit")'. This wonderful app runs tasks which are things we UI developers have to do on a regular basis.
 
+<!-- end -->
+
 - Code Minification
 - File concatenation
 - Code Compilation (eg Sass to CSS)

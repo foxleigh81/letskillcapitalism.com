@@ -9,6 +9,10 @@ date: "2015-01-13"
 
 [![iStock_000036715102_XXXLarge](http://foxleigh.me/wp-content/uploads/2015/01/iStock_000036715102_XXXLarge.jpg)](http://foxleigh.me/wp-content/uploads/2015/01/iStock_000036715102_XXXLarge.jpg)
 
+I'm officially a Londoner!
+
+<!-- end -->
+
 In late 2013, my girlfriend and I decided to leave the North of England and move to the South, after living in Leeds city centre for 6 years, I felt I'd grown tired of city life and so we decided we'd aim to move to Dorset. As a contractor though, this would not be feasible immediately as there is less work available without a hefty commute. So we decided that we would move to Portsmouth. It was quite close to the sea - which was a big draw for us - and it had good links with Southampton.
 
 We did actually find some limited success with contracts in there area and I was not short of work - in fact the most lucrative contract I've ever had was in Portsmouth working on a project for Accenture - however we decided before we moved that we really wanted to build a digital agency and work together, so we poured a lot of money and focus into that.

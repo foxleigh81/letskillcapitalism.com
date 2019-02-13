@@ -9,6 +9,8 @@ date: "2010-04-13"
 
 With the recent release of the 40 minute video from Adobe promoting their fifth incarnation of their Creative Suite software, we compile the greatest features on offer to web designers and developers.
 
+<!-- end -->
+
 ## Anticipation of launch
 
 Today saw the long awaited launch of Adobe’s fifth incarnation of its Creative Suite software. New releases from Adobe are often highly anticipated events. Indeed this year I found myself watching the ‘countdown to launch’ timer for almost 25 minutes.

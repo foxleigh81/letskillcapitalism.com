@@ -9,6 +9,8 @@ date: "2010-03-22"
 
 It is time to face facts - its 2010; computers have been around for over forty years and have been ubiquitous for at least five. We ask "in 2010, is there any excuse for not being computer literate?”.
 
+<!-- end -->
+
 As a child of the eighties I grew up around computers, my first experience with a computer was a BBC micro at primary school; my first ‘real’ computer was a Commodore VIC-20. In short, computers have always been a major part of my life. As I grew older I started to see their real value, particularly after discovering the internet. Eventually I started on my career in IT and became familiar with types of people known as ‘The Luddites’ and the ‘Eager but Hopeless’.
 
 ## Luddites

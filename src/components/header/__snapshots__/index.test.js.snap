@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header renders correctly 1`] = `
-<div>
+<header
+  className="site-header"
+>
   <h1>
     <a
       href="/"
@@ -9,5 +11,5 @@ exports[`Header renders correctly 1`] = `
       Alex Foxleigh's Blog
     </a>
   </h1>
-</div>
+</header>
 `;

@@ -9,6 +9,8 @@ date: "2015-02-02"
 
 This time last year, I had just moved to Portsmouth from Leeds. I didn’t know this at the time but 2014 was about to be one of the worst years of my life for health.
 
+<!-- end -->
+
 I lived in the middle of nowhere, there were no gyms nearby (not even on a direct bus route) and Portsmouth has a terrible transport infrastructure. My life was incredibly sedentary and as I couldn’t even get to a decent quality market regularly, my diet also suffered. On top of that, 2014 was a highly stressful year for me and although I'm very good at not showing signs of stress, one of the biggest signs that I am not as calm as I could me is that I stop taking care of myself. Out were the trips to the gym, out were the lighter lunches and regular intake of water and in were the daily fry-ups, the sausage roll snacks and increased consumption of fizzy drinks (a habit which I'd managed to almost kick only 18 months earlier).
 
 Today I live in London, there are fantastic markets on my doorstep, the transport links are excellent and there is a great culture of walking here, which I have already begun to embrace. My life is a hell of a lot less stressful and is a great deal more enjoyable than the life I had in Pompey. What’s more, there is a gym less than 5 minutes walk from my front door.

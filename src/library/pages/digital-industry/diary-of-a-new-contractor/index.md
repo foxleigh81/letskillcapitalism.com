@@ -9,6 +9,8 @@ date: "2013-05-21"
 
 Becoming a contractor can be a daunting experience for anyone, I am currently going through the early stages of it so I am going to document my successes and failures here in the hope that I can help other people take the plunge and guide them on their own journey to freedom.
 
+<!-- end -->
+
 On the 19th of April I left a lucrative Front-end position at a very prestigious digital agency. On that Friday I went to the pub with my now former colleagues and the inevitable question was asked: “So... where are you moving on to then?”
 
 As a brand-new contractor, that was the worst question I could have been asked and it was one I was semi-dreading. I did not know where I was going, the only thing which was certain about the next few weeks of my life was that there was no certainty about it at all.

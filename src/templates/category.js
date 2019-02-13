@@ -2,6 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
+// import getNavLinks from '../helpers/js/getNavLinks'
 
 import Header from '../components/header'
 import CategoryList from '../components/category-list'
@@ -21,7 +22,7 @@ export const pageQuery = graphql`
         slug
         hero {
           childImageSharp {
-            fluid(quality: 100) {
+            fluid(quality: 90) {
               src
             }
           }
@@ -35,6 +36,7 @@ export const pageQuery = graphql`
           excerpt
           fields {
             slug
+            category
             hero {
               childImageSharp {
                 fluid(quality: 100) {
@@ -59,6 +61,7 @@ export default function Template({ data, pageContext }) {
   const { allMarkdownRemark: articleQueryData } = data
   const { slug } = pageContext // Gives us a context for the category list component to work from
   const context = slug.split('/')[1]
+  // const navLinks = getNavLinks()
   return (
     <>
       <Header />

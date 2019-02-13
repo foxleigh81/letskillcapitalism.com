@@ -9,6 +9,8 @@ date: "2015-03-29"
 
 Front end developers make a lot of changes during builds, especially once the codebase starts to get integrated with backend code. Rather than delete or comment out old code, why not put it in a graveyard file?
 
+<!-- end -->
+
 I started using graveyard files about a year and half ago. I was working on a project with multiple front-end developers and I noticed that during the course of testing, code would be deleted or commented out. In an ideal world there would be a system of code management in place to prevent this from being a problem. (Minification, version control etc.) but we all know that these methods are easily overlooked/ignored when working in teams.
 
 To counter this issue, I created two files: graveyard.scss and graveyard.js. The premise is very simple:

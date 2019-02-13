@@ -9,6 +9,8 @@ date: "2010-05-05"
 
 I often hear praise for software applications such as HandBrake and DVDShrink, but after using them myself in the past I found myself wanting a simpler solution. I didn’t really see why in this day-and-age ripping a movie to your hard drive should take more than a few clicks. Then I found DVDFab...
 
+<!-- end -->
+
 I should point out that DVDFab is not free software however it is very reasonably priced and even  comes with a very generous unlimited trial which lasts for 30 days if I remember correctly.
 
 I’ve found that a lot of solutions in the past do DVD ripping very well but are often convoluted processes that take quite a lot of tweaking to get right. I enjoyed using Handbrake but that didn’t work very well with movies which used encryption. After much hunting on the internet I came across DVDFab, which can silently rip encrypted DVD’s and allows you to rip your DVD in as little as 2 clicks (and one of those is opening the program).

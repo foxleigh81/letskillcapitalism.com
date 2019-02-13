@@ -9,6 +9,8 @@ date: "2010-04-09"
 
 For many clients the true value of their website is not realised, often it is just thought of something you should have without any real thought as to why. This article attempts to explain the reasons a website is important and why you should aim to create a fantastic website instead of merely an acceptable one.
 
+<!-- end -->
+
 Many years ago, the world of business was a simpler place, the telephone and mail shots reigned supreme as the marketing tools of choice. However it was a hard world to succeed in, direct contact has its limitations and mail shots gave very little in the way of feedback.
 
 These days a new king sits on the throne. However, rather than being an intelligent, handsome king looking resplendent in silken robes and glistening jewels, he is often seen in a worn tracksuit, slouching over the side of his throne with a vacant expression on his face.

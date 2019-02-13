@@ -9,6 +9,8 @@ date: "2010-05-18"
 
 Every now and again when scouring the internet for new and interesting information I find a tip or program (usually via the excellent [lifehacker.com](http://www.lifehacker.com/) website) which changes the way I live. EventGhost is such a program.
 
+<!-- end -->
+
 EventGhost is definitely one of those programs. If you have a bit of intelligence and the (seemingly rare) ability to think laterally, it is possible to utilise EventGhost to revolutionise your home network or if you have a bit of money to spend on such things, your home itself.
 
 The downside to this amazing tool is that it seems to be a relatively unknown program buried deep within a relatively unknown niche interest group (at least for now. It will gain ground soon enough as the technology become cheaper and it becomes simpler to use - which it will). As a result of this, finding information on how to get started can be daunting, even for someone who knows their way around PCs better than they do the real world. As a result of this I have put together a little guide for you. If it proves to be popular I may even start a semi-regular column (can you call it a column in a blog? sod it. It’s my blog, it’s a column)

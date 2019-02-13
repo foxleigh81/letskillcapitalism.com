@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 
-import './styles.scss'
+import module from './styles.module.scss'
 
 const VideoEmbed = ({ type, watch, autoplay }) => {
   let embed = null
@@ -21,7 +21,7 @@ const VideoEmbed = ({ type, watch, autoplay }) => {
   }
 
   return (
-    <div className="video-embed">
+    <div className={module.videoEmbed}>
       {embed}
     </div>
   )

@@ -11,6 +11,8 @@ date: "2012-07-28"
 
 We are going to try to create an exciting - and temporarily secret (although our team name is Textagotchi so you may be able to guess what we're doing) - application using the [mediaburst](http://www.mediaburst.co.uk/) API, our hope is to either make a million-pound idea and/or win a nexus tablet.
 
+<!-- end -->
+
 You can follow our progress on our new [twitter account](http://twitter.com/textagotchi). I may even set up a live stream at some point (if the internet ever starts working properly) so you can all look at my beautiful face as I code.
 
 Wish us luck!

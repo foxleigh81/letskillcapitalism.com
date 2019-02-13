@@ -9,6 +9,8 @@ date: "2012-07-29"
 
 We've now been hacking for almost 18 hours straight. It's fair to say that I am utterly knackered, we've made some amazing progress though, after a fairly shaky start (More on that later).
 
+<!-- end -->
+
 In approximately 6 hours you will be able to register for our Textagotchi app. It is actually a minor miracle that we've managed to get it this far at all as we've had a long list of issues which attempted to stop us:
 
 - No internet access for about 8 hours (we had to use mobile tethering, which was sketchy at best)

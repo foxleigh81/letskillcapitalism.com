@@ -9,6 +9,8 @@ date: "2014-09-12"
 
 If you have spent any amount of time in the media industry, you’ve undoubtedly heard the term coined by Bill Gates back in 1996: “Content is King”, this has been a mantra of professional designers for as long as I can remember. However, even now; it is one of the most flaunted rules in our industry.
 
+<!-- end -->
+
 Content isn’t just King, content is the father of the website and design is the mother. In order to produce their offspring they need some time to get together and romance a little. In fact for this odd analogy to even work, the content needs to appear before the website can even begin to take shape, otherwise we are entering messianic territory.
 
 I’m a front-end developer and web designer. I’ve been in this industry for a very long time (since 1998 to be precise) and I’ve seen the problems caused by failing to implement a content strategy at the beginning of the project.

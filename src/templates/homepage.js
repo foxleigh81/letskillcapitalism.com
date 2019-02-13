@@ -20,7 +20,7 @@ export const pageQuery = graphql`
       fields {
         hero {
           childImageSharp {
-            fluid {
+            fluid(quality: 90) {
               src
             }
           }
@@ -36,7 +36,8 @@ export const pageQuery = graphql`
             slug
             hero {
               childImageSharp {
-                fluid {
+                # This could be a smaller image as it's only for categories.
+                fluid(quality: 90) {
                   src
                 }
               }
@@ -60,7 +61,7 @@ export default function Template({ data }) {
     <>
       <Header />
       <div className="landing-page-container">
-        <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
+        <Helmet title={`${post.frontmatter.title} | Foxyblog`} />
         <BlogArticle tags={post.frontmatter.tags} postData={post}>
           <CategoryList posts={articleQueryData.edges} context="/" />
         </BlogArticle>

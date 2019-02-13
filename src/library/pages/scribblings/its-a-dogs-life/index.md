@@ -9,6 +9,8 @@ date: "2012-02-03"
 
 Again this was another short story written for a course assignment, it is a little rough as it has not been edited yet. I'll try to give it an edit soon:
 
+<!-- end -->
+
 > Gareth sat on the shore and marvelled at the sound of the waves gently sloshing around his feet, his bum was getting wet but he didn't care, he'd never seen the ocean before and oh my was it beautiful.
 > 
 > "Graham!" ma shouted, "come along"

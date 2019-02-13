@@ -9,6 +9,8 @@ date: "2010-03-12"
 
 There is a fantastic phone running on the Google Android platform called the Motorola Droid. Though this device is only available in the US, its twin brother the Motorola Milestone is available in the UK via Expansys and Mobiles.co.uk
 
+<!-- end -->
+
 First allow me to express my amazement at the service provided by [Mobiles.co.uk](http://www.mobiles.co.uk/). I ordered my Milestone at 3:40pm on Thursday and it was in my hands by lunchtime Friday. If that wasn’t enough I discovered my phone had a fault a few weeks later so when I arranged a replacement with them, they accepted the exchange without question and I received a new phone within 72 hours. I cannot recommend them highly enough.
 
 OK let’s get down to the review, as previously mentioned you can only get the Milestone from the above websites, for some reason there are no carriers in the UK who are willing to put their name to this device. However that does not mean you need to purchase the phone outright; I got a great deal on a Vodafone subsidised contract which meant a free Milestone for £35 a month and it even included £90 cash back!

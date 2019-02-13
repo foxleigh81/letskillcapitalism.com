@@ -9,6 +9,8 @@ date: "2012-07-20"
 
 Several months ago I wrote a short story called ‘Harry’s Song’, it will go down in history in my writing ‘career’ as the first story I ever actually completed. Once I finished editing it I sent it out to a few of my friends to gauge their reactions, which were very positive indeed – in fact I even managed to make a few people cry! Encouraged, I decided to put my book on Amazon’s Kindle store; within a few days I’d made 7 sales and I knew without a doubt that every single person who bought a copy was someone I already knew.
 
+<!-- end -->
+
 Every day for several weeks I checked my sales stats to see if I had managed to move any more copies and every day I found myself disappointed. I had heard that getting your name out there on the Kindle store was difficult but I thought with all the social network sharing I’d done I’d be able to get a few more than 7 people to buy a copy. Dismayed I eventually stopped checking my figures and left it alone.
 
 Three months later, I returned to my dashboard to find I’d sold one additional copy and had received one review, however not only was this review from someone I did not know; it was absolutely glowing!

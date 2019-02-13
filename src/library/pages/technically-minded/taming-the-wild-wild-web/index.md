@@ -9,6 +9,8 @@ date: "2010-03-10"
 
 On the sixth of August 1991 one man changed the world. His name was Tim Berners-Lee and all he did was plug a cord into the back of his computer. This man is the inventor of the World Wide Web and is the reason you almost certainly have the internet in your home.
 
+<!-- end -->
+
 Almost two decades have passed since that day and the world has become a very different place because of it. Thanks to this man it is now possible to order a [cheeseburger on your computer](http://www.just-eat.co.uk/ "Just Eat") or [find out what is happening in the world the moment it happens](http://www.twitter.com/ "Twitter"), it has driven down prices as internet stores have much lower running costs and has connected the world in a way most would have never thought possible.
 
 I personally discovered the internet in the mid 90’s, back then the web was a simpler place to create for and I quickly found myself hooked on creating websites, I watched people make and lose millions in a very short space of time and I realised the potential impact this amazing creation could have on my life and in 1998 I set myself on a new career path.

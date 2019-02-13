@@ -9,7 +9,9 @@ date: "2010-10-04"
 
 Twitter has risen quite quickly over past few the years into something of a social phenomenon. Its attraction is mysterious to some and obvious to others, however we all have our own ideas on what Twitter is useful for.
 
-his disparate set of ideas has created several types of Twitter user, each have their own contributions to the wider community; however some are more valuable than others. Try to see if you can figure out which pigeon hole you belong in.
+<!-- end -->
+
+This disparate set of ideas has created several types of Twitter user, each have their own contributions to the wider community; however some are more valuable than others. Try to see if you can figure out which pigeon hole you belong in.
 
 ## T-witterers
 

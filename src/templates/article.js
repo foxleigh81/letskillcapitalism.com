@@ -24,7 +24,7 @@ export const pageQuery = graphql`
       fields {
         hero {
           childImageSharp {
-            fluid {
+            fluid(quality: 100) {
               src
             }
           }

@@ -9,6 +9,8 @@ date: "2016-12-13"
 
 A few months ago, [I posted an article about how to get started as a contractor in the web industry](http://lxword.com/2016/09/so-you-want-to-be-a-web-contractor-part-1-tips-for-getting-started/). It proved to be a popular article so I thought that instead of it being a short two-parter, I'd turn it into a series. So here is part 2!
 
+<!-- end -->
+
 Part 1 was all about getting you started, part 2 is about what sort of things you'll need to buy to make sure you hit the ground running.
 
 The finer details of what you will need depends on what your role in the Web industry is and as I assume you've worked in your role for at least a few years (if not then maybe you're not quite ready for contracting yet) I will also assume you know what that software is. If not, hit me up in the comments and I'll try to give you some pointers.

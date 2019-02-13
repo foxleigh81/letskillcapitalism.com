@@ -9,6 +9,8 @@ date: "2012-01-11"
 
 Last year I attended the first part of a three part (hopefully), creative writing course. Part one proved itself to be invaluable as it gave me the push I needed to start writing my first novel as well as affording me the opportunity to meet some great people.
 
+<!-- end -->
+
 Part two started this evening, it was great to see a few  familiar faces from last year as well as welcoming the new blood which have just started. This semester/term appears to focus more on plot and pacing, whereas the first part of the course was very much focused on getting your pen on the paper (or fingers on the keyboard in my case) and start writing.
 
 I have used this as an opportunity to start a new novel, granted I've not even made it halfway through my first one yet but I appear to be a little stuck and I'd read elsewhere that if you get stuck it can be good to start another story otherwise you may become complacent. Indeed that is exactly what had happened and I realised that I had not written anything in almost two months! (apart from the odd blog post).

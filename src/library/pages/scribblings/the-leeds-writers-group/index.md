@@ -6,6 +6,9 @@ author: Alex Foxleigh
 title: "The Leeds Writers Group"
 date: "2012-02-12"
 ---
+I've started a writing group!
+
+<!-- end -->
 
 If you are a regular reader of my blog (do I have any readers yet?) then you will have probably heard me wittering about my beloved writing course which I attend every Wednesday, as much as I value the learning part of the course I quickly discovered that by far the most useful and enjoyable part of the course was reading my work to other writers and in turn hearing the writing of my peers. I found the sharing of ideas and the feedback involved in this process to be invaluable. Aside from this it was also very motivating to have a weekly deadline impressed upon you and forced your laziness to take a back seat (which I imagine it would have enjoyed anyway) to your passions.
 

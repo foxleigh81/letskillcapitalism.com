@@ -9,6 +9,8 @@ date: "2010-06-06"
 
 About 12 years ago, computer gaming discovered 3D graphics, and whilst in principle this is a great advancement, it rang the death knell for the golden age of Role Playing Video Games. Classic titles such as Monkey Island, Simon the Sorcerer and Discworld were no more. We aim to start a campaign to bring them back.
 
+<!-- end -->
+
 In 1987 LucasArts (then flying under their LucasFilm banner), created a game called 'Maniac Mansion'. The game was a very simple 2D game where the player could choose between a set of characters and use them to explore the mansion of a Mad Scientist in order to rescue their Friend, This game, whilst not the first of its type, was one of the first to become a true success and spawned many other related games. Most notable of which is the now-famous 'Monkey Island' series of games. Sadly these titles are no longer being released and -with few exceptions- playing the originals can be difficult unless you are technically minded and able to run an emulator, or own a retro machine like the Amiga.
 
 It has been twelve years since The Curse of Monkey Island was released. This was the last 2D Adventure game to be released with any success as shortly after, the 3D craze began. Developers tried to create sequels and spinoffs to their existing titles in 3D, however, whilst these games were able to thrive in their beautifully artistic 2D environments, when ported to 3D they lost their charm and eventually, their audience.

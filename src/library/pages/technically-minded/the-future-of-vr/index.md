@@ -9,6 +9,8 @@ date: "2018-04-09"
 
 With Ready Player One out in cinemas and a few new headsets on the horizon, Virtual Reality is in the news again. I've been a fan of VR since the original Developer Kit of the Oculus Rift (known as the DK1) went on Kickstarter, I remember when I first received the DK1 and tried it out in 2013, my world was changed forever.
 
+<!-- end -->
+
 Since then VR has managed to blow my mind only twice since. The first consumer Oculus Rift (The CV1) had a much higher screen resolution than the DK1 which meant that the Screen Door Effect (the ability to see the gaps in between the pixels often called the 'SDE' ) was drastically reduced (although not eliminated) which made for incredible immersion and then only a few weeks later when my HTC Vive arrived and I experienced Room Scale VR for the first time.
 
 Then... nothing. It's been almost two years since the Vive was released and apart from a few headsets which have improved the Screen Door Effect and a few improvements to hand tracking technology, there has been almost no improvement, which sadly has meant that the popularity of VR is starting to slow down. Which is a real tragedy as VR, when properly executed has the ability to truly change our world. Here are a few innovations I think will truly change the VR landscape in the near future:

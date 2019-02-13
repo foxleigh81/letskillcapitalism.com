@@ -1,9 +1,18 @@
 .site-header {
   background: black;
-  height: 5vh;
   padding: $padding * .5;
   margin-bottom: $margin * .2;
   a {
+    display: block;
     color: $text-ld;
+  }
+
+  nav {
+    padding: $padding 0;
+  }
+  li {
+    font-size: $paragraph;
+    margin-right: $margin;
+    display: inline-block;
   }
 }

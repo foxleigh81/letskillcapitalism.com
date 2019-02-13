@@ -9,6 +9,8 @@ date: "2012-01-08"
 
 This is part one of a three part tutorial on how to start writing a blog, this part will cover learning to 'get over' any issues which may be standing in your way, part two covers the technical approach to blogging (i.e. Which tools you should use, how to submit a site to Google etc...) and part 3 will offer some general tips that I've discovered on my travels.
 
+<!-- end -->
+
 Who am I to give you this information you ask? Good question, although this is a brand new blog, I'm actually an experience blogger, I used to run [digitalfusionmag.com](http://www.digitalfusionmag.com) until my co-writer and I became too busy to be able to consistently write articles and abandoned it, I've also written articles for [Lifehacker.com](http://www.lifehacker.com) and have had several moderately successful blogs/forums in the past.
 
 I'm attempting to help my little sister, Sally ([@sallyward86](http://www.twitter.com/sallyward86)) get herself started in the world of blogging, as most of my clients in the past, Sally's first concern was 'what if my readers don't like what I write?'. This is a common concern of clients when they first enter into the 'social interaction' side of digital marketing and I said to her what I said to all of them. "It may well be rubbish at the start, but I assure you, none of your readers are reading it".

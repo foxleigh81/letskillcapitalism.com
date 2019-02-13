@@ -9,6 +9,8 @@ date: "2018-03-07"
 
 I'm a bit of a YouTube addict and one of the channels I enjoy watching is 'AlternateHistoryHub' recently I watched a video called ['What if the internet never existed'](https://www.youtube.com/watch?v=tszFFafk8pA), at the end of that video he asks the viewers what their own alternate histories would be without the internet. This seemed like an interesting thought exercise so I got to work. For those who may be interested, here is my own, alternate history.
 
+<!-- end -->
+
 ## **A bit of real history, for context**
 
 I've had computers in one form or another since my Amiga 500 in the late 80's, whilst I'm sure my parents bought me it for educational purposes, I mainly used it for two things, playing games and creating digital art (which is a grandiose term for doodling squiggles with Deluxe Paint).

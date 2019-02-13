@@ -7,6 +7,10 @@ title: "2017 Goals: How did I do?"
 date: "2018-02-15"
 ---
 
+I had a lot of goals last year, how many did I acheive?
+
+<!-- end -->
+
 ## 1) Reach 200lbs - FAILED
 
 Nope, not even close. I made some serious headway into improving my health though, I took part in 100 healthy days, which didn't result in a huge amount of weight loss but it did put me in a position where I got out of the habit of eating processed food and I massively cut down my sugar intake.

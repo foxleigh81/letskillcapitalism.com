@@ -9,6 +9,8 @@ date: "2010-08-24"
 
 As you may remember, back in March I did a [review of the Motorola Milestone](/2010/03/12/review-motorola-milestone-uk/). This was the non-US equivalent of the popular Motorola Droid. Five months later and I am not happy...
 
+<!-- end -->
+
 As I expected, the Motorola Milestone is already [yesterdays Jam](http://www.google.co.uk/search?q=yesterdays+jam&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-GB:official&client=firefox-a), with new Android handsets coming out with frightening regularity my once-beloved phone now seems ancient. Of course there is little point being upset as this is the march of progress at work and does not diminish my phone’s value, however I have noticed that the ‘bored now’ factor is much higher with Android phones than it is with the iPhone simply because new ones are always being released.
 
 ### Hardware:

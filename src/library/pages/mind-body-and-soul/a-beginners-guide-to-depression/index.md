@@ -9,6 +9,8 @@ date: "2012-04-21"
 
 It has been said by many that depression is the black death of the 21st century, whilst this is a bit of an exaggeration (it doesn’t kill people directly, nor makes them come out in boils), I do understand where the comparison comes from, whilst not really infectious, it is a product of our society just as the bubonic plague was a product of theirs, it spreads silently through our world, feeding on the stresses caused by our daily, unfulfilling lives, those who suffer from it can go their entire lives without ever even knowing what is wrong with them, countless others fail to seek help and suffer in silence. Why does this happen?
 
+<!-- end -->
+
 Because depression is hugely misunderstood. It’s not something that everyone gets from time-to-time, it is a legitimate mental illness which can be just as crippling as a broken back.
 
 In 2001 I was diagnosed with clinical depression. Frankly I did not believe it and refused the offer of antidepressants or therapy, I didn’t refuse to believe it out of pride; it was ignorance. I have always been a little bit sad, my life had always been difficult and I figured I had just grown used to feeling disappointed with life. In my mind, I wasn’t ill. I was just cynical.

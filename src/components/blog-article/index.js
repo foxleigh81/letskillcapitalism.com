@@ -37,11 +37,11 @@ const BlogArticle = ({
     <div className="blog-article-container">
       {legacyCheck(tags) && <LegacyBanner /> }
       <article className={`blog-article ${tags}`}>
-        <header className={hasHero ? 'has-hero' : 'no-hero'} style={style}>
+        <header className={`blog-article__header ${hasHero ? 'has-hero' : 'no-hero'}`} style={style}>
           <h1>{postData.frontmatter.title}</h1>
           <MetaData author={postData.frontmatter.author} date={postData.frontmatter.date} />
         </header>
-        <div className="blog-post-content">
+        <div className="blog-article__content">
           {renderAst(postData.htmlAst)}
           { children }
         </div>

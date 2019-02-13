@@ -8,9 +8,8 @@ date: "2012-03-12"
 ---
 
 Here is a little snippet for a short story I am writing, as always, your feedback is appreciated :) :
+<!-- end -->
 
->  
-> 
 > Somewhere in the distance she heard a gentle drumming sound. It was growing louder, the world flashed red and suddenly glowed a brilliant, blinding white. The Darkness screamed as it was torn away
 > 
 > ...

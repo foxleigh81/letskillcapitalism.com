@@ -11,6 +11,8 @@ date: "2012-10-23"
 
 For the third year running, I am going to take part in [Movember](http://www.movember.com), the international charity which encourages men all over the world to grow hideous facial hair in return for sponsorship money.
 
+<!-- end -->
+
 For those of you who have never heard of Movember before then I suggest you watch this excellent little video that they made in order to spread awareness of the cause:
 
 \[youtube\]dAGD28hmSsA\[/youtube\]

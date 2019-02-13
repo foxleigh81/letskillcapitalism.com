@@ -9,6 +9,8 @@ date: "2016-01-15"
 
 As you've probably noticed, if you've been here before. I've updated the theme! I finally got around to making a completely customised one based on the '[sandbox](https://wordpress.org/themes/sandbox/)' template.
 
+<!-- end -->
+
 It's not 100% perfect yet, the comments still look a bit crap, the images on the home page are square for some reason and there are a few features I've yet to add to it but it's good enough for launch so I figured, [fuck it, ship it](http://lifehacker.com/5934647/fuck-it-ship-it).
 
 Keep an eye out for future updates as they are definitely on the horizon.

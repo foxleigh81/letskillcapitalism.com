@@ -9,6 +9,8 @@ date: "2013-01-02"
 
 [Last year I set myself a few life goals](http://lxword.com/2012/01/2012-not-the-end-the-beginning/ "2012: Not the end, the beginning!") and whilst I didn't do too badly, I did not do anywhere near as well as I wanted to, this year I have some different goals and a continuation of some of the same ones. Let’s see how this year plays out.
 
+<!-- end -->
+
 So how did I do at last years goals? Here is a run-down:
 
 **Reach target weight of 155lbs: Semi-failed** Annoyingly I'm only about 2lb lighter than this time last year, however I am quite considerably thinner as I've managed to replace a fair amount of the fat with muscle. I'm still no where near the fitness level I want to be though and although I am thinner, I'm still a big lad and I’d like that to change.

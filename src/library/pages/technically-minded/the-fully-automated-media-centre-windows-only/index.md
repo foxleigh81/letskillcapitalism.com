@@ -9,6 +9,8 @@ date: "2010-05-18"
 
 A few weeks ago I wrote a post about [how to use EventGhost to begin to automate your PC](http://www.digitalfusionmag.com/modules/blog/article.php?cat=4&article=43). Now we are going to take things a step forward and use EventGhost alongside a few other free programs to set up an amazing and fully automated Home Theatre PC.
 
+<!-- end -->
+
 If you have not read my previous EventGhost article I advise you go and read it now as I am going to skip past the basics here.
 
 ## Step One: Getting all the applications

@@ -9,6 +9,8 @@ date: "2010-05-13"
 
 After a fairly long wait behind the rest of the west, the UK Milestone finally received the update to 2.1. Here is a quick rundown of its new features and instructions on where to get your hands on it.
 
+<!-- end -->
+
 This morning Engadget [reported](http://www.engadget.com/2010/05/06/milestone-gets-android-2-1-update-in-uk-available-to-download-n/) the long-awaited release of the 2.1 (Eclair) update for the UK edition of the Motorola Milestone. We have already downloaded and tested it and so far, we think it’s great. Here are the features it has added along with our impressions.
 
 ## Live Wallpapers

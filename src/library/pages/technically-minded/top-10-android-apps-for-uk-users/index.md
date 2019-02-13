@@ -7,7 +7,9 @@ title: "Top 10 Android Apps for UK Users"
 date: "2010-05-30"
 ---
 
-As you may know from my [previous post](http://www.digitalfusionmag.com/blog/technical/review-motorola-milestone-uk) I have recently replaced my old iPhone 3G with a shiny new Motorola Milestone. One of the first things I have realised upon using this phone is that there is not a great deal of focus on it from the UK community. I’ll start with the best 10 apps I’ve discovered so far which are available in our country
+As you may know from my [previous post](http://www.digitalfusionmag.com/blog/technical/review-motorola-milestone-uk) I have recently replaced my old iPhone 3G with a shiny new Motorola Milestone. One of the first things I have realised upon using this phone is that there is not a great deal of focus on it from the UK community. I’ll start with the best 10 apps I’ve discovered so far which are available in our country.
+
+<!-- end -->
 
 As my experience with this platform grows, I will share the results of it on here in the hope that the UK community will benefit from it.
 

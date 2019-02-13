@@ -7,11 +7,13 @@ title: "So you want to be a web contractor? (Part 1: Tips for getting started)"
 date: "2016-09-28"
 ---
 
+If you are thinking of making the leap from permanent to self-employed, then here is part one of my guide to becoming a contractor in the web industry, this guide will not just tell you how get started, but how to flourish.
+
+<!-- end -->
+
 In 2013 I left my cushy full-time job as a Front end developer to enter the scary world of self-employment. This wasn't the first time I'd attempted to go self-employed and I was terrified that like the other times, I'd fail within a year. However this time I was doing something differently, I wasn't attempting to start an agency or become an 'everything under one roof' freelancer. This time I was going to be a specialist contractor.
 
 It was the scariest decision I've ever made in my life but it was by far the most rewarding, over the last 3 1/2 years I've learned so much about my industry, I've developed people skills I never though I'd get, I almost never work more than 9-10 months in a year (although that's not always by choice) and the money I make is beyond anything I could have made as a permanent developer without joining the ranks of company directors (and even then I'd probably not have made as much).
-
-If you are thinking of making the leap, then here is part one of my guide to becoming a contractor, this guide will not just tell you how get started, but how to flourish.
 
 ## Step 1: Are you sure this is the right decision?
 

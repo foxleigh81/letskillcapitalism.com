@@ -1,6 +1,7 @@
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
+import uuid from 'uuid'
 
 import getSlugsWithData from '../../helpers/js/getSlugsWithData'
 
@@ -21,16 +22,18 @@ const CategoryList = ({ posts, context }) => {
             const hasHero = top.hero.childImageSharp && true
             const style = (hasHero) && { backgroundImage: `url(${top.hero.childImageSharp.fluid.src})` }
             return (
-              <li key={top.id} className={`${top.tags} ${category} ${hasHero ? 'has-hero' : 'no-hero'}`}>
-                <article style={style}>
-                  <Link to={top.slug}>
-                    <h1>{top.title}</h1>
-                  </Link>
-                  <div className="meta-data">
-                    <span className="date">{top.date}</span>
-                    <Link className="category" to={`/${category}/`}>{category.replace(/-/g, ' ')}</Link>
+              <li key={uuid()} className={`${top.tags} ${category} ${hasHero ? 'has-hero' : 'no-hero'}`}>
+                <article>
+                  <header className="category-list__header" style={style}>
+                    <Link to={top.slug}>
+                      <h1>{top.title}</h1>
+                    </Link>
+                  </header>
+                  <div className="category-list__meta-data">
+                    <span className="meta-data__date">{top.date}</span>
+                    <Link className="meta-data__category" to={`/${category}/`}>{category.replace(/-/g, ' ')}</Link>
                   </div>
-                  <div className="excerpt">
+                  <div className="category-list__excerpt">
                     {top.excerpt}
                   </div>
                 </article>
