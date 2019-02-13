@@ -1,17 +1,20 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import module from './styles.module.scss'
 
-const LegacyBanner = () => (
+const LegacyBanner = ({ year }) => (
   <section className={module.legacyBanner}>
-    <h1>This article is a legacy article</h1>
-    <p>This blog was first built in 2010 and has gone through a lot of changes.
-     This article was written for a previous version so please excuse any graphical issues.
-    </p>
+    <h1>This is a legacy article from {year}</h1>
     <p>
+      It was written for a previous version of this site so please excuse any graphical issues.
       If you see any broken images or links however. Please let me know.
     </p>
   </section>
 )
+
+LegacyBanner.propTypes = {
+  year: PropTypes.string.isRequired,
+}
 
 export default LegacyBanner

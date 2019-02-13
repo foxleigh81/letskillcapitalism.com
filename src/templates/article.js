@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 
 import Header from '../components/header'
 import BlogArticle from '../components/blog-article'
+import SEO from '../components/seo';
 
 // import '../css/blog-post.css'; // make it pretty!
 
@@ -35,11 +36,12 @@ export const pageQuery = graphql`
 `
 export default function Template({ data }) {
   const post = data.markdownRemark // data.markdownRemark holds our post data
+  const pageTitle = post.frontmatter.title
   return (
     <>
-      <Header />
-      <div className="article-page-container">
-        <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
+      <div className={`article-page-container ${post.frontmatter.tags}`}>
+        <SEO title={pageTitle} />
+        <Header />
         <BlogArticle tags={post.frontmatter.tags} postData={post} />
       </div>
     </>

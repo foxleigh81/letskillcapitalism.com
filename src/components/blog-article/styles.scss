@@ -2,7 +2,7 @@
   position: relative;
   background-color: #fff;
   width: 75vw;
-  margin: 0 auto;
+  margin: $margin auto 0;
   box-shadow: 0 0 20px rgba(#000, .05);
 
   &__header {

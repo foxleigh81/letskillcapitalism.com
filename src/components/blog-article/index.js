@@ -35,7 +35,7 @@ const BlogArticle = ({
 
   return (
     <div className="blog-article-container">
-      {legacyCheck(tags) && <LegacyBanner /> }
+      {legacyCheck(tags) && <LegacyBanner year={postData.frontmatter.date.split('-')[0]} /> }
       <article className={`blog-article ${tags}`}>
         <header className={`blog-article__header ${hasHero ? 'has-hero' : 'no-hero'}`} style={style}>
           <h1>{postData.frontmatter.title}</h1>

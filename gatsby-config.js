@@ -4,6 +4,20 @@ module.exports = {
     description: 'The blog of Alexander Foxleigh',
     author: 'Alex Foxleigh',
     siteUrl: 'http://blog.alexfoxleigh.com',
+    social: [
+      {
+        name: 'Facebook',
+        url: 'https://www.facebook.com/foxleigh81',
+      },
+      {
+        name: 'Twitter',
+        url: 'https://www.twitter.com/foxleigh81',
+      },
+      {
+        name: 'LinkedIn',
+        url: 'https://www.linkedin.com/in/alexfoxleigh/',
+      },
+    ],
   },
   plugins: [
     'gatsby-plugin-react-helmet',

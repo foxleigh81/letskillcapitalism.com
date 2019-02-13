@@ -1,18 +1,36 @@
 .site-header {
+  position: relative;
   background: black;
-  padding: $padding * .5;
-  margin-bottom: $margin * .2;
+  padding: $padding $padding * 2 0;
+  .legacy & {
+    &:after {
+      content: "LEGACY POST";
+      position: absolute;
+      top: 45px;
+      right: -45px;
+      font-size: $paragraph;
+      color: $text-ld;
+      font-weight: bold;
+      background-color: $danger;
+      padding: $padding * .5 $padding * 5;
+      transform: rotate(45deg);
+      box-shadow: 0 0 20px #000;
+    }
+  }
+  h1 {
+    margin-top: $margin;
+  }
   a {
     display: block;
     color: $text-ld;
   }
 
   nav {
-    padding: $padding 0;
+    padding: $padding * 2 0;
   }
   li {
     font-size: $paragraph;
-    margin-right: $margin;
+    margin-right: $margin * 3;
     display: inline-block;
   }
 }
