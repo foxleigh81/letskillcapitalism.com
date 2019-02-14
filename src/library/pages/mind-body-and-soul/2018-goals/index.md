@@ -5,6 +5,7 @@ comments: true
 author: Alex Foxleigh
 title: "2018 Goals"
 date: "2018-02-15"
+bgPos: right
 ---
 
 This year has a hard act to follow, in 2017 I smashed all but one of my goals and they were not small goals (Get married, Save 15k, Buy a house, publish a book).

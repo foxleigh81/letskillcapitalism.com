@@ -45,6 +45,7 @@ author: Alex Foxleigh
 title: "Blog title goes here"
 date: "2010-04-13"
 in_nav: false
+background-position: 50% 50%
 ---
 ```
 
@@ -57,12 +58,15 @@ As you can see, it can be used to provide meta data about an article. This log f
 - `title`: We've come to the first of two required tags, this is the tag that tells gatsby what the title of the page is.
 - `date`: The second required tag, this tells gatsby which date you wrote the article. It is to be added in the format YYYY-MM-DD.
 - `in_nav`: This is only required on category level pages and tells the site if a category should appear in the primary navigation. Defaults to false.
+- `bgPos`: How the hero background should be positioned in css. Defaults to `50% 50%`
 
 ## Images
 
 ### Hero image
 
 Each folder should have a file called `hero.ext`, the `.ext` part is up to you to a degree but can be one of `.jpg`, `.png`, `.svg` or `.gif`. If you do not include this image then the post will display a band of colour instead.
+
+The hero image will be loaded onto the page as a background image with a default position of 50% 50%, this will mean the image is centred to the box, as this may not always be suitable for every image, you can override this with frontmatter tags using the `bgPos` property. You can find out more information about CSSs `background-position`, [here](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
 
 ### Article images
 

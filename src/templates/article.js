@@ -21,6 +21,7 @@ export const pageQuery = graphql`
         author
         title
         date
+        bgPos
       }
       fields {
         hero {

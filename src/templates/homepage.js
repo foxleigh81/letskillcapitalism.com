@@ -17,6 +17,7 @@ export const pageQuery = graphql`
       htmlAst
       frontmatter {
         title
+        bgPos
       }
       fields {
         hero {
@@ -48,6 +49,7 @@ export const pageQuery = graphql`
             title
             date(formatString: "DD MMMM, YYYY")
             tags
+            bgPos
           }
         }
       }

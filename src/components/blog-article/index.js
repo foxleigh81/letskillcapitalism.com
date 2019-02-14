@@ -25,8 +25,9 @@ const BlogArticle = ({
   }).Compiler
 
   const hasHero = postData.fields.hero.childImageSharp && true
+  const bgp = postData.frontmatter.bgPos
   const style = (hasHero) && { backgroundImage: `url(${postData.fields.hero.childImageSharp.fluid.src})` }
-
+  style.backgroundPosition = bgp
   // Check if article is legacy
   const legacyCheck = (t) => {
     const tagArray = t.split(',')
