@@ -5,6 +5,7 @@ comments: true
 author: Alex Foxleigh
 title: "Where would I be without the internet?"
 date: "2018-03-07"
+excerpt: I'm a bit of a YouTube addict and one of the channels I enjoy watching is 'AlternateHistoryHub' recently I watched a video called 'What if the internet never existed', at the end of that video he asks the viewers what their own alternate histories would be without the internet. This seemed like an interesting thought exercise so I got to work. For those who may be interested, here is my own, alternate history.
 ---
 
 I'm a bit of a YouTube addict and one of the channels I enjoy watching is 'AlternateHistoryHub' recently I watched a video called ['What if the internet never existed'](https://www.youtube.com/watch?v=tszFFafk8pA), at the end of that video he asks the viewers what their own alternate histories would be without the internet. This seemed like an interesting thought exercise so I got to work. For those who may be interested, here is my own, alternate history.

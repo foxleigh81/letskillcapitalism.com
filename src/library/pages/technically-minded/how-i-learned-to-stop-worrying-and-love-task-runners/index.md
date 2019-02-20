@@ -5,9 +5,10 @@ comments: true
 author: Alex Foxleigh
 title: "How I learned to stop worrying and love task runners"
 date: "2016-02-02"
+excerpt: A year ago I wrote an article on how I didn't see the point in tools like Gulp and Grunt. One year later and I have to admit, the old me was an idiot.
 ---
 
-A year ago I wrote an [article](http://lxword.com/2015/02/using-a-taskrunnner/) on how I didn't see the point in tools like Gulp and Grunt. One year later and I have to admit, the old me was an idiot.
+A year ago I wrote an [article](/technically-minded/using-a-taskrunnner/) on how I didn't see the point in tools like Gulp and Grunt. One year later and I have to admit, the old me was an idiot.
 
 <!-- end -->
 

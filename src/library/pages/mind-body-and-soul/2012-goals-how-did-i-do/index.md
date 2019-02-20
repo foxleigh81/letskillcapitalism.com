@@ -5,9 +5,10 @@ comments: true
 author: Alex Foxleigh
 title: "2012 Goals: How did I do?"
 date: "2013-01-02"
+excerpt: Last year I set myself a few life goals and whilst I didn't do too badly, I did not do anywhere near as well as I wanted to, this year I have some different goals and a continuation of some of the same ones. Let’s see how this year plays out.
 ---
 
-[Last year I set myself a few life goals](http://lxword.com/2012/01/2012-not-the-end-the-beginning/ "2012: Not the end, the beginning!") and whilst I didn't do too badly, I did not do anywhere near as well as I wanted to, this year I have some different goals and a continuation of some of the same ones. Let’s see how this year plays out.
+[Last year I set myself a few life goals](/mind-body-and-soul/2012-not-the-end-the-beginning/ "2012: Not the end, the beginning!") and whilst I didn't do too badly, I did not do anywhere near as well as I wanted to, this year I have some different goals and a continuation of some of the same ones. Let’s see how this year plays out.
 
 <!-- end -->
 

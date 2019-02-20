@@ -8,10 +8,10 @@ date: "2014-10-10"
 ---
 
 I know, I know. I'm rubbish at updating this blog. In my defence though, I've been busy building a new company!
+<!-- end -->
 
 I'm very proud to introduce you to [BBQ Digital](https://www.bbqdigital.com).
 
-<!-- end -->
 
 [![bbq digital logo](http://foxleigh.me/wp-content/uploads/2014/10/bbq-logo.png)](http://foxleigh.me/wp-content/uploads/2014/10/bbq-logo.png)
 

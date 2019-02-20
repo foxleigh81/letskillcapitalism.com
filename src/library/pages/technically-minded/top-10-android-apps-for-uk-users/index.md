@@ -5,9 +5,10 @@ comments: true
 author: Alex Foxleigh
 title: "Top 10 Android Apps for UK Users"
 date: "2010-05-30"
+excerpt: As you may know from my previous post I have recently replaced my old iPhone 3G with a shiny new Motorola Milestone. One of the first things I have realised upon using this phone is that there is not a great deal of focus on it from the UK community. I’ll start with the best 10 apps I’ve discovered so far which are available in our country.
 ---
 
-As you may know from my [previous post](http://www.digitalfusionmag.com/blog/technical/review-motorola-milestone-uk) I have recently replaced my old iPhone 3G with a shiny new Motorola Milestone. One of the first things I have realised upon using this phone is that there is not a great deal of focus on it from the UK community. I’ll start with the best 10 apps I’ve discovered so far which are available in our country.
+As you may know from my [previous post](/technically-minded/review-motorola-milestone-uk) I have recently replaced my old iPhone 3G with a shiny new Motorola Milestone. One of the first things I have realised upon using this phone is that there is not a great deal of focus on it from the UK community. I’ll start with the best 10 apps I’ve discovered so far which are available in our country.
 
 <!-- end -->
 

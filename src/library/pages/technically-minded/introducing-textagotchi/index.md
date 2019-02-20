@@ -5,6 +5,7 @@ comments: true
 author: Alex Foxleigh
 title: "Introducing Textagotchi!"
 date: "2012-07-28"
+excerpt: Our leedshack project is well underway!
 ---
 
 Our Leedshack project is well under way, we now have a [logo](https://twitter.com/textagotchi/status/229227417376526336/photo/1), a [facebook page](https://www.facebook.com/textagotchi) and a [twitter account](https://twitter.com/textagotchi)! We're still not giving too much away though, maybe you can guess what we are doing?

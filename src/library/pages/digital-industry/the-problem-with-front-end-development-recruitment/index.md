@@ -5,11 +5,10 @@ comments: true
 author: Alex Foxleigh
 title: "The problem with front-end development recruitment"
 date: "2016-08-24"
+excerpt: I've been building websites for a very long time. When I first started back in the mid-late 90's there wasn't much of a distinction between front-end developers and back-end developers, we all had to know everything, you couldn't specialise as there wasn't really much of a need for that. "Build me a website" was about as much spec as you could expect.
 ---
 
 I've been building websites for a [_very_](http://www.alexward.me.uk/skills) long time. When I first started back in the mid-late 90's there wasn't much of a distinction between front-end developers and back-end developers, we all had to know everything, you couldn't specialise as there wasn't really much of a need for that. "Build me a website" was about as much spec as you could expect.
-
-<!-- end -->
 
 Fast-forward a decade or so and the landscape became very different indeed, now specialism was where it was at, if you wanted to develop for the web (and didn't want to be full-stack) then your choices were clear, it was either 'front-end' or 'back-end'.
 

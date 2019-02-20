@@ -5,6 +5,7 @@ comments: true
 author: Alex Foxleigh
 title: "New theme is live!"
 date: "2016-01-15"
+excerpt: As you've probably noticed, if you've been here before. I've updated the theme! I finally got around to making a completely customised one based on the 'sandbox' wordpress template.
 ---
 
 As you've probably noticed, if you've been here before. I've updated the theme! I finally got around to making a completely customised one based on the '[sandbox](https://wordpress.org/themes/sandbox/)' template.

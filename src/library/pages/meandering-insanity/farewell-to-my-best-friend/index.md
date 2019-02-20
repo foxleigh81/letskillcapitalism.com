@@ -5,6 +5,7 @@ comments: true
 author: Alex Foxleigh
 title: "Farewell to my best friend"
 date: "2014-05-05"
+excerpt: Anyone who says a dog is a man’s best friend never met Puddles. She was the most unique cat I've ever had the pleasure to know. Sadly last night she had to be put to sleep. Let me tell you a bit about her.
 ---
 
 Anyone who says a dog is a man’s best friend never met Puddles. She was the most unique cat I've ever had the pleasure to know. Sadly last night she finally succumbed to her heart condition and had to be put to sleep. I miss her terribly and nobody will ever replace her. Let me tell you a bit about her.

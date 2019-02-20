@@ -7,8 +7,6 @@ title: "London, Baby!"
 date: "2015-01-13"
 ---
 
-[![iStock_000036715102_XXXLarge](http://foxleigh.me/wp-content/uploads/2015/01/iStock_000036715102_XXXLarge.jpg)](http://foxleigh.me/wp-content/uploads/2015/01/iStock_000036715102_XXXLarge.jpg)
-
 I'm officially a Londoner!
 
 <!-- end -->

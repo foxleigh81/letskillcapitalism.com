@@ -5,9 +5,10 @@ comments: true
 author: Alex Foxleigh
 title: "A beginners guide to depression."
 date: "2012-04-21"
+excerpt: It has been said by many that depression is the black death of the 21st century, In 2001 I was diagnosed with clinical depression. Here is how I learned to cope with it.
 ---
 
-It has been said by many that depression is the black death of the 21st century, whilst this is a bit of an exaggeration (it doesn’t kill people directly, nor makes them come out in boils), I do understand where the comparison comes from, whilst not really infectious, it is a product of our society just as the bubonic plague was a product of theirs, it spreads silently through our world, feeding on the stresses caused by our daily, unfulfilling lives, those who suffer from it can go their entire lives without ever even knowing what is wrong with them, countless others fail to seek help and suffer in silence. Why does this happen?
+It has been said by many that depression is the black death of the 21st century, whilst this is a bit of an exaggeration (it doesn’t kill people directly,nor makes them come out in boils), I do understand where the comparison comes from, whilst not really infectious, it is a product of our society just as the bubonic plague was a product of theirs, it spreads silently through our world, feeding on the stresses caused by our daily, unfulfilling lives, those who suffer from it can go their entire lives without ever even knowing what is wrong with them, countless others fail to seek help and suffer in silence. Why does this happen?
 
 <!-- end -->
 

@@ -5,13 +5,12 @@ comments: true
 author: Alex Foxleigh
 title: "The Fully Automated Media Centre (Windows Only)"
 date: "2010-05-18"
+excerpt: A few weeks ago I wrote a post about how to use EventGhost to begin to automate your PC. Now we are going to take things a step forward and use EventGhost alongside a few other free programs to set up an amazing and fully automated Home Theatre PC.
 ---
 
-A few weeks ago I wrote a post about [how to use EventGhost to begin to automate your PC](http://www.digitalfusionmag.com/modules/blog/article.php?cat=4&article=43). Now we are going to take things a step forward and use EventGhost alongside a few other free programs to set up an amazing and fully automated Home Theatre PC.
+A few weeks ago I wrote a post about [how to use EventGhost to begin to automate your PC](/technically-minded/eventghost-the-little-automation-program-which-can-change-your-life/). Now we are going to take things a step forward and use EventGhost alongside a few other free programs to set up an amazing and fully automated Home Theatre PC.
 
-<!-- end -->
-
-If you have not read my previous EventGhost article I advise you go and read it now as I am going to skip past the basics here.
+If you have not read my previous EventGhost article I advise you go and [read it now]((/technically-minded/eventghost-the-little-automation-program-which-can-change-your-life/)) as I am going to skip past the basics here.
 
 ## Step One: Getting all the applications
 

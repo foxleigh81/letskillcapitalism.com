@@ -5,6 +5,7 @@ comments: true
 author: Alex Foxleigh
 title: "EventGhost - the little automation program which can change your life"
 date: "2010-05-18"
+excerpt: Every now and again when scouring the internet for new and interesting information I find a tip or program which changes the way I live. EventGhost is such a program.
 ---
 
 Every now and again when scouring the internet for new and interesting information I find a tip or program (usually via the excellent [lifehacker.com](http://www.lifehacker.com/) website) which changes the way I live. EventGhost is such a program.

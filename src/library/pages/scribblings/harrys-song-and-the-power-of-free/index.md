@@ -5,6 +5,7 @@ comments: true
 author: Alex Foxleigh
 title: "Harry's Song and the power of free"
 date: "2012-07-20"
+excerpt: Several months ago I wrote a short story called ‘Harry’s Song’, it will go down in history in my writing ‘career’ as the first story I ever actually completed. I put it on Amazon for free and it just exploded.
 ---
 
 Several months ago I wrote a short story called ‘Harry’s Song’, it will go down in history in my writing ‘career’ as the first story I ever actually completed. Once I finished editing it I sent it out to a few of my friends to gauge their reactions, which were very positive indeed – in fact I even managed to make a few people cry! Encouraged, I decided to put my book on Amazon’s Kindle store; within a few days I’d made 7 sales and I knew without a doubt that every single person who bought a copy was someone I already knew.

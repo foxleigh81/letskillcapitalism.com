@@ -5,6 +5,7 @@ comments: true
 author: Alex Foxleigh
 title: "Rapid HTML creation with Emmet and Sublime Text"
 date: "2015-04-13"
+excerpt: Zen Coding (now known as Emmet - which is a terrible name in my opinion) is a suite of plugins for various text editors. It allows you to rapidly develop HTML by writing it with CSS-like syntax and then simply pressing the TAB key to 'compile' it. It's incredibly fast and convenient, here is how to use it.
 ---
 
 During the life of a developer, the tools of the job will change many times over. This is especially true of the text editor; which is often like a comfortable home for the seasoned developer. Some prefer pure text editors, some prefer an IDE, some (like myself) prefer a more hybrid approach, a text editor that is highly extensible and will provide most of the benefits of an IDE without the overhead. For me, Sublime Text 3 is the editor of choice, a decision which was confirmed when I discovered Zen coding.

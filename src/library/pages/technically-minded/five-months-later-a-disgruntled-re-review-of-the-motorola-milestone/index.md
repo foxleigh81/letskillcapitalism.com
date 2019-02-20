@@ -5,9 +5,10 @@ comments: true
 author: Alex Foxleigh
 title: "Five months later: A (disgruntled) re-review of the Motorola Milestone."
 date: "2010-08-24"
+excerpt: As you may remember, back in March I did a review of the Motorola Milestone. This was the non-US equivalent of the popular Motorola Droid. Five months later and I am not happy...
 ---
 
-As you may remember, back in March I did a [review of the Motorola Milestone](/2010/03/12/review-motorola-milestone-uk/). This was the non-US equivalent of the popular Motorola Droid. Five months later and I am not happy...
+As you may remember, back in March I did a [review of the Motorola Milestone](/technically-minded/review-motorola-milestone-uk/). This was the non-US equivalent of the popular Motorola Droid. Five months later and I am not happy...
 
 <!-- end -->
 

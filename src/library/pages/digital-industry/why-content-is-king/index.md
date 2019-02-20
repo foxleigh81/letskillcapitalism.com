@@ -5,6 +5,7 @@ comments: true
 author: Alex Foxleigh
 title: "Why content is king"
 date: "2014-09-12"
+excerpt: If you have spent any amount of time in the media industry, you’ve undoubtedly heard the term coined by Bill Gates back in 1996 "Content is King”
 ---
 
 If you have spent any amount of time in the media industry, you’ve undoubtedly heard the term coined by Bill Gates back in 1996: “Content is King”, this has been a mantra of professional designers for as long as I can remember. However, even now; it is one of the most flaunted rules in our industry.

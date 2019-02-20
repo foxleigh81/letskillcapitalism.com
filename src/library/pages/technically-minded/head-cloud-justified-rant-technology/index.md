@@ -5,13 +5,12 @@ comments: true
 author: Alex Foxleigh
 title: "Head in the cloud - A justified rant about technology"
 date: "2015-03-05"
+excerpt: Now, this is the story, all about how my data got flipped, turned upside down so I’d like to take a minute, just sit right there, I’ll tell you why I moved my storage into the air.
 ---
 
-_Now, this is the story, all about how my data got flipped, turned upside down so I’d like to take a minute, just sit right there, I’ll tell you why I moved my storage into the air._
+**_Now, this is the story, all about how my data got flipped, turned upside down so I’d like to take a minute, just sit right there, I’ll tell you why I moved my storage into the air._**
 
-<!-- end -->
-
-_In the North-East of England, Yorkshire raised, on the hard drive is where I stored my life away. Chilling out, maxing relaxing all cool and…_ I suffered a hard-drive failure and everything was lost. It can happen to us all eventually and it often happens without warning. This was certainly the case for me. Back then I had literally all my data stored on my machine; every photo, which wasn’t saved on my cameras memory stick; all of my music and any videos I had downloaded. But worst of all, I had lost every bit of work I had done over the years, gone forever.
+**_In the North-East of England, Yorkshire raised, on the hard drive is where I stored my life away. Chilling out, maxing relaxing all cool and…_** I suffered a hard-drive failure and everything was lost. It can happen to us all eventually and it often happens without warning. This was certainly the case for me. Back then I had literally all my data stored on my machine; every photo, which wasn’t saved on my cameras memory stick; all of my music and any videos I had downloaded. But worst of all, I had lost every bit of work I had done over the years, gone forever.
 
 That was many years ago, thankfully these days it’s not possible for that to happen to me; of course I have a lot of data stored locally, however practically all of it is backed up in some way - it’s fair to say that I actually live my digital life entirely in the cloud.
 

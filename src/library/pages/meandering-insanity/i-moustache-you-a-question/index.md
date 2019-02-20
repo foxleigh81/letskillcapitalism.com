@@ -5,9 +5,9 @@ comments: true
 author: Alex Foxleigh
 title: "I moustache you a question"
 date: "2012-10-23"
----
+excerpt: For the third year running, I am going to take part in Movember, the international charity which encourages men all over the world to grow hideous facial hair in return for sponsorship money.
 
-[![](http://foxleigh.me/wp-content/uploads/2012/10/mov-image.jpg "Movember")](http://foxleigh.me/wp-content/uploads/2012/10/mov-image.jpg)
+---
 
 For the third year running, I am going to take part in [Movember](http://www.movember.com), the international charity which encourages men all over the world to grow hideous facial hair in return for sponsorship money.
 
