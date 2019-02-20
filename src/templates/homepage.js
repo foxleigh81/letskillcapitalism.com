@@ -50,6 +50,7 @@ export const pageQuery = graphql`
             date(formatString: "DD MMMM, YYYY")
             tags
             bgPos
+            excerpt
           }
         }
       }

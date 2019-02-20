@@ -18,7 +18,7 @@ const getSlugsWithData = (data, context) => {
         title: node.frontmatter.title,
         tags: node.frontmatter.tags,
         date: node.frontmatter.date,
-        excerpt: node.excerpt,
+        excerpt: node.frontmatter.excerpt || node.excerpt,
         bgPos: node.frontmatter.bgPos,
       }
       const output = {
