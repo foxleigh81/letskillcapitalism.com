@@ -1,11 +1,11 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
+import { DiscussionEmbed } from 'disqus-react';
 import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 
 import Header from '../components/header'
 import BlogArticle from '../components/blog-article'
-import SEO from '../components/seo';
+import SEO from '../components/seo'
 
 // import '../css/blog-post.css'; // make it pretty!
 
@@ -22,6 +22,7 @@ export const pageQuery = graphql`
         title
         date
         bgPos
+        excerpt
       }
       fields {
         hero {
@@ -38,12 +39,20 @@ export const pageQuery = graphql`
 export default function Template({ data }) {
   const post = data.markdownRemark // data.markdownRemark holds our post data
   const pageTitle = post.frontmatter.title
+  const disqusShortname = 'lxword'
+  const disqusConfig = {
+    identifier: post.id,
+    title: post.frontmatter.title,
+  }
   return (
     <>
       <div className={`article-page-container ${post.frontmatter.tags}`}>
         <SEO title={pageTitle} />
         <Header />
-        <BlogArticle tags={post.frontmatter.tags} postData={post} />
+        <BlogArticle tags={post.frontmatter.tags} postData={post}>
+          {post.frontmatter.comments && <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />}
+        </BlogArticle>
+
       </div>
     </>
   )
