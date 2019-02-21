@@ -1,5 +1,7 @@
 # Alex Foxleigh's Blog Starter
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f029385c-a6de-41e7-bd68-839db1ceb8a5/deploy-status)](https://app.netlify.com/sites/thefoxleighblog/deploys)
+
 This is a gatsby site framework which takes a page structure and builds a site from it.
 
 ## Folder structure
@@ -45,7 +47,8 @@ author: Alex Foxleigh
 title: "Blog title goes here"
 date: "2010-04-13"
 in_nav: false
-background-position: 50% 50%
+bgPos: 50% 50%
+excerpt: ''
 ---
 ```
 
@@ -59,6 +62,7 @@ As you can see, it can be used to provide meta data about an article. This log f
 - `date`: The second required tag, this tells gatsby which date you wrote the article. It is to be added in the format YYYY-MM-DD.
 - `in_nav`: This is only required on category level pages and tells the site if a category should appear in the primary navigation. Defaults to false.
 - `bgPos`: How the hero background should be positioned in css. Defaults to `50% 50%`
+- `excerpt`: Is your article written in a way that prevents you from using the top of it for an excerpt? That's fine, just add it here.
 
 ## Images
 
