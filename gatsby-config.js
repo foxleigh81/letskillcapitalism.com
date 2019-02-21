@@ -24,7 +24,14 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-svg',
     'gatsby-plugin-sass',
-    'gatsby-plugin-web-font-loader',
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Open Sans', 'Maven Pro:400,500,700,900']
+        }
+      }
+    },
     {
       resolve: 'gatsby-plugin-sass-resources',
       options: {

@@ -11,23 +11,23 @@ p {
 
 h1 { 
   font-size: $header-level-1;
-  font-family: 'Cooper Hewitt';
-  font-weight: 600;
+  font-family: 'Maven Pro';
+  font-weight: 900
 }
 h2 { 
   font-size: $header-level-2;
-  font-family: 'Cooper Hewitt';
-  font-weight: 400;
+  font-family: 'Maven Pro';
+  font-weight: 700;
 }
 h3 { 
   font-size: $header-level-3;
-  font-family: 'Cooper Hewitt';
-  font-weight: 400;
+  font-family: 'Maven Pro';
+  font-weight: 500;
 }
-h3 { 
+h4 { 
   font-size: $header-level-4;
-  font-family: 'Cooper Hewitt';
-  font-weight: 400;
+  font-family: 'Exo 2';
+  font-weight: 500;
 }
 
 // Sets padding on the main content

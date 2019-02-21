@@ -4,6 +4,4 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-require('prismjs/themes/prism-solarizedlight.css')
-require("typeface-cooper-hewitt")
-require("typeface-open-sans")
+require('prismjs/themes/prism.css')
