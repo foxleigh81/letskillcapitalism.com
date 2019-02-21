@@ -24,6 +24,7 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-svg',
     'gatsby-plugin-sass',
+    'gatsby-plugin-web-font-loader',
     {
       resolve: 'gatsby-plugin-sass-resources',
       options: {
