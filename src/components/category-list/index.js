@@ -36,9 +36,7 @@ const CategoryList = ({ posts, context }) => {
                     <span className="category-list__meta-data__date">{top.date}</span>
                     <Link className="category-list__meta-data__category" to={`/${category}/`}>{category.replace(/-/g, ' ')}</Link>
                   </div>
-                  <div className="category-list__excerpt">
-                    {top.excerpt}
-                  </div>
+                  <div className="category-list__excerpt" dangerouslySetInnerHTML={{__html: top.excerpt}} />
                 </article>
               </li>
             )
