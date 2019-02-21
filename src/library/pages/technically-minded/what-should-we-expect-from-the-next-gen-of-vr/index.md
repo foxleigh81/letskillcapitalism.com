@@ -3,13 +3,14 @@ tags: "legacy"
 template: article 
 comments: true 
 author: Alex Foxleigh
-title: "What should we expect from the next gen of VR"
+title: "What should we expect from the next gen of VR?"
 date: "2018-04-13"
+excerpt: <p>The Vive Pro is out and the Pimax is on the horizon, whilst it's too early to tell what the Pimax will be like, the reviews are in on the Vive Pro and they all seem to be "Meh, it's a nice little bump but hardly gen 2". </p><p>So... What DOES Gen 2 look like?</p>
 ---
 
-The Vive Pro is out and the Pimax is on the horizon, whilst it's too early to tell what the Pimax will be like, the reviews are in on the Vive Pro and they all seem to be "Meh, it's a nice little bump but hardly gen 2". So... What DOES Gen 2 look like?
+The Vive Pro is out and the Pimax is on the horizon, whilst it's too early to tell what the Pimax will be like, the reviews are in on the Vive Pro and they all seem to be "Meh, it's a nice little bump but hardly gen 2". 
 
-<!-- end -->
+So... What DOES Gen 2 look like?
 
 ## 1) Wireless
 

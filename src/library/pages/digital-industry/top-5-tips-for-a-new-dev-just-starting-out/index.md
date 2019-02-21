@@ -5,6 +5,7 @@ comments: true
 author: Alex Foxleigh
 title: "Top 5 tips for a new dev just starting out"
 date: "2017-07-31"
+excerpt: If you are new to the dev industry, it can be daunting. I've been doing this for 19 years, so here are my top 5 tips.
 ---
 
 Recently (in fact, this morning) I was asked by my wife to give a new work experience person at her workplace my top 5 tips on what I wish I'd been told/done differently if I could go back 19 years and start my career again. This seemed ripe for a blog post so here we go!

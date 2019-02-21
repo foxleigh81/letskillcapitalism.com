@@ -1,15 +1,14 @@
 ---
-tags: ""
+tags: "featured"
 template: article 
 comments: true 
 author: Alex Foxleigh
 title: "New blog platform!"
 date: "2019-02-20"
+excerpt: <p>OK it's been a long old while since I've bothered with this blog. Part of it (although this is totally an excuse) is that I've never really been a fan of WordPress. So I've migrated it all to a new platform.</p> <p>Welcome back! We have a new name, a new design and I've even got a content plan for the future! It's all go at Foxleigh HQ!</p>
 ---
 
 OK it's been a long old while since I've bothered with this blog. Part of it (although this is totally an excuse) is that I've never really been a fan of WordPress. So I've migrated it all to a new platform. Welcome back!
-
-<!-- end -->
 
 For those who are interested, the blog now runs on a software platform called [Gatsby](https://www.gatsbyjs.org/), it's a website building platform which uses flat-files instead of databases which means I no longer have to faff around with a CMS and can just write posts in markdown - which is lovely :)
 
