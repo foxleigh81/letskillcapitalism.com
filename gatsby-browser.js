@@ -5,3 +5,5 @@
  */
 
 require('prismjs/themes/prism-solarizedlight.css')
+require("typeface-cooper-hewitt")
+require("typeface-open-sans")

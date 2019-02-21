@@ -21,7 +21,8 @@
         margin: $margin * 2;
         width: 50%;
         font-size: $baseFontSize * 6;
-        text-shadow: 2px 2px rgba(#000, .4);
+        text-shadow: 2px 2px rgba(#000, .5);
+        text-transform: uppercase;
       }
     }
   }

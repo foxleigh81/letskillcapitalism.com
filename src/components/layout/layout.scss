@@ -1,6 +1,6 @@
 // Sensible defaults
 body {
-  font-family: Helvetica;
+  font-family: 'Open Sans';
   background-color: rgba(#333, .04);
 }
 
@@ -11,22 +11,22 @@ p {
 
 h1 { 
   font-size: $header-level-1;
-  font-family: Lato;
+  font-family: 'Cooper Hewitt';
   font-weight: 600;
 }
 h2 { 
   font-size: $header-level-2;
-  font-family: Lato;
+  font-family: 'Cooper Hewitt';
   font-weight: 400;
 }
 h3 { 
   font-size: $header-level-3;
-  font-family: Lato;
+  font-family: 'Cooper Hewitt';
   font-weight: 400;
 }
 h3 { 
   font-size: $header-level-4;
-  font-family: Lato;
+  font-family: 'Cooper Hewitt';
   font-weight: 400;
 }
 
