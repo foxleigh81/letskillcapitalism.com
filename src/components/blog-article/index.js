@@ -7,7 +7,6 @@ import './styles.scss'
 // Import components
 import NoteBlock from '../note-block'
 import LegacyBanner from '../legacy-banner'
-import VideoEmbed from '../video-embed'
 import MetaData from '../article-meta-data'
 
 const BlogArticle = ({
