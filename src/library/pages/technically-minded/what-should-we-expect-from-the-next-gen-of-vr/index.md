@@ -72,7 +72,7 @@ We also need our feet back, even though we don't have infinite treadmills or gyr
 
 The company 'HaptX' have recently developed some haptic feedback gloves which not only give you control over your fingers but also give you the feeling of touching something, they even have the ability to apply resistance to your hands so you can feel yourself squeezing something.
 
-`youtube: 0WQw4GmFGVg`
+https://www.youtube.com/watch?v=0WQw4GmFGVg
 
 It should be noted though that these gloves a) have not been released yet and b) are not targeted at consumers at this point. It's not really surprising though, just looking at them you can tell that these things would be incredibly expensive to produce so putting them out to the professional market first makes a lot of sense whilst they figure out how to get their costs down. So I'm not expecting technology quite this advanced in Gen 2. However just high-fidelity finger tracking and feet tracking would be enough for me, for now.
 

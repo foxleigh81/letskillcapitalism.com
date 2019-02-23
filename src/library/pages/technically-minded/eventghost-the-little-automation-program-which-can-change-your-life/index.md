@@ -32,7 +32,7 @@ The stupidest part of the fresh EventGhost installation is the examples file. It
 
 Now we have a clean automation file the interface looks a little less daunting. As you can see there are two main panels. The larger panel on the left is your log panel. Everything that EventGhost is able to see will be logged in here. The smaller panel on the right is your event control panel. You can create, edit and delete events here as well as manage plugins.
 
-![](http://www.clockworkcity.co.uk/wp-content/uploads/2010/02/image004.jpg)The buttons from left to right are ‘Add Plugin’, ‘Add Folder’, ‘Add Macro’, ‘Add Event’, ‘Add Action’, ‘Delete selection’, ‘Execute action’
+The buttons from left to right are ‘Add Plugin’, ‘Add Folder’, ‘Add Macro’, ‘Add Event’, ‘Add Action’, ‘Delete selection’, ‘Execute action’
 
 ## Step four: Making our first macro
 
@@ -46,7 +46,7 @@ As soon as you have added the plugin you will notice that suddenly all the keyst
 
 Adding an action cannot be done directly, all actions need to be contained inside a macro, so to get ourselves a macro, click the add macro button (![Add macro button](images/image008.jpg)). Once you have done this you will be presented with this screen:
 
-[![Eventghost 'Add Action' Interface](images/eg-2.png)](http://www.clockworkcity.co.uk/wp-content/uploads/2010/02/eg-2.png)
+![Eventghost 'Add Action' Interface](images/eg-2.png)
 
 This is the ‘add action’ window which makes EventGhost so amazing, as our intention is to launch a program (in this case it will be Spotify), select the ‘Start application’ function under ‘System’ then press ‘ok’. Then under ‘executable’ browse to the executable file of the program you wish to launch. You may leave the other options blank as in this case they are not relevant. Once again, click ‘ok’.
 
