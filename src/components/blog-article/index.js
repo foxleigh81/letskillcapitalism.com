@@ -19,8 +19,7 @@ const BlogArticle = ({
   const renderAst = new rehypeReact({
     createElement: React.createElement,
     components: {
-      'note-block': NoteBlock,
-      'video-embed': VideoEmbed,
+      'note-block': NoteBlock
     },
   }).Compiler
 
