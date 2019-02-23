@@ -106,7 +106,7 @@ module.exports = {
                 // Important to exclude providers
                 // that adds js to the page.
                 // If you do not need them.
-                exclude: ["Twitch"]
+                exclude: ["Twitch", "Flickr"]
               }
             }
           }
@@ -115,6 +115,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    'gatsby-plugin-offline',
   ],
 }

@@ -71,7 +71,7 @@ One caveat here though: not everyone uses Facebook and even some of those that d
 
 Every party I have thrown in the last two years has had a webcam set up in the corner, it doesn’t record standard video (it would be too long and not worth watching anyway without some serious editing), it takes a single photo every few seconds, then the next day I compile them all together into a time-lapse movie. The videos always go down a storm as they capture everything that happens at the party perfectly.
 
-`video: https://www.youtube.com/embed/2Xc9gXyf2G4`
+http://www.youtube.com/watch?v=Rv4Gw_DoM_k
 
 ### There are a few things to consider when doing this:
 

@@ -23,7 +23,7 @@ Full-body tracking means that we don't need wands or controllers which are capab
 
 It already has: Meet the Teslasuit
 
-`video: https://www.youtube.com/watch?v=o2-cEEu3ZHU`
+https://www.youtube.com/watch?v=o2-cEEu3ZHU
 
 In a nutshell, the Teslasuit allows for haptic feedback, climate control and full-body tracking all in one suit. Initial reviews of the prototypes have suggested that this thing is a game-changer and increases immersion a considerable about. Hell, even just reliable, low-latency hand-tracking without the need for a controller will make a huge difference to VR so the fact that not only is it full-body tracking but it also provides haptic feedback makes this one of the most exciting VR innovations since room-scale.
 
@@ -51,18 +51,17 @@ However moving around an 'infinite' space, crouching, sitting and even a bit of 
 
 This is the Haptx Exosuit (formerly known as the Axon VR):
 
-`video: https://www.youtube.com/watch?v=jk-3kZ7ytZs`
+https://www.youtube.com/watch?v=jk-3kZ7ytZs
 
 It is a combination of an exoskeleton and a motorised rig which, like the teslasuit also allows for the sensation of touch. At the moment the only part of this due for imminent release are the haptic gloves, which include the exoskeleton, the tactile feedback sensors and the motion tracking technology and appear to be able to bring our hands almost completely into VR. Sadly they don't plan on creating consumer versions of this technology just yet. So whilst you may see this in a VR arcade in a year or so, it's unlikely you'll get one of these at home for quite some time.
 
-`video: https://www.youtube.com/watch?v=UaWZpRsyZ74`
+https://www.youtube.com/watch?v=UaWZpRsyZ74
 
 The company has plans in place to scale up the exoskeleton tech to bring the full exo-suit to life in the next few years, that alongside the motorised rig should allow for true world-scale VR in the not-too-distant future.
 
 The world of infinite treadmills is a lot more exciting, in fact the treadmill Wade Watts uses in 'Ready Player One' is a real device called the 'Infinadeck', it's not far from being ready for production, however this thing is huge and even though they refer to it as 'affordable' they are not talking about consumer-level here. However you can probably expect to see this in VR arcades in the very near future.
 
-`video: https://www.youtube.com/watch?v=SVs7iegtDIk`
-
+https://www.youtube.com/watch?v=SVs7iegtDIk
 
 ## 4) Fully immersive headsets
 
@@ -74,7 +73,7 @@ Pimax has been making a lot of promises, unlike existing headsets, Pimax has app
 
 Of course, we can't know how good these modules (or even the headset) will be until they arrive. Personally, I'm taking it all with a pinch of salt as I can't help but feel that Pimax is promising more than they can deliver. For now, I will pass you over to Linus Sebastian of Linus tech tips who has had the chance to try out a prototype version:
 
-`video: https://www.youtube.com/watch?v=Ne0cmvl8GqM&t`
+https://www.youtube.com/watch?v=Ne0cmvl8GqM&t
 
 ## 5) 'Atomic' rendering
 
@@ -84,7 +83,7 @@ At the moment, all video games use polygons to render their images, which has ma
 
 Possibly.
 
-`video: https://www.youtube.com/watch?v=00gAbgBu8R4`
+https://www.youtube.com/watch?v=00gAbgBu8R4
 
 There is a company called 'Euclideon' who claim to have perfected atomic rendering through a technology they call 'Unlimited Detail Technology', however as of February 2018, there are no commercially available games or even tech-demos that utilise this technology.
 

@@ -23,7 +23,7 @@ The perceived value of this type of user is probably quite low as they don’t s
 
 ### Notable users
 
-[![Simon Pegg on twitter](images/twitterCard_simonpegg.jpg)](http://www.twitter.com/simonpegg)
+[![Simon Pegg on twitter](images/twitterCard_simonpegg.jpg)]()
 
 [![Carol Vorderman on Twitter](images/twitterCard_carolvorders.jpg)](http://www.twitter.com/carolvorders)
 
