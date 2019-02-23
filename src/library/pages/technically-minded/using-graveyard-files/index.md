@@ -21,13 +21,15 @@ Anyone who has been a developer for more than 10 minutes knows that the client i
 
 Enter the graveyard file. The removed code (the classes and methods for the accordion in this case) was not deleted or commented out, it is instead cut from the source file (including it’s containing classes, methods etc.) and pasted into a graveyard file. You then add the following snippet of code above it:
 
-/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
-\* Date added: 11th March 2015  \*
-\* Reason for removal:          \*
-\* Client has decided that they \*
-\* no longer wish to have an    \*
-\* accordion on the FAQ page    \*
-/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
+```
+/*******************************/ 
+* Date added: 11th March 2015  *
+* Reason for removal:          *
+* Client has decided that they *
+* no longer wish to have an    *
+* accordion on the FAQ page    *
+/*******************************/ 
+```
 
 The snippet above is of course, optional. It’s purpose is to help you understand the likelihood of that code being useful in the future and more importantly, to help other developers understand why the code is there and when it was removed from the production site.
 

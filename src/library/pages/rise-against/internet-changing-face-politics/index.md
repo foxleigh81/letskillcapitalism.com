@@ -29,11 +29,11 @@ https://www.youtube.com/watch?v=KUDjRZ30SNo
 
 Another example came a few years later when David Cameron wanted to show the country that he would be affected by his new ‘[Pasty tax](http://en.wikipedia.org/wiki/Pasty_tax)’ as he – the common man of the people – ate Cornish pasties too and that the last one he remembered having was at The West Cornwall Pasty Company in Leeds train station. An employee of Network Rail immediately took to twitter and commented that it must have been an exceptional pasty considering that the [kiosk had closed 5 years earlier](http://www.bbc.co.uk/news/uk-politics-17536503). This was closely followed with more ‘candid’ [photos of David eating pasties and pies](https://www.google.com/search?site=&tbm=isch&source=hp&biw=1348&bih=914&q=david+cameron+eating+pasty&oq=david+cameron+eating+pasty&gs_l=img.3..0.488.5225.0.5379.34.14.4.16.18.0.141.1144.12j2.14.0.msedr...0...1ac.1.64.img..3.31.1168.xLst6Mxa3bY#imgrc=_) than you can possibly imagine.
 
-\[caption id="attachment\_274" align="aligncenter" width="1280"\][![A photo of David Cameron with the false quote "I could murder a scotch egg"](http://foxleigh.me/wp-content/uploads/2015/05/how-the-internet-is-changing-politics-david-cameron.jpg)](http://foxleigh.me/wp-content/uploads/2015/05/how-the-internet-is-changing-politics-david-cameron.jpg) Although I have no problem believing that Boris Johnson said it.\[/caption\]
+[![A photo of David Cameron with the false quote "I could murder a scotch egg"](images/how-the-internet-is-changing-politics-david-cameron.jpg "Although I have no problem believing that Boris Johnson said it.")
 
 This era of instant information has been particularly harmful for UKIP who (for fairly obvious reasons) seem to attract the biggest idiots in the country to their party. It is no surprise then that [headlines are often filled](http://www.theguardian.com/politics/2013/sep/20/ukip-biggest-gaffes) with ‘UKIP Politician fired for making racist, idiotic and xenophobic comment’. Before social media, these politicians would probably have gotten away with it 90% of the time as the PR agents would keep it quiet or spin the story around somehow, but now the heads of the party have no choice but to make an example of them.
 
-\[caption id="attachment\_272" align="aligncenter" width="1280"\][![A selection of newspaper headlines and tv screenshots highlighting UKIPs terrible politicians](http://foxleigh.me/wp-content/uploads/2015/05/how-the-internet-is-changing-politics-ukip-headlines.jpg)](http://foxleigh.me/wp-content/uploads/2015/05/how-the-internet-is-changing-politics-ukip-headlines.jpg) Sometimes there are just no words\[/caption\]
+![A selection of newspaper headlines and tv screenshots highlighting UKIPs terrible politicians](images/how-the-internet-is-changing-politics-ukip-headlines.jpg "Sometimes there are just no words")
 
 ## The days of kissing babies are over
 
@@ -43,7 +43,7 @@ Even after the rise of the Internet, things were not much better; promoting cont
 
 These days however, it’s a completely different story; a politician can get their message across to millions of people in an instant; but there is a catch. They can’t continue to flatly their message now, in order to get a reach, what they send out must ‘go viral’, ideally going so far as to trend on twitter. Which is why you see stunts like [Nick Clegg reading out the mean tweets](https://www.youtube.com/watch?v=wexGqJL5dog) people have said about him ‘for a laugh’ (although cringingly calling it ‘I Clegg your pardon’) whilst over in America the effortlessly cool Barack Obama often goes on late night talk shows or even does comedy routines himself!
 
-https://www.youtube.com/watch?v=G6NfRMv-4OY
+`video: https://www.youtube.com/watch?v=G6NfRMv-4OY`
 
 Can you imagine John Major doing that?
 

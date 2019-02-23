@@ -22,7 +22,7 @@ To me, this program was a miracle and has saved me countless hours over the last
 
 ## That was until...
 
-[I moved to London](http://lxword.com/2015/01/london-baby/ "London, Baby!"). Suddenly everyone is asking me if I know how to use [Grunt.js](http://gruntjs.com/)!
+[I moved to London](/meandering-insanity/london-baby/ "London, Baby!"). Suddenly everyone is asking me if I know how to use [Grunt.js](http://gruntjs.com/)!
 
 As far as I can tell, grunt.js does the same thing, except it's more fiddly to use and all of the settings are codified so they can be committed to source control (which is of questionable value - sometimes it's a great thing, sometimes it can be a terrible thing).
 
@@ -36,7 +36,7 @@ The problem with living on the cutting edge is that it's easy to be taken in by 
 
 Even [Google Trends](http://www.google.co.uk/trends/explore#q=gulp.js%2C%20grunt.js%2C%20codekit&cmpt=q&tz=) doesn't really hold much stock in Grunt OR Gulp, it seems a lot more people care about Codekit!
 
- [![Screen Shot 2015-02-04 at 16.19.01](http://foxleigh.me/wp-content/uploads/2015/02/Screen-Shot-2015-02-04-at-16.19.01.png)](http://foxleigh.me/wp-content/uploads/2015/02/Screen-Shot-2015-02-04-at-16.19.01.png)
+![Screen Shot](images/Screen-Shot-2015-02-04-at-16.19.01.png)
 
 If I'm being honest, Codekit will remain my tool of choice. I think for the sake of 'fitting in' at the hip London agencies, I'm going to run a project in Gulp just to make sure I understand the nuts and bolts of it but with each release, Codekit just gets better and better, whereas the other tools seem to just fade into obscurity.
 

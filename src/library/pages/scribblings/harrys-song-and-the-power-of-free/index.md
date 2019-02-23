@@ -16,7 +16,7 @@ Every day for several weeks I checked my sales stats to see if I had managed to 
 
 Three months later, I returned to my dashboard to find I’d sold one additional copy and had received one review, however not only was this review from someone I did not know; it was absolutely glowing!
 
-[![](http://foxleigh.me/wp-content/uploads/2012/07/review.png)](http://foxleigh.me/wp-content/uploads/2012/07/review.png)
+![A very favourable amazon review of my story](images/review.png)
 
 This gave me a bit of a push to find other ways to promote my book, it turns out I had not signed up to Amazon’s ‘[Author Central](https://authorcentral.amazon.co.uk/gp/home)’ dashboard, so I figured “Why not?” and filled in my details. I then discovered, right on the home page of the dashboard that I was allowed to promote my book as free for 5 days, again figuring that it couldn’t hurt I enabled the offer.
 
@@ -24,11 +24,7 @@ I was then ill for two days, my intention was to do another social networking pu
 
 Two days later, after feeling better again I decided that I might as well promote the final three days of my book’s offer, so I went to my dashboard only to see this waiting for me:
 
-[![](http://139.59.160.63/wp-content/uploads/2012/07/ScreenClip-21-300x139.png "ScreenClip-21")](http://foxleigh.me/wp-content/uploads/2012/07/ScreenClip-21.png)
-
- 
-
- 
+![A graph showing my 'sales' going mental](images/ScreenClip-21.png "Gotta love a graph that makes it look like you're at #1 when you're actually at #535")
 
 My books ‘sales’ figured had skyrocketed, this was without any promotion whatsoever, in the space of 48 hours my book had sold over 200 copies, this was not just in the UK either, this was worldwide!
 

@@ -23,15 +23,14 @@ The perceived value of this type of user is probably quite low as they don’t s
 
 ### Notable users
 
-[![Simon Pegg on twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_simonpegg.jpg)](http://www.twitter.com/simonpegg)
+[![Simon Pegg on twitter](images/twitterCard_simonpegg.jpg)](http://www.twitter.com/simonpegg)
 
-[![Carol Vorderman on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_carolvorders.jpg)](http://www.twitter.com/carolvorders)
+[![Carol Vorderman on Twitter](images/twitterCard_carolvorders.jpg)](http://www.twitter.com/carolvorders)
 
-[![Will Wheaton on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_wilw.jpg)](http://www.twitter.com/wilw)
+[![Will Wheaton on Twitter](images/twitterCard_wilw.jpg)](http://www.twitter.com/wilw)
 
-[![Fearne Cotton on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_fearnecotton.jpg)](http://www.twitter.com/fearnecotton)
+[![Fearne Cotton on Twitter](images/twitterCard_fearnecotton.jpg)](http://www.twitter.com/fearnecotton)
 
-[![Alex Ward on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_alexward.jpg)](http://www.twitter.com/alexbward)
 
 ## Twits
 
@@ -43,13 +42,11 @@ Short of the high amusement factor, their value is zero, these people are the ty
 
 ### Notable users
 
-[![Lindsay Lohan on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_lilo.jpg)](http://www.twitter.com/lindsaylohan)
+[![Lindsay Lohan on Twitter](images/twitterCard_lilo.jpg)](http://www.twitter.com/lindsaylohan)
 
-[![Paris Hilton on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_parishilton.jpg)](http://twitter.com/parishilton)
+[![Paris Hilton on Twitter](images/twitterCard_parishilton.jpg)](http://twitter.com/parishilton)
 
-[![Sean Combs on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_iamdiddy.jpg)](http://twitter.com/iamdiddy)
-
-[![Katie Price on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_jordan.jpg)](http://twitter.com/misskatieprice)
+[![Katie Price on Twitter](images/twitterCard_jordan.jpg)](http://twitter.com/misskatieprice)
 
 ## Twit-to-woos
 
@@ -61,17 +58,13 @@ If T-witterers are the heart of the community, these guys are the backbone, thei
 
 ### Notable users
 
-[![Stephen Fry on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_stephenfry.jpg)](http://twitter.com/stephenfry)
+[![Stephen Fry on Twitter](images/twitterCard_stephenfry.jpg)](http://twitter.com/stephenfry)
 
-[![Robert Llewellyn on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_bobbyllew.jpg)](http://twitter.com/bobbylew)
+[![Robert Llewellyn on Twitter](images/twitterCard_bobbyllew.jpg)](http://twitter.com/bobbylew)
 
-[![Eddie Izzard on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_eddieizzard.jpg)](http://twitter.com/eddieizzard)
+[![Eddie Izzard on Twitter](images/twitterCard_eddieizzard.jpg)](http://twitter.com/eddieizzard)
 
-[![Alyssa Milano on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_alyssamilano.jpg)](http://twitter.com/alyssa_milano)
-
-[![Adam Pash on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_adampash.jpg)](http://twitter.com/adampash)
-
-[![Matt Saunders on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_matt5409.jpg)](http://twitter.com/matt5409)
+[![Alyssa Milano on Twitter](images/twitterCard_alyssamilano.jpg)](http://twitter.com/alyssa_milano)
 
  
 
@@ -97,17 +90,15 @@ Despite not offering anything in terms of community, they often find themselves 
 
 ### Notable users:
 
-[![Mashable on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_mashable.jpg)](http://twitter.com/mashable)
+[![Mashable on Twitter](images/twitterCard_mashable.jpg)](http://twitter.com/mashable)
 
-[![Lifehacker on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_lifehacker.jpg)](http://twitter.com/lifehacker)
+[![Lifehacker on Twitter](images/twitterCard_lifehacker.jpg)](http://twitter.com/lifehacker)
 
-[![Smashing Magazine on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_smashingmag.jpg)](http://twitter.com/smashingmag)
+[![Smashing Magazine on Twitter](images/twitterCard_smashingmag.jpg)](http://twitter.com/smashingmag)
 
-[![Cracked on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_cracked.jpg)](http://twitter.com/cracked)
+[![Cracked on Twitter](images/twitterCard_cracked.jpg)](http://twitter.com/cracked)
 
-[![Breaking News on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_breakingnews.jpg)](http://twitter.com/breakingnews)
-
-[![Digital Fusion Magazine on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_digital_fusion.jpg)](http://twitter.com/digital_fusion)
+[![Breaking News on Twitter](images/twitterCard_breakingnews.jpg)](http://twitter.com/breakingnews)
 
 ## Twools
 
@@ -119,10 +110,10 @@ It is difficult now to see the value of Twitter at all without these tools, retw
 
 ### Notable users:
 
-[![TweetDeck on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_tweetdeck.jpg)](http://twitter.com/tweetdeck)
+[![TweetDeck on Twitter](images/twitterCard_tweetdeck.jpg)](http://twitter.com/tweetdeck)
 
-[![Bit.ly on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_bitly.jpg)](http://twitter.com/bitly)
+[![Bit.ly on Twitter](images/twitterCard_bitly.jpg)](http://twitter.com/bitly)
 
-[![Twitpic on Twitter](http://foxleigh.me/wp-content/uploads/2010/10/twitterCard_twitpic.jpg)](http://twitter.com/twitpic)
+[![Twitpic on Twitter](images/twitterCard_twitpic.jpg)](http://twitter.com/twitpic)
 
 Have we missed any twitter types? Do you think you fit in to one of the above? Feel free to discuss it in the comments.

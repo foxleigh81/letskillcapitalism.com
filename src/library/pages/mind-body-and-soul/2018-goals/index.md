@@ -22,7 +22,7 @@ I'm still sceptical that I can lose 40lbs in the space of one year without doing
 
 ## 2) Finish my novel
 
-Last year I published a book that I'd spent several years writing, as great as an achievement as that was, it was a non-fiction book and took attention away from my novel writing. Emily Bell has been on my laptop in (half of a) draft format for at [least 6 years](/2012/01/2012-not-the-end-the-beginning/).
+Last year I published a book that I'd spent several years writing, as great as an achievement as that was, it was a non-fiction book and took attention away from my novel writing. Emily Bell has been on my laptop in (half of a) draft format for at [least 6 years](/mind-body-and-soul/2012-not-the-end-the-beginning/).
 
 Even if I don't send it to a publisher this year, I'd still be very happy if I could at least finish the first and second drafts.
 

@@ -15,4 +15,4 @@ Obviously this is only a mock-up, the rabbit was not very carefully cropped and 
 
 Your comments - as always - are appreciated.
 
-[![](http://foxleigh.me/wp-content/uploads/2012/02/emily-bell-cover.jpg "emily-bell-cover")](http://foxleigh.me/wp-content/uploads/2012/02/emily-bell-cover.jpg)
+![A rabbit teddy on the railway tracks](hero.jpg "emily-bell-cover")

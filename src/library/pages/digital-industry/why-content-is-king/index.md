@@ -29,21 +29,21 @@ Option 1 is often a pipe dream, these days practically all websites have dynamic
 
 An example of each and every type of content is essential to producing a robust content plan, without which you will end up with this sort of design:
 
-[![image2](http://foxleigh.me/wp-content/uploads/2014/09/image2.png)](http://staging.digitalfusionmag.com/wp-content/uploads/2015/03/image2.png)
+![An example of an 'address' element ](images/image2.png)
 
 The astute amongst you may see where problems could arise here, the designer knew that this section was editable in a CMS and yet no consideration was made to what sort of content would be inserted. Here is what it looks like populated with a reasonably typical set of content:
 
-[![image3](http://foxleigh.me/wp-content/uploads/2014/09/image3.png)](http://staging.digitalfusionmag.com/wp-content/uploads/2015/03/image3.png)
+![The same example as above but with content](images/image3.png)
 
 Not quite as pretty now, is it.
 
 This sort of thing is especially obvious when designs try to set up a grid-like structure on a list page:
 
-[![image4](http://foxleigh.me/wp-content/uploads/2014/09/image4.png)](http://staging.digitalfusionmag.com/wp-content/uploads/2015/03/image4.png)
+![an example of a grid layout](images/image4.png)
 
 Looks nice right? The designer has a placeholder for each element in the grid. What could possibly go wrong?
 
-[![image5](http://foxleigh.me/wp-content/uploads/2014/09/image5.png)](http://staging.digitalfusionmag.com/wp-content/uploads/2015/03/image5.png)
+![The same example as above with content](images/image5.png)
 
 Oops, that didn’t quite go as planned. A good developer could code this so the grid wouldn’t be misaligned, however the page would still look terrible, as there would be a lot of inconsistent spacing between the rows.
 

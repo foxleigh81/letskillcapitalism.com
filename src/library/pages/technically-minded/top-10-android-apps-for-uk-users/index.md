@@ -20,7 +20,7 @@ Apologies in advance for the quality of some of the images.
 
 ## 10 – Snesoid/Gensoid/Nesoid/ScummVM (From free to $3.99)
 
-![Screengrab of Street Fighter II Turbo](http://foxleigh.me/wp-content/uploads/2010/05/blog_aaps10-snesoid.jpg "Snesoid Screenshot - QR code links to Snesoid Premium")
+![Screengrab of Street Fighter II Turbo](images/blog_aaps10-snesoid.jpg "Snesoid Screenshot - QR code links to Snesoid Premium")
 
 Whilst the iPhone platform has a lot of the focus for its gaming capabilities at the moment (don’t worry, that will change as Android gains its market share) that is not to say that the Android Market is devoid of a decent gaming scene. The best part of this is the emulators.
 
@@ -32,13 +32,13 @@ _Note: The ScummVM emulator is not currently available for the latest version of
 
 ## 9 – AppBrain (Free)
 
-![Appbrain Web Client](http://foxleigh.me/wp-content/uploads/2010/05/blog_aaps10-appbrain.jpg "The web client for Appbrain")
+![Appbrain Web Client](images/blog_aaps10-appbrain.jpg "The web client for Appbrain")
 
 So far for me, the worst thing about Android is the Market, it is just awful to use and if you have to wipe or replace your phone for any reason, it will not remember what you have installed or bought. This is where AppBrain comes in. You install it on your phone, link it to a free AppBrain account and it will synchronise your apps for you. It also allows you to manage your apps from the site itself and will even give you recommendations based on your usage.
 
 ## 8 – Beeb Player (Free)
 
-![Screenshot from BeebPlayer](http://foxleigh.me/wp-content/uploads/2010/05/blog_aaps10-beebplayer.jpg "A Screenshot taken from the BeebPlayer app")
+![Screenshot from BeebPlayer](images/blog_aaps10-beebplayer.jpg "A Screenshot taken from the BeebPlayer app")
 
 This is basically the BBC iPlayer for your Android phone, it works really well over a Wi-Fi connection and reasonably well over a 3G signal, depending on your location (In Hull it is unusable but in Leeds it works as well as Wi-Fi).
 
@@ -50,7 +50,7 @@ Note: I've just been informed by [Gizmodo](http://gizmodo.com/) user: [Patrick89
 
 ## 7 – SkyFire (Free)
 
-![Skyfire Logo](http://foxleigh.me/wp-content/uploads/2010/05/blog_aaps10-skyfire.jpg "The Skyfire Logo")
+![Skyfire Logo](images/blog_aaps10-skyfire.jpg "The Skyfire Logo")
 
 Internet browsing on Android has been a sore-point for quite some time, the selection of browsers was not great and the built in browser was slow and unresponsive. Then suddenly this month we got two brilliant browsers released at almost the same time in the form of Opera Mini and SkyFire.
 
@@ -64,13 +64,13 @@ SkyFire has so many amazing features that it’s probably best to just send you 
 
 ## 6 – Wapedia (Free)
 
-![The Wapedia Logo](http://foxleigh.me/wp-content/uploads/2010/05/blog_aaps10-wapedia.jpg "The Wapedia Logo")
+![The Wapedia Logo](images/blog_aaps10-wapedia.jpg "The Wapedia Logo")
 
 Wikipedia is a great website for (fairly accurate) information on pretty much everything in the known world, however the mobile site version leaves a lot to be desired and whilst you can easily view the desktop version (especially if you use SkyFire), it’s not exactly easy to read on a small screen. Wapedia solves that problem by packaging Wikipedias content into a simple and well featured –albeit slightly girly- application. It will even capture links and offer to automatically open them in Wapedia instead of the browsers version.
 
 ## 5 – Flixster (Free)
 
-![A Screengrab of the Flixster App](http://foxleigh.me/wp-content/uploads/2010/05/blog_aaps10-flixster.jpg "A Screengrab of the Flixster App")
+![A Screengrab of the Flixster App](images/blog_aaps10-flixster.jpg "A Screengrab of the Flixster App")
 
 Flixster is a fantastic application for anyone who loves movies, it will let you search its database for any movie, will show you a trailer for nearly all movies, even older ones and will show you the price of the DVD/Blu-ray if you plan on buying it. You can read reviews from other viewers and connect with Facebook to share your thoughts.
 
@@ -78,23 +78,23 @@ Its killer feature comes into play when you search for a film which is still ava
 
 ## 4 – EventGhost for Android (Free)
 
-![A Screengrab from the Eventghost app beta](http://foxleigh.me/wp-content/uploads/2010/05/blog_aaps10-eventghost.jpg "A Screengrab from the Eventghost app beta - QR code links to current stable version")
+![A Screengrab from the Eventghost app beta](images/blog_aaps10-eventghost.jpg "A Screengrab from the Eventghost app beta - QR code links to current stable version")
 
-I [make no secret](http://www.digitalfusionmag.com/blog/software/eventghost-the-little-automation-program-which-can-change-your-life) of my love for this home automation program, you can extend its amazing functionality even further using EventGhost for Android. This will interact with a main EventGhost server and will allow you to send and receive commands from your EventGhost network.
+I [make no secret](/technically-minded/eventghost-the-little-automation-program-which-can-change-your-life) of my love for this home automation program, you can extend its amazing functionality even further using EventGhost for Android. This will interact with a main EventGhost server and will allow you to send and receive commands from your EventGhost network.
 
 The best example of how I use it is that I enjoy listening to music all day and I use my media centre PC as it is connected to my surround sound system.  The problem is that I work from home and often receive phone calls when my music is on full blast. The last thing a client wants to hear is ‘Killing in the name’ blasting through their phone. So I have set Eventghost up to detect any calls made or received by my phone. As soon as a call is detected it pauses Spotify and mutes the PC (just in case), and when the call is over it resumes my song in exactly the same place.
 
 ## 3- Twitter (Free)
 
-![Twitter Logo](http://foxleigh.me/wp-content/uploads/2010/05/blog_aaps10-twitter.jpg "Twitter Logo")
+![Twitter Logo](images/blog_aaps10-twitter.jpg "Twitter Logo")
 
-As you know, [myself](http://www.twitter.com/alexbward) and [Matt](http://www.twitter.com/matt5409) are avid Twitter users and we often tweet when we are on the move, until recently I always used Twidroid for my mobile-tweeting needs but just recently Twitter released their own application which completely knocks the socks off the competition.
+As you know, [myself](http://www.twitter.com/foxleigh81) and [Matt](http://www.twitter.com/matt5409) are avid Twitter users and we often tweet when we are on the move, until recently I always used Twidroid for my mobile-tweeting needs but just recently Twitter released their own application which completely knocks the socks off the competition.
 
 The interface is attractive and fits in more with Twitter’s style and obviously it will be updated to use Twitters latest standards as soon as they occur (at least in theory).
 
 ## 2 – Shazam (Free)
 
-![A Screenshot from the Shazam App](http://foxleigh.me/wp-content/uploads/2010/05/blog_aaps10-shazam.jpg "A Screenshot from the Shazam App")
+![A Screenshot from the Shazam App](images/blog_aaps10-shazam.jpg "A Screenshot from the Shazam App")
 
 Unless you have been living under a rock for the last few years then you probably have already heard of this amazing application. If not then let me explain why it is so awesome.
 
@@ -104,10 +104,8 @@ The Android app is very basic and simple to use and offers little difference bet
 
 ## 1 – Spotify (Free – Requires premium account)
 
-![A Screenshot from the Spotify App](http://foxleigh.me/wp-content/uploads/2010/05/blog_aaps10-spotify.jpg "A Screenshot from the Spotify App")
+![A Screenshot from the Spotify App](images/blog_aaps10-spotify.jpg "A Screenshot from the Spotify App")
 
 I’ll fully admit it; I’m a total Spotify fan boy. Their latest update which allows you to play your own music library has made it the only audio application worth installing for me. The Android version of Spotify is superb, its interface (like pretty much all of the apps in this review) is beautifully designed and simple to use. It supports streaming (which works really well on 3G, even in Hull!) and allows you to save the tracks to your phone so you can listen to them without an internet connection.
 
 The only downside is that it has not yet been updated to interact with the latest version of the desktop client. Currently any track which exists locally on my machine is just ignored when synching to the mobile application. Apparently though, the iPhone version does allow library synching so it should only be a matter of time before we get that feature as well.
-
-If you do not know what Spotify is then you are really missing out, take a look at our ‘[5 reasons to love Spotify](http://www.digitalfusionmag.com/blog/software/5-reasons-to-love-spotify)’ article and I’m sure it will convince you.

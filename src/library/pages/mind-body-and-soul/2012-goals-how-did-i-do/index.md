@@ -32,7 +32,7 @@ So how did I do at last years goals? Here is a run-down:
 
 **Read one book per week : Close but no cigar** I have managed about two books per month, however I've been reading some quite long books this year (including some very difficult reads) so I still consider this a reasonable achievement.
 
-**Finish either Emily Bell, The Ghost of you or preferably; both: Fail** I've been terrible at writing this year, the first half I did really well and made some great progress, [I wrote a short story called Harry’s Song](http://lxword.com/2012/07/harrys-song-and-the-power-of-free/ "Harry’s Song and the power of free") which is the first story I've ever managed to finish, however I've not written anything on my novels since September. This will change in 2013 though.
+**Finish either Emily Bell, The Ghost of you or preferably; both: Fail** I've been terrible at writing this year, the first half I did really well and made some great progress, [I wrote a short story called Harry’s Song](/scribblings/harrys-song-and-the-power-of-free/ "Harry’s Song and the power of free") which is the first story I've ever managed to finish, however I've not written anything on my novels since September. This will change in 2013 though.
 
 **Learn to Drive: Complete and total failure** I never made any progress on this goal at all.
 

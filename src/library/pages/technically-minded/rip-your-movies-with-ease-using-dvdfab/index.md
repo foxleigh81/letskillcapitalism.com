@@ -35,7 +35,7 @@ Note: When you first insert a DVD it will ask you to select a region, and if you
 
 This is the hardest part but it is still very easy. When your disc has been scanned in, make sure that ‘generic’ is set on the profile section at the bottom and click on ‘edit’ (just above the start button). Then simply make sure everything in that box matches everything in the screenshot below.
 
-![DVDFab Conversion Settings Screen](http://foxleigh.me/wp-content/uploads/2010/05/dvdfab-3.png "DVDFab Conversion Settings Screen")
+![DVDFab Conversion Settings Screen](images/dvdfab-3.png "DVDFab Conversion Settings Screen")
 
 Of course the settings are all about personal preference. I want my movies to be really good quality rips so I set everything quite high. This creates a 2 GB file per movie and takes an average of 3 hours for a 90 minute movie.
 

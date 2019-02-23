@@ -7,7 +7,7 @@ title: "So you want to be a web contractor? (Part 2: Essential purchases)"
 date: "2016-12-13"
 ---
 
-A few months ago, [I posted an article about how to get started as a contractor in the web industry](http://lxword.com/2016/09/so-you-want-to-be-a-web-contractor-part-1-tips-for-getting-started/). It proved to be a popular article so I thought that instead of it being a short two-parter, I'd turn it into a series. So here is part 2!
+A few months ago, [I posted an article about how to get started as a contractor in the web industry](/digital-industry/so-you-want-to-be-a-web-contractor-part-1-tips-for-getting-started/). It proved to be a popular article so I thought that instead of it being a short two-parter, I'd turn it into a series. So here is part 2!
 
 <!-- end -->
 
@@ -23,7 +23,7 @@ You will definitely need the following:
 
 ## 1) A Laptop
 
-\[caption id="attachment\_514" align="aligncenter" width="860"\]![A man using a laptop and drinking a coffee](http://foxleigh.me/wp-content/uploads/2016/12/1-pexels-photo-75083-1024x520.png) A Laptop is top of the list for any IT contractor\[/caption\]
+![A man using a laptop and drinking a coffee](./images/1-pexels-photo-75083-1024x520.png "A Laptop is top of the list for any IT contractor")
 
 I'll be honest here, I've contracted for years and I've probably actually used my own laptop in a role about 40-50% of the time. However my clients are primarily huge organisations and the bigger a company is, the more security conscious they are so and the less likely they are to let you use your own machine.
 
@@ -39,7 +39,7 @@ I have had Macbook pros for the last 4 years but that was partly because I bough
 
 ## 2: Accounting software
 
-\[caption id="attachment\_515" align="aligncenter" width="860"\]![Some coins on a table](http://foxleigh.me/wp-content/uploads/2016/12/pennies-1024x429.png) You know the old saying: "Take care of the pennies and you'll still only have pennies as our economy is in the toilet!"\[/caption\]
+![Some coins on a table](./images/pennies-1024x429.png "You know the old saying: 'Take care of the pennies... and you'll still only have pennies as our economy is in the toilet!'")
 
 A good piece of accounting software is an essential, as is an accountant (but more on that later) as it does nearly all of your admin work for you. I have a few recommendations but if you want to go hunting for your own software then at least make sure that it can do the following:
 
@@ -62,7 +62,7 @@ My other recommendation is Xero ([https://www.xero.com](https://www.xero.com)), 
 
 ## 3\. LinkedIn Premium
 
-### ![A Gold LinkedIn Logo on a blue background](http://foxleigh.me/wp-content/uploads/2016/12/li-premium-1024x429.png)
+![A Gold LinkedIn Logo on a blue background](images/li-premium-1024x429.png)
 
 I must admit, I'm not a member of this any more, I've been in the game long enough now that I have to STOP people from calling me to offer me work. However a lot of that is thanks to LinkedIn. The premium offerings give you a [long list of benefits](https://www.linkedin.com/pulse/20140902171557-45433604-advantages-of-a-linkedin-premium-subscription) but there is only one that I care about: Full Profiles.
 
@@ -76,7 +76,7 @@ A word of warning, premium can be quite pricey and I believe that they have rece
 
 ## 4\. A solid contracting bag
 
-\[caption id="attachment\_517" align="aligncenter" width="860"\]![A dog in a carry bag](http://foxleigh.me/wp-content/uploads/2016/12/dog-bag-1024x429.png) You will need a bag in which you can fit all the essentials\[/caption\]
+![A dog in a carry bag](images/dog-bag-1024x429.png "You will need a bag in which you can fit all the essentials")
 
 Whilst you're not exactly a road warrior, your days of having a permanent desk are pretty much over and done with, get used to carrying a ton of stuff with you wherever you go.
 
@@ -96,7 +96,7 @@ On a daily basis, depending on the contract I'm in I could be carrying all the f
 - [My Headphones](http://amzn.to/2hb9QQe) (I like big over the ear headphones)
 - My mobile phone (A OnePlus 2, I'm not gonna link to it as I don't recommend it)
 - My wallet
-- [A bottle of water](http://foxleigh.me/wp-content/uploads/2016/12/8787e2188fdd0cdc3d3b4ae28f8a89f36e9e93e95e73f7ceb8c456c4532dfffc.jpg)
+- [A bottle of water](images/h20.jpg)
 - Other bits and bobs that I'm forgetting.
 
 All of that stuff can get heavy, so you need a bag that will a) fit all of that in b) not cause a scene on the tube and c) will distribute the weight well so it's comfortable.
@@ -107,7 +107,7 @@ My absolute all-time favourite bag was the [Wenger Granada](http://amzn.to/2ggCc
 
 ## 5\. An accountant
 
-\[caption id="attachment\_518" align="aligncenter" width="860"\]![A small boy playing accountant](http://foxleigh.me/wp-content/uploads/2016/12/acountant-1024x429.png) Finding an accountant with experience is vital.\[/caption\]
+![A small boy playing accountant](./images/acountant-1024x429.png "Finding an accountant with experience is vital. Here's mine.") 
 
 Ok so you can't actually buy an accountant (that's illegal these days) but you can hire the services of one.
 

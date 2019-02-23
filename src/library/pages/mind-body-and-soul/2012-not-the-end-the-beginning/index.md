@@ -39,13 +39,17 @@ By ‘environment’ I don’t mean the world and it’s plethora of issues (alt
 
 I _do_ currently have a recycling system, this is it:
 
-[![](http://139.59.160.63/wp-content/uploads/2012/01/recycling-300x225.jpg "recycling")](http://foxleigh.me/wp-content/uploads/2012/01/recycling.jpg)Whilst I'm sure this is a better effort than what quite a lot of people manage, it suffers from one fatal flaw; it is disorganised, when things are not perfectly organised, I fail at them. So my goal is to really organise my recycling system so it still fits into the same space but works around me. My apartments bin store does not have any option for separating paper, metal and plastics but it does have a compost bin so I also want to start collecting waste to be composted.
+![My recycling 'system'](images/recycling.jpg "My recycling 'system'") 
+
+Whilst I'm sure this is a better effort than what quite a lot of people manage, it suffers from one fatal flaw; it is disorganised, when things are not perfectly organised, I fail at them. So my goal is to really organise my recycling system so it still fits into the same space but works around me. My apartments bin store does not have any option for separating paper, metal and plastics but it does have a compost bin so I also want to start collecting waste to be composted.
 
 #### Get a hidden litter tray for puddles (My Cat)
 
 This is Puddles, she is - by far - my favourite thing in my life:
 
-[![](http://139.59.160.63/wp-content/uploads/2012/01/image03-300x300.jpg "image03")](http://foxleigh.me/wp-content/uploads/2012/01/image03.jpg)Unfortunately, she comes with one big downside, she has a digestive system, which means I have to have a litter tray, now there are two flaws to having a litter tray in an apartment:
+![Puddles the cat!](images/image03.jpg "The be all, the end all") 
+
+Unfortunately, she comes with one big downside, she has a digestive system, which means I have to have a litter tray, now there are two flaws to having a litter tray in an apartment:
 
 1. There is nowhere to put it where it isn't in the way and unsightly.
 2. The smell.
@@ -66,13 +70,13 @@ My apartment is far from a penthouse but considering what I pay for it, it’s a
 
 #### I want a new desk
 
-This is my desk at the moment (yes that’s Puds again, she likes to sit on my arm as I try to type):
+This is my desk at the moment:
 
-[![](http://foxleigh.me/wp-content/uploads/2012/01/image01.jpg "image01")](http://foxleigh.me/wp-content/uploads/2012/01/image01.jpg)
+![my desk](images/image01.jpg "yes that’s Puds again, she likes to sit on my arm as I try to type")
 
 This was the desk I had before I moved here :
 
-[![](http://foxleigh.me/wp-content/uploads/2012/01/image02.jpg "image02")](http://foxleigh.me/wp-content/uploads/2012/01/image02.jpg)
+![My old desk](images/image02.jpg "God I miss this desk")
 
 In order to get this apartment I had to get rid of my desk and sell two of my monitors and my PC speakers. As a novel writer, blogger, PC gamer and web developer it was very frustrating going from three monitors to one and I seriously over estimated my ability to cope with that and to work on a desk the size of a chopping board.
 
@@ -84,7 +88,7 @@ I’m quite a clever guy (if I do say so myself), this is largely due to the yea
 
 #### Attend at least two college courses
 
-This one is pretty much in the bag to be honest, I’ve already started an [intermediate](http://lxword.com/2012/01/creative-writing-course/) [creative](http://lxword.com/2012/01/creative-writing-course/) [writing](http://lxword.com/2012/01/creative-writing-course/) [course](http://lxword.com/2012/01/creative-writing-course/) and when this finishes, I plan to do the advanced as well. I may even fit a third course in if I have the time.
+This one is pretty much in the bag to be honest, I’ve already started an intermedia [creative writing course](/scribblings/creative-writing-course/) and when this finishes, I plan to do the advanced course as well. I may even fit a third course in if I have the time.
 
 #### Read one book per week
 

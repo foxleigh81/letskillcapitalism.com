@@ -14,4 +14,4 @@ Our Leedshack project is well under way, we now have a [logo](https://twitter.co
 
 The internet connection still isn't running to a reliable point yet so still no live stream, here is a picture of my face to make you happy though.
 
-[![](http://foxleigh.me/wp-content/uploads/2012/07/07-28-14.39.36.jpg "07-28 14.39.36")](http://foxleigh.me/wp-content/uploads/2012/07/07-28-14.39.36.jpg)
+![Me looking happy](images/07-28-14.39.36.jpg)

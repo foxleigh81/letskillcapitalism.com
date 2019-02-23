@@ -19,7 +19,7 @@ I joined today and one of the first things I did when I went was to step on the 
 
 Something has to be done. I’m 33 years old now and my body isn’t going to tolerate this abuse for much longer.
 
-_**This is my formal declaration that I am going to sort this out. I have formulated a plan, which I believe I can stick to.**_
+> **This is my formal declaration that I am going to sort this out. I have formulated a plan, which I believe I can stick to.**
 
 ## I will restart the 5:2 diet:
 

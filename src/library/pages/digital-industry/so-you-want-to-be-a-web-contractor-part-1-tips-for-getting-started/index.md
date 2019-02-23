@@ -17,7 +17,7 @@ It was the scariest decision I've ever made in my life but it was by far the mos
 
 ## Step 1: Are you sure this is the right decision?
 
-![A blind folded man walking off a cliff as his colleagues urge him no to](http://foxleigh.me/wp-content/uploads/2016/08/mistakes-1024x521.jpg)
+![A blind folded man walking off a cliff as his colleagues urge him no to](./images/mistakes-1024x521.jpg)
 
 Ok look. Contracting isn't easy, even if you are good enough technically (more on that soon), going into it blind will not do you any favours, make sure you have considered the following before taking the plunge.
 
@@ -63,13 +63,13 @@ I would recommend saving at LEAST 3 months survival income, if you are joining t
 
 ## Step 2: Getting yourself ready
 
-![Scar from Lion King during his 'be prepared' song.](http://foxleigh.me/wp-content/uploads/2016/08/be-prepared-1024x514.jpg)
+![Scar from Lion King during his 'be prepared' song.](./images/be-prepared-1024x514.jpg)
 
 Assuming you can check off all the above, you've probably got what it takes to be a successful contractor, so now you need to make some crucial first steps:
 
 ### 1\. Get that CV up to scratch
 
-A contractor CV isn't the same as a permanent CV, your summary is a lot more important and your educational history is a lot less important. Whilst mine is probably not the perfect example, I'm often complimented on it and it's definitely one of the reasons I get offered so much work. So I have [included it here](https://dl.dropboxusercontent.com/u/3050251/Contractor%20CV%20Template.docx) for you to use, feel free to edit it to suit your own goals.
+A contractor CV isn't the same as a permanent CV, your summary is a lot more important and your educational history is a lot less important. Whilst mine is probably not the perfect example, I'm often complimented on it and it's definitely one of the reasons I get offered so much work. So I have [included it here](https://www.dropbox.com/s/xsoz05u6kvprccx/AlexFoxleigh-ContractorCV.docx?dl=0) for you to use, feel free to edit it to suit your own goals.
 
 Note: This is a Microsoft Word document.
 
@@ -79,7 +79,7 @@ It doesn't have to be perfect but it does have to show off your skills to the be
 
 Another tip is to include your availability and a link to your CV on the home page, quite a few recruiters have thanked me for making this information easy to get access to from the start.
 
-Again, I offer [my portfolio](http://www.alexward.co.uk) site as an example, it's not the shining beacon of all things portfolio-y but it might give you a good jumping off point.
+Again, I offer [my portfolio](http://www.alexfoxleigh.com) site as an example, it's not the shining beacon of all things portfolio-y but it might give you a good jumping off point.
 
 ### 3\. Polish up that LinkedIn profile
 
@@ -98,10 +98,10 @@ The secret to this is simple. Follow the steps above and then post your swanky C
 
 Make sure you fill out every single detail they ask for and don't forget to set your availability, location and desired rate on any of the sites which ask for it. Another tip is to update your CV every week (Do this on Monday for the best results), the reason for this is that most of the sites above are linked to a central recruiter database which puts the most recently updated profiles at the very top, you don't have to actually change your CV. I normally just change the date in the title (e.g. Alex\_Ward\_UI\_Developer-28-09-16.docx) and then re-upload it. You can do this daily if you like but I haven't personally noticed any increase in calls/emails above one update per week.
 
-...
+---
 
 Keep your eyes peeled for part two, which will cover the sort of equipment and software you'll need to get, things you can do to stand out more to recruiters,  and a few insider tips to make your contracting life as easy as possible.
 
-...
+---
 
 Are you an IT contractor too? If you have any tips and tricks you think would be good to include then please let me know in the comments!

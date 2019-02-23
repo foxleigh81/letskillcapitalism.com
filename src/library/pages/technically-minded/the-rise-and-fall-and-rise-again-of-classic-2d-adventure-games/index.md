@@ -17,7 +17,7 @@ It has been twelve years since The Curse of Monkey Island was released. This was
 
 These days this type of game is beginning to see a small resurgence in the mobile market, with the recent UK release of the iPad and the unstoppable popularity of the Xbox Live Arcade and Steam platforms, I would like to suggest to game developers out there that you create modern versions of ALL of your old classics, I for one would love to relive Simon the Sorcerer in glorious 32bit 2D graphics. Last year LucasArts release a 32-bit remake of the original Monkey Island to great success. It was wonderful to replay such a classic game and it still feel like it was brand new.
 
-![New scene from monkey island remake.](http://foxleigh.me/wp-content/uploads/2010/06/monkey_island_remake.jpg)
+![New scene from monkey island remake.](images/monkey_island_remake.jpg)
 
 This is not where our campaign ends though, we would love to see companies like LucasArts and Sierra create new titles, revitalizing the charm and humour of other games of its ilk. With our modern technology and our wider gaming audience, this could be the new golden age and we will look fondly back on the nineties as the silver age of 2D RPG's instead of lamenting the fact that our beloved genre has died.
 
@@ -27,24 +27,22 @@ To round this article off, here are some screenshots of some of our favorite adv
 
 ## Discworld
 
-![Discworld Screenshot](http://foxleigh.me/wp-content/uploads/2010/06/discworld.jpg)
+![Discworld Screenshot](images/discworld.jpg)
 
 ## The Secret of Monkey Island
 
-![Monkey Island Screenshot](http://foxleigh.me/wp-content/uploads/2010/06/monkey_island.jpg)
+![Monkey Island Screenshot](images/monkey_island.jpg)
 
 ## Beneath a Steel Sky
 
-![Beneath a Steel Sky Screenshot#](http://foxleigh.me/wp-content/uploads/2010/06/beneath_a_steel_sky.jpg)
+![Beneath a Steel Sky Screenshot#](images/beneath_a_steel_sky.jpg)
 
 ## Day of the Tentacle
 
-![Day of the Tentacle Screenshot](http://foxleigh.me/wp-content/uploads/2010/06/dott.jpg)
+![Day of the Tentacle Screenshot](images/dott.jpg)
 
 ## Simon the Sorcerer
 
-![Simon the Sorcerer Screenshot](http://foxleigh.me/wp-content/uploads/2010/06/simon_the_sorcerer.jpg)
+![Simon the Sorcerer Screenshot](images/simon_the_sorcerer.jpg)
 
 If you wish to join our Facebook group, [you can find it here.](http://www.facebook.com/topic.php?uid=131914980152161&topic=116#!/group.php?gid=131914980152161) Have we missed your favourite game? Share your memories with us in the comments.
-
-- See more at: http://www.digitalfusionmag.com/blog/offbeat/the-rise-and-fall-and-rise-again-of-classic-2d-adventure-games#sthash.ah959GrI.dpuf

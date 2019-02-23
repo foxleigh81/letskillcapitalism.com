@@ -38,18 +38,19 @@ The problem with this is that back-end developers often have a massively differe
 
 So, if you place too much focus on the JavaScript side when hiring your developers, you'll end up with a team of people who are amazing at structuring and manipulating data but you'll pay a penalty with the UI.
 
-Want an example? A backend developer would look at this code and see no issue, a front-end developer would shudder in horror:
+Want an example? A backend developer would look at this code and possibly see no issue, a front-end developer would shudder in horror:
 
  
-     [**Link 1**](/link1) | [Link 2](/link2) | [Link 3](/link3) | [Link 4](/link4) 
-
+```html
+<div id="navigation"> 
+     <a href="/link1" style="color: red"><span><b>Link 1</b></span></a> | <a href="/link2"><span>Link 2</span></a> | <a href="/link3"><span>Link 3</span></a> | <a href="/link4"><span>Link 4</span></a> <p></p> 
+</div>
+```
  
 
 That actually hurt to write.
 
-<
-
-p class="p2">That's just HTML as well, everything gets a lot more complex when you throw things like CSS, accessibility, browser compatibility, progressive enhancement, responsive design, preprocessors and usability into the mix (to name but a few!). UI Development is complex enough without having to also keep on top of the constantly changing world of JavaScript frameworks.
+That's just HTML as well, everything gets a lot more complex when you throw things like CSS, accessibility, browser compatibility, progressive enhancement, responsive design, preprocessors and usability into the mix (to name but a few!). UI Development is complex enough without having to also keep on top of the constantly changing world of JavaScript frameworks.
 
 **So what's the answer?**
 

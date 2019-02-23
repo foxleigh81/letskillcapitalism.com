@@ -33,7 +33,7 @@ Photoshop by far received the most updates and is definitely the thing to be the
 
 **Content-Aware Fill** – This is the most exciting part of this year’s release. Its downside is the fact that a _lot_ of people have long based their jobs around the ability to remove detail from a photograph whilst seemingly leaving the background intact. Whilst these people will still be required for the very complex jobs, Photoshop will now happily do most of the work for them. In fact for _most_ images, it will replace them entirely.
 
-![An example of Photoshop CS5's content aware fill](http://foxleigh.me/wp-content/uploads/2010/04/blog_cs5_caf-anim.gif "An example of Photoshop CS5's content aware fill")
+![An example of Photoshop CS5's content aware fill](images/blog_cs5_caf-anim.gif "An example of Photoshop CS5's content aware fill")
 
 In terms of how it works. I really can only recommend watching the [video example](http://www.youtube.com/watch?v=NH0aEp1oDOI "Youtube Video of what Content Aware Fill can do."); it seems nothing short of witchcraft.
 
@@ -45,7 +45,7 @@ Dreamweaver gets a worryingly short mention. In fact it felt like the entire web
 
 **Enhanced Live view** – Dreamweaver can now display your dynamic web page within the application as if it was already live on the server. This appears to work really well and will certainly make site development and testing a hell of a lot easier. **Browser Lab –** A major point of annoyance for all (conscientious) web developers is that in order to be able to test your website in other browsers you need to have them installed. This is fine for the most part but testing in Macintosh Safari or previous versions of IE can often require access to another machine. Browser lab can apparently render perfect examples of what the site will look like from within its own standalone application. It even allows side-by-side comparisons and onion-skinning.
 
-![An example of Dreamweaver CS5's Browser lab program](http://foxleigh.me/wp-content/uploads/2010/04/blog_cs5_blab.jpg "An example of Dreamweaver CS5's Browser lab program")
+![An example of Dreamweaver CS5's Browser lab program](images/blog_cs5_blab.jpg "An example of Dreamweaver CS5's Browser lab program")
 
 ### Flash
 
@@ -57,11 +57,11 @@ I know video editing is not part of the Web Suite but these days being able to e
 
 **Automatic Rotoscoping** – This feature blew my mind; rotoscoping has always been a difficulty, even when against a chroma-key (green/blue screen) background it can be difficult. Premiere CS5 allows you to create a rough selection in one frame, it will then use the smart selection tools to automatically find the outline and mask it on that frame. Sounds good yeah? If you then advance to the next frame ready to do it again, you’d find that Premiere has already done it for you. That’s right, manual rotoscoping is history.
 
-![An example of After Effects CS5's Rotobrush tool](http://foxleigh.me/wp-content/uploads/2010/04/blog_cs5_rscoping1.jpg "An example of After Effects CS5's Rotobrush tool")
+![An example of After Effects CS5's Rotobrush tool](images/blog_cs5_rscoping1.jpg "An example of After Effects CS5's Rotobrush tool")
 
 **Mercury Playback Engine** – This is a 64Bit only feature but the benefit of this is that the more RAM you have the more you can use premiere in real-time. Even more amazingly, if you have an NVidia GPU (Not sure about other manufacturers yet). Your GPU itself will be utilised to allow for on-the-fly editing and composition. You can make changes to the video whilst it is playing. The example here shows the result of the above rotoscoping on live playback:
 
-![An example of After Effects CS5's Rotobrush tool in action on live video playback](http://foxleigh.me/wp-content/uploads/2010/04/blog_cs5_rscoping2.jpg "An example of After Effects CS5's Rotobrush tool in action on live video playback")
+![An example of After Effects CS5's Rotobrush tool in action on live video playback](images/blog_cs5_rscoping2.jpg "An example of After Effects CS5's Rotobrush tool in action on live video playback")
 
 ### Business Catalyst
 

@@ -27,7 +27,7 @@ Which we did!
 
 Rather unbelievably, this is our home!
 
-![A Photograph of the front of my house](http://foxleigh.me/wp-content/uploads/2018/02/home-1024x702.png)
+![A Photograph of the front of my house](images/home-1024x702.png)
 
 Originally we had decided that we were going to wait a few years before buying, however, a number of factors in 2016 and 2017 came together and made us decide to move that timeline forward. The short version is that we had grown tired of renting, we desperately wanted the security of knowing that we owned the roof over our heads and we could do whatever we wanted with it.
 
@@ -37,15 +37,15 @@ It wasn't easy as we both had to basically save all of our money for most of the
 
 Within about a week of writing my 2017 goals, Colette and I came to the conclusion that neither of us were that interested in the wedding, we were interested in the marriage. So we decided that rather than spend a year being engaged and putting all of our money into a wedding, we'd instead get married immediately and basically turn it into an intimate gathering.
 
-![All of the guests at our wedding](http://foxleigh.me/wp-content/uploads/2018/02/17835052_10154205871885194_9023070405855450222_o-1024x457.jpg)
+![All of the guests at our wedding](images/17835052_10154205871885194_9023070405855450222_o-1024x457.jpg)
 
 It couldn't have gone better, our wedding was tiny (only 11 people including us - as you can see above) but it was incredibly intimate and was such a beautiful day. Plus thanks to the money we saved, we were able to buy our house instead which was the best wedding gift to ourselves we could have managed!
 
-You can read more about it [here](/2017/04/holy-crap-im-married/)
+You can read more about it [here](/meandering-insanity/holy-crap-im-married/)
 
 ## 5) Publish a book - SUCCESS!
 
-I did this one too! I won't go more into this, as I have already [written an article about it](/2017/06/lets-kill-capitalism/)
+I did this one too! I won't go more into this, as I have already [written an article about it](/scribblings/lets-kill-capitalism/)
 
  
 

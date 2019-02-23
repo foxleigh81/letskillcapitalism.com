@@ -20,12 +20,16 @@ A very basic example would be as follows:
 
 ### Normal HTML syntax
 
+```html
 <h1>Hello World&</h1>
 <p class="text">This is a paragraph with a class of "text"</p>
+```
 
 ### Emmet syntax
 
+```
 h1{Hello World}+p.text{This is a paragraph with a class of "text"}
+```
 
 This example is very basic and doesn't really show the power of Emmet, so let's get started with a tutorial. As I am a huge fan of Sublime Text 3, I will be using this, however there as a long list of editors which support the Emmet plugin and apart from the installation procedure, the syntax is the same for all.
 
@@ -41,7 +45,7 @@ If you don't already have the package manager installed then I highly recommend 
 
 The syntax is very simple to learn and closely follows CSS syntax.
 
-**Note:** When you see \[TAB\] that literally means 'press the TAB key'.
+**Note:** When you see `[TAB]` that literally means 'press the TAB key'.
 
 ### Element creation
 
@@ -49,41 +53,57 @@ _To create a HTML tag just write it out as you would in CSS._
 
 **Emmet code:**
 
-h1\[TAB\]
+```js
+h1 [TAB]
+```
 
 **HTML output:**
 
+```html
 <h1></h1>
+```
 
 _To add a class to a tag place a period before it._
 
 **Emmet code:**
 
-h1.header\[TAB\]
+```js
+h1.header [TAB]
+```
 
 **HTML output:**
 
+```html
 <h1 class="header"></h1>
+```
 
 _To add an ID use a hash._
 
 **Emmet code:**
 
-h1#mainHeader\[TAB\]
+```js
+h1#mainHeader [TAB]
+```
 
 **HTML output:**
 
+```html
 <h1 id="mainHeader"></h1>
+```
 
 _To give something content use curly braces._
 
 **Emmet code:**
 
-h1{This is a header}\[TAB\]
+```js
+h1{This is a header} [TAB]
+```
 
 **HTML output:**
 
+```html
 <h1>This is a header</h1>
+```
 
 ### Traversing the hierarchy
 
@@ -93,19 +113,22 @@ _Elements can be nested using the child selector (>), chained using the plus sym
 
 **Emmet code:**
 
-div.first>h1{This is a header inside the first div}+p{This is a paragraph next to the first header}^div.second>h2{This is the header inside the second div}\[TAB\]
+```js
+div.first>h1{This is a header inside the first div}+p{This is a paragraph next to the first header}^div.second>h2{This is the header inside the second div} [TAB]
+```
 
 **HTML output:**
+    
 
-     
-
-# This is a header inside the first div
-
-     This is a paragraph next to the first header
-
-     
-
-## This is the header inside the second div
+```html
+<div>
+  <h1>This is a header inside the first div</h1>
+  <p>This is a paragraph next to the first header</p>
+<div>
+<div>
+  <h2>This is the header inside the second div</h2>
+</div>
+```
 
 ### Grouping
 
@@ -115,13 +138,17 @@ _Elements are grouped together by wrapping them in parentheses._
 
 **Emmet code:**
 
-ul>(li>a{link})\[TAB\]
+```js
+ul>(li>a{link}) [TAB]
+```
 
 **HTML output:**
 
+```html
 <ul>
     <li><a href="">link</a></li>
 </ul>
+```
 
 ### Iteration
 
@@ -131,39 +158,54 @@ _Creating repeating elements is as simple as specifying the number of elements y
 
 **Emmet code:**
 
-div\*2\[TAB\] 
+```js
+div*2 [TAB]
+``` 
 
 **HTML output:**
+
+```html
+<div></div>
+<div></div>
+```
 
 _It’s just as easy to create lists using this asterisk format:_
 
 **Emmet code:**
 
-ul>li\*5\[TAB\]
+```js
+ul>li*5 [TAB]
+```
 
 **HTML output:**
 
+```html
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
 </ul>
+```
 
 _One additional feature of iteration is that you can include placeholder numbers, these can be used anywhere you like and are specified with the $ symbol._
 
 **Emmet code:**
 
-ul>li{Item $}\*3\[TAB\]
+```js
+ul>li{Item $}*3 [TAB]
+```
 
 **HTML output:**
 
+```html
 <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
 </ul>
+```
 
 ### Working with existing content
 
@@ -171,9 +213,11 @@ Emmet doesn't only help with creating HTML from scratch, in fact it's at its mo
 
 Let's imagine you have been given some content that contained a written list like the following:
 
-\- Milk
+```md
+- Milk
 - Eggs
 - Bread
+```
 
 To convert this into a list would be a minor pain but if that list was much longer it could become a real time drain.
 
@@ -181,17 +225,21 @@ _With Emmet, converting content is easy, you simply select the text, press ctrl-
 
 **Emmet code:**
 
-ul>li\*
+```js
+ul>li*
+```
 
 The asterisk tells Emmet to loop through each line and make each item into a list, so when you leave the dialogue box, you get this:
 
 **HTML output:**
 
+```html
 <ul>
-    <li>- Milk</li>
-    <li>- Eggs</li>
-    <li>- Bread</li>
+  <li>- Milk</li>
+  <li>- Eggs</li>
+  <li>- Bread</li>
 </ul>
+```
 
 Oh wait, it still has the minus symbols, which will look ugly on our site, no problem, let's undo that and try something else.
 
@@ -199,17 +247,21 @@ _Press ctrl-w and type this instead:_
 
 **Emmet code:**
 
-ul>li\*|t
+```js
+ul>li*|t
+```
 
 The "|t" command, when combined with "\*" tells Emmet to loop through each line and also to trim the original list delimiters from the text, giving us a nice, neat list:
 
 **HTML output:**
 
+```html
 <ul>
-    <li>Milk</li>
-    <li>Eggs</li>
-    <li>Bread</li>
+  <li>Milk</li>
+  <li>Eggs</li>
+  <li>Bread</li>
 </ul>
+```
 
 Much better.
 
@@ -225,21 +277,25 @@ _Simply press ctrl-w and type the following:_
 
 **Emmet code:**
 
-ul.shopping\[role="main"\]>li\[data-item="$"\]{$#}\*|t
+```js
+ul.shopping[role="main"]>li[data-item="$"]{$#}*|t
+```
 
 **HTML output:**
 
+```html
 <ul class="shopping" role="main">
-    <li data-item="1">Milk</li>
-    <li data-item="2">Eggs</li>
-    <li data-item="3">Bread</li>
+  <li data-item="1">Milk</li>
+  <li data-item="2">Eggs</li>
+  <li data-item="3">Bread</li>
 </ul>
+```
 
 So what's going on here?
 
-The '\[\]' is how an attribute is specified, as you can see from the 'role' attribute, we can write out the full attribute and value and it will be placed 'as-is' in the tag (note some attributes, like 'href' on an anchor tag, appear automatically and do not need to be specified in Emmet unless you want to populate them).
+The `[]` is how an attribute is specified, as you can see from the `role` attribute, we can write out the full attribute and value and it will be placed 'as-is' in the tag (note some attributes, like `href` on an anchor tag, appear automatically and do not need to be specified in Emmet unless you want to populate them).
 
-You've seen the '$' before, this simply displays the current item number in the loop, you've probably noticed the '$#' too, as you might have been able to guess, this takes the content of the selected text and then outputs it wherever it finds the $# string. This can be used as many times as you like, unfortunately however the '|t' string does not work in attributes.
+You've seen the `$` before, this simply displays the current item number in the loop, you've probably noticed the `$#` too, as you might have been able to guess, this takes the content of the selected text and then outputs it wherever it finds the `$#` string. This can be used as many times as you like, unfortunately however the `|t` string does not work in attributes.
 
 ## What's next?
 
@@ -253,6 +309,8 @@ _Create an empty document and make sure the syntax is HTML then simply type:_
 
 **Emmet code:**
 
-!\[TAB\]
+```js
+! [TAB]
+```
 
-Happy coding!
+Happy coding! :smile:

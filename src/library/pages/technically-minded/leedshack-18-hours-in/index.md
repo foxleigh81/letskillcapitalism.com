@@ -25,4 +25,4 @@ I can't wait to see the finished product.
 
 By the way, this is how tired I am right now:
 
-[![](http://139.59.160.63/wp-content/uploads/2012/07/07-29-05.56.38-300x225.jpg "07-29 05.56.38")](http://foxleigh.me/wp-content/uploads/2012/07/07-29-05.56.38.jpg)
+![me, looking tired](images/07-29-05.56.38-300x225.jpg)

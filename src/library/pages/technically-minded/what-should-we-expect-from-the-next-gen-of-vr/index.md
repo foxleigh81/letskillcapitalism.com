@@ -18,13 +18,13 @@ For me, this is the #1 thing that Gen 2 needs, we're starting to see Wireless ad
 
 I think the Gen 2 headsets should not only be tether-free but truly stand-alone. Look at the headsets in Ready Player One for an example of this, to access the Oasis, they didn't need a PC, they just put the headset on.
 
-![Oasis users from Ready Player One standing in the street with their headsets on.](http://foxleigh.me/wp-content/uploads/2018/04/Ready-Player-One-Future-1-1024x496.jpg)
+![Oasis users from Ready Player One standing in the street with their headsets on.](images/Ready-Player-One-Future-1-1024x496.jpg)
 
 This may sound implausible but it's not, or at least, it won't be soon.
 
 Last year, AMD started releasing their mobile graphics chipsets known as the 'bifrost' series. The latest one the 'Mali-G71' has some impressive benchmarking scores:
 
-![Benchmark scores between Mali G71 and Nvidia GTX 1080](http://foxleigh.me/wp-content/uploads/2018/04/benchmark-1024x338.png) Graph taken from https://versus.com/en/arm-mali-g71-vs-nvidia-geforce-gtx-1080
+![Benchmark scores between Mali G71 and Nvidia GTX 1080](images/benchmark-1024x338.png "Graph taken from https://versus.com/en/arm-mali-g71-vs-nvidia-geforce-gtx-1080") 
 
 The blue bar is the Mali-G71 and the orange is the Nvidia GTX 1080, now although the Mali is quite far behind, just take a look at that graph again, it's just below half the speed of the most powerful graphics card currently available on the market.
 
@@ -66,13 +66,13 @@ Inside out tracking done this way has positives and negatives
 
 ## 4) Haptic feedback
 
-I mentioned Haptic Feedback before in [my previous VR article](http://foxleigh.me/2018/04/09/the-future-of-vr/), but it is worth repeating as this is a major part of what will make VR really feel 'next gen'. Right now, we don't have hands or feet in VR. Sure, we can simulate our hands fairly well with controllers but to truly immerse us in the virtual world, we need to have complete control over each, individual finger.
+I mentioned Haptic Feedback before in [my previous VR article](/technically-minded/the-future-of-vr/), but it is worth repeating as this is a major part of what will make VR really feel 'next gen'. Right now, we don't have hands or feet in VR. Sure, we can simulate our hands fairly well with controllers but to truly immerse us in the virtual world, we need to have complete control over each, individual finger.
 
 We also need our feet back, even though we don't have infinite treadmills or gyroscopic rigs yet, just being able to see and track our feet in VR adds to the immersion to an incredible degree, I highly recommend trying out VRChat to see what I mean, they have implemented a system which approximates your foot position based on where your head is and if you walk around, your VR feet shuffle around with you.
 
 The company 'HaptX' have recently developed some haptic feedback gloves which not only give you control over your fingers but also give you the feeling of touching something, they even have the ability to apply resistance to your hands so you can feel yourself squeezing something.
 
-<video-embed type="youtube" watch="0WQw4GmFGVg" />
+`youtube: 0WQw4GmFGVg`
 
 It should be noted though that these gloves a) have not been released yet and b) are not targeted at consumers at this point. It's not really surprising though, just looking at them you can tell that these things would be incredibly expensive to produce so putting them out to the professional market first makes a lot of sense whilst they figure out how to get their costs down. So I'm not expecting technology quite this advanced in Gen 2. However just high-fidelity finger tracking and feet tracking would be enough for me, for now.
 

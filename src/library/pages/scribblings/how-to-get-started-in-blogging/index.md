@@ -47,7 +47,7 @@ If you are serious about getting a strong readership from your blog you need to 
 
 ## 5) Content is king.
 
-Remember that the posts you write ARE your blog and that it only takes one good post to get you a lot of visits, for example a few years ago a wrote an article on how to integrate a media application called XBMC with a program called Eventghost for my old magazine site 'Digital Fusion' up to that point, we'd not had a great deal of interest, in fact we hadn't had any but this article was very popular, it was featured on LifeHacker (a very popular website) and even now years later, if you type 'EventGhost' into google, my article is the first result after the EventGhost site itself.
+Remember that the posts you write ARE your blog and that it only takes one good post to get you a lot of visits, for example a few years ago a wrote [an article](/technically-minded/the-fully-automated-media-centre-windows-only/) on how to integrate a media application called XBMC with a program called Eventghost for my old magazine site 'Digital Fusion' up to that point, we'd not had a great deal of interest, in fact we hadn't had any but this article was very popular, it was featured on LifeHacker (a very popular website) and even now years later, if you type 'EventGhost' into google, my article is the first result after the EventGhost site itself.
 
 Not every article has to be golden, eventually though one of them could be.
 

@@ -15,7 +15,7 @@ As a child of the eighties I grew up around computers, my first experience with 
 
 ## Luddites
 
-[![o-FRUSTRATED-PERSON-AT-COMPUTER-facebook](http://staging.digitalfusionmag.com/wp-content/uploads/2015/03/o-FRUSTRATED-PERSON-AT-COMPUTER-facebook-449x304.jpg)](http://staging.digitalfusionmag.com/wp-content/uploads/2015/03/o-FRUSTRATED-PERSON-AT-COMPUTER-facebook.jpg)
+![Old man at a computer](images/grandpa.png)
 
 The Luddite is the type of person who sits in front of a computer and immediately looks confused, almost as if the concept of a power button is entirely new to them. The Luddite does not even try to understand how it works and instead immediately dismisses it. A great example of a Luddite would be my mother: As a young web designer I didn’t know many other creative’s, and when I designed a new site I would show it to my parents to ask their opinion, and without even giving it a glance my mother immediately dismissed it saying that she ‘didn’t understand computers’. I tried to explain to her that looking at a print out of a website was no different than looking at a printed leaflet but her mind simply was not open to the concept. Thankfully she is better now, she even has her own website but she still treats computers as if they are some evil machine intent on devouring her soul.
 
@@ -23,7 +23,7 @@ The Luddites are an annoyance in themselves but for the most part they stay away
 
 ## Eager but Hopeless
 
-![Several monkeys around an old laptop](http://foxleigh.me/wp-content/uploads/2010/03/blog_post_computer_monkeys.jpg "Sadly, they are still more capable than my Mother.")
+![A kid at his computer giving a thumbs up](images/computerkid.jpg)
 
 The ‘Eager but Hopeless’ computer users of the world live in abundance; they are the type who really like the idea of using a computer but haven’t got the slightest clue how to. Sadly they also suffer from the ‘brainless’ factor and often the mistakes they make are not due to a lack of understanding but to a degree of impatience on their part.
 

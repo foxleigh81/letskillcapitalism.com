@@ -13,7 +13,7 @@ At the very beginning of last year, several amazing things happened to me, none 
 
 **1) One of my friends became my girlfriend.**
 
-One of my [goals of 2012](http://lxword.com/?p=28 "2012: Not the end, the beginning!") was to improve my fiction writing, this was also one of my goals in 2011 and in order to achieve this I joined a writing class. There I met a bunch of great people, one of whom was a girl called Colette who I very quickly became good friends with, then in late 2013, Colette started looking for a new place to move into. As I was struggling with rent at the time I suggested we move in together, well it wasn't long before one thing led to another and we realised that we actually had quite a strong attraction to each other and became the amazing couple we are today.
+One of my [goals of 2012](/mind-body-and-soul/2012-not-the-end-the-beginning/) was to improve my fiction writing, this was also one of my goals in 2011 and in order to achieve this I joined a writing class. There I met a bunch of great people, one of whom was a girl called Colette who I very quickly became good friends with, then in late 2013, Colette started looking for a new place to move into. As I was struggling with rent at the time I suggested we move in together, well it wasn't long before one thing led to another and we realised that we actually had quite a strong attraction to each other and became the amazing couple we are today.
 
 **2) I left my job and started my own business as a contractor**
 

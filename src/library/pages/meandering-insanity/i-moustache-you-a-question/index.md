@@ -15,7 +15,7 @@ For the third year running, I am going to take part in [Movember](http://www.mov
 
 For those of you who have never heard of Movember before then I suggest you watch this excellent little video that they made in order to spread awareness of the cause:
 
-\[youtube\]dAGD28hmSsA\[/youtube\]
+<video-embed type="youtube" watch="dAGD28hmSsA" />
 
 Or if you can't be arsed to watch the video, here is a quick synopsis:
 

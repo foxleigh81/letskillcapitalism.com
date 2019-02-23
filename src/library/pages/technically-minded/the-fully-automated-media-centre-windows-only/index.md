@@ -69,7 +69,7 @@ At this stage you are ready to copy your media to the folders. If you have thumb
 
 ## Step Three: Using Ember Media Manager to pre-scrape your movies
 
- **[![Ember media manager, main interface](http://foxleigh.me/wp-content/uploads/2010/05/emm-sshot.png "Ember media manager, main interface")](http://www.clockworkcity.co.uk/wp-content/uploads/2010/02/emm-sshot.png)** 
+ ![Ember media manager, main interface](images/emm-sshot.png "Ember media manager, main interface")
 
 XBMC has a great scraping tool; however it is quite slow and if you re-install your media centre for any reason you will have to re-scrape all your files again from scratch. Ember Media Manager is faster and even better, it downloads all the needed files to the movies folder, so if you do need to reinstall no re-scrape is required (plus it downloads trailers – which is just awesome).
 
@@ -81,7 +81,9 @@ If you use the ‘automatic’ mode then this should be the last time you ever s
 
 ## Step 4: Using Torrent Episode Downloader (TED) to find and download your TV shows.
 
-[![Add your show to TED](http://foxleigh.me/wp-content/uploads/2010/05/Ted-addshow.png "Add your show to TED")](http://www.clockworkcity.co.uk/wp-content/uploads/2010/02/Ted-addshow.png)Before we start this please make sure you have your torrent program set up to send all completed downloads to your ‘unsorted media’ folder. (Note: You can use your existing downloads folder if you wish, just make sure that its only updated when the download has completed)
+![Add your show to TED](images/Ted-addshow.png "Add your show to TED")
+
+Before we start this please make sure you have your torrent program set up to send all completed downloads to your ‘unsorted media’ folder. (Note: You can use your existing downloads folder if you wish, just make sure that its only updated when the download has completed)
 
 TED is a simple Java application which automatically finds your favourite TV shows and starts downloading them. It’s fairly simple to set up but here is a little tutorial anyway.
 
@@ -95,7 +97,9 @@ Note: If you do not want TED to automatically open your torrent application (lik
 
 ## Step 5: Use The Renamer to automatically sort and move your TV shows.
 
-[![TheRenamer Main interface](http://foxleigh.me/wp-content/uploads/2010/05/screenshot_splash.jpg "TheRenamer Main interface")](http://www.clockworkcity.co.uk/wp-content/uploads/2010/02/screenshot_splash.jpg)Sadly many files on BitTorrent have not been named with media centres in mind and most scrapers are rubbish unless the file names and folders follow their rules. Thankfully a fantastic application called ‘The Renamer’ exists to solve this problem.
+![TheRenamer Main interface](images/screenshot_splash.jpg "TheRenamer Main interface")
+
+Sadly many files on BitTorrent have not been named with media centres in mind and most scrapers are rubbish unless the file names and folders follow their rules. Thankfully a fantastic application called ‘The Renamer’ exists to solve this problem.
 
 This program is very easy to set up and even easier to use, firstly, click on ‘settings’ then change your fetch folder to your ‘unsorted media’ folder and the TV shows archive to your ‘TV Shows’ folder.
 
@@ -115,25 +119,27 @@ And that’s it!
 
 ## Step 6 – Tie it all together with EventGhost
 
-[![The Eventghost main interface](http://foxleigh.me/wp-content/uploads/2010/05/eg-1.jpg "The Eventghost main interface")](http://www.clockworkcity.co.uk/wp-content/uploads/2010/02/eg-1.jpg)
+![The Eventghost main interface](images/eg-1.jpg "The Eventghost main interface")
 
 Ok so far we’ve managed to get a series of systems together to download and catalogue our TV Shows and organise our movies to be imported into XBMC. Now it’s time to make it automatic using EventGhost.
 
-Firstly we need to install two plugins to EventGhost. ‘Directory Watcher’ and ‘XBMC’, you can find these in the ‘Plugins’ menu ([![Plugin Menu Icon](http://www.clockworkcity.co.uk/wp-content/uploads/2010/02/image006.jpg "Plugin Menu")](http://www.clockworkcity.co.uk/wp-content/uploads/2010/02/image006.jpg)). To ensure that your movies are scraped automatically as well, install two copies of ‘Directory Watcher’
+Firstly we need to install two plugins to EventGhost. `Directory Watcher` and `XBMC`, you can find these in the ‘Plugins’ menu. To ensure that your movies are scraped automatically as well, install two copies of `Directory Watcher`
 
 Set the first Directory Watcher Plugin to look in your ‘unsorted media’ folder and the second to look in your 'Movies' folder. Then create a new macro called ‘move new shows’
 
-Inside this macro set it to automatically launch the renamer (System > Start Application), in the command line box type ‘–fetch’ and set the window options to ‘minimised’ (this never seems to work for me but you may have more luck. Then – still inside the same macro - add another action below it, ‘Update Video Library’ from the XBMC folder.
+Inside this macro set it to automatically launch the renamer (`System > Start Application`), in the command line box type ‘–fetch’ and set the window options to ‘minimised’ (this never seems to work for me but you may have more luck. Then – still inside the same macro - add another action below it, ‘Update Video Library’ from the XBMC folder.
 
 Now create a new macro called ‘scrape new movies’, set it to open ember media manager and in the command line box enter ‘–newauto  –all’ (remember this is only foolproof if you add years to your movie directories). Then – still inside the same macro - add another action below it, ‘Update Video Library’ from the XBMC folder.
 
-Finally add an event called ‘DirectoryWatcher.Updated’ to the top of the first macro and one called ‘DirectoryWatcher2.Updated’ to the top of the second and save your configuration.
+Finally add an event called `DirectoryWatcher.Updated` to the top of the first macro and one called ‘DirectoryWatcher2.Updated’ to the top of the second and save your configuration.
 
 The last step to make sure everything is automated is to create shortcuts to uTorrent and TED in your Windows start-up folder.
 
 ## Final Step – Set up XBMC
 
-[![XBMC Main screen](http://foxleigh.me/wp-content/uploads/2010/05/xbmc911-1.png "XBMC Main Screen")](http://www.clockworkcity.co.uk/wp-content/uploads/2010/02/xbmc911-1.png)Note: This step assumes you are using at least version 9.11 of XBMC and are using the default skin
+![XBMC Main screen](images/xbmc911-1.png "XBMC Main Screen")
+
+**Note:** This step assumes you are using at least version 9.11 of XBMC and are using the default skin
 
 Firstly let’s add our media files. Go to ‘video’s and select Add Source, browse to your ‘Movies’ folder and press enter, the source should automatically be called ‘movies’.
 

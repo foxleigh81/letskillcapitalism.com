@@ -16,7 +16,7 @@ It's not 100% perfect yet, the comments still look a bit crap, the images on the
 
 Keep an eye out for future updates as they are definitely on the horizon.
 
-If you want to use the theme yourself. Feel free to clone it from [Github](https://github.com/alexward1981/lxword), however I didn't make this for others, I made it for me so you might have to crowbar in any extra features you want to use. Also that repo is for my entire blog (no, I didn't commit the config file before you go looking) so you'll have to dig around for the theme. However I've got quite a nice build too set up there so feel free to use that too!
+If you want to use the theme yourself. Feel free to clone it from [Github](https://github.com/foxleigh81/lxword), however I didn't make this for others, I made it for me so you might have to crowbar in any extra features you want to use. Also that repo is for my entire blog (no, I didn't commit the config file before you go looking) so you'll have to dig around for the theme. However I've got quite a nice build too set up there so feel free to use that too!
 
 Update: Everything is looking half decent now. I've replaced the old comment system with Disqus too so apologies if any of your old comments were lost. I know there were not that many anyway.
 

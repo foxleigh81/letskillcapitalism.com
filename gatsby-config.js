@@ -28,9 +28,9 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Open Sans', 'Maven Pro:400,500,700,900']
-        }
-      }
+          families: ['Open Sans', 'Maven Pro:400,500,700,900'],
+        },
+      },
     },
     {
       resolve: 'gatsby-plugin-sass-resources',
@@ -85,6 +85,8 @@ module.exports = {
         plugins: [
           'gatsby-remark-component',
           'gatsby-remark-prismjs',
+          `gatsby-remark-emoji`,
+          `@weknow/gatsby-remark-twitter`,
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -92,8 +94,22 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 1920,
+              showCaptions: true,
+              linkImagesToOriginal: false,
+              quality: 90,
             },
           },
+          {
+            resolve: "gatsby-remark-better-embed-video",
+            options: {
+              width: 800,
+              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77.
+              height: 400, // Optional: Overrides optional.ratio.
+              related: false, // Optional: Will remove related videos from the end of an embedded YouTube video.
+              noIframeBorder: true, // Optional: Disable insertion of <style> border: 0.
+              showInfo: true // Optional: Hides video title and player actions.
+            }
+          }
         ],
       },
     },

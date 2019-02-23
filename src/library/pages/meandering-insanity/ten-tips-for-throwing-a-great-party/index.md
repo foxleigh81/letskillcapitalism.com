@@ -63,7 +63,7 @@ However on New Years Eve last year a group of people in my building (I usually p
 
 ## TIP 6 - Use social networking to engage people (before the party)
 
-Whilst traditional invite methods (word of mouth, phone,  email etc...) should not be overlooked, the easiest way by far to organise a party now is to create a facebook event. ![](https://lh5.googleusercontent.com/YgLAuDDPpiNJ15szBMjcQO8kKesHtG7Kut8btiSgOKeYrOXlqfeisESp422KUvz_7Bm1xEhPqTupBoOQ9kOk7kGATOYkTRy2NaPT1tuSKTBEkjkO9K8) The events page is a great way of making sure all of your guests see the information that is needed for them to get there but is also a great way to connect with guests, as you have a wall that you can chat to people on and people can look at the list of invitees.
+Whilst traditional invite methods (word of mouth, phone,  email etc...) should not be overlooked, the easiest way by far to organise a party now is to create a facebook event. The events page is a great way of making sure all of your guests see the information that is needed for them to get there but is also a great way to connect with guests, as you have a wall that you can chat to people on and people can look at the list of invitees.
 
 One caveat here though: not everyone uses Facebook and even some of those that do, still don’t check their event invites, it’s also a good idea to send a message to people separately to let them know about the party. Also don’t let the ‘going’ or ‘maybe’ count worry you, it’s very rare that those numbers match up to the actual people attending. For the party above for example, the ‘going’ list said 6 and the ‘maybe’ said 4, at it’s busiest my party had almost 30 people there.
 
@@ -71,7 +71,7 @@ One caveat here though: not everyone uses Facebook and even some of those that d
 
 Every party I have thrown in the last two years has had a webcam set up in the corner, it doesn’t record standard video (it would be too long and not worth watching anyway without some serious editing), it takes a single photo every few seconds, then the next day I compile them all together into a time-lapse movie. The videos always go down a storm as they capture everything that happens at the party perfectly.
 
-\[youtube\]http://www.youtube.com/watch?v=Rv4Gw\_DoM\_k&list=PL7E7782EF780046E7&index=1&feature=plpp\_video\[/youtube\]
+`video: https://www.youtube.com/embed/2Xc9gXyf2G4`
 
 ### There are a few things to consider when doing this:
 
@@ -105,15 +105,42 @@ I would advise a few rules though otherwise it can tend to get chaotic, for exam
 
 This tip can be considered optional and is entirely dependant on budget, more often than not, people DO bring things to a party but the best parties are fully catered for in advance. This isn’t usually as expensive as you think as if you buy enough booze, it should last you for at least two parties (as people often will drink their own stuff anyway).
 
-I generally buy the following:
+I generally buy the following (although depending on the taste of you and your friends - your milage may vary):
 
-> 2L Vodka 1L Navy Run 1L White Rum 1L Whiskey 1L Gin 2 crates of beer 4 bottles of wine (which rarely get drank as the winos nearly always bring their own) ½L Brandy 1L Vermouth 2L Ginger Ale 2L Tonic Water 2L Soda Water 8L Fresh orange juice 1L Blackcurrant Juice 1L Lime Juice 1L Lemon Juice 6L Cola 4L Lemonade 1L Grenadine 1L Strawberry milk 1L Malibu 2L Taboo (original) A bag of citrus fruits (Lemons, Limes, Oranges. usually about 6-8 of each)
+- 2L Vodka 
+- 1L Navy Run
+- 1L White Rum 
+- 1L Whiskey
+- 1L Gin 
+- 2 crates of beer 
+- 4 bottles of wine (which rarely get drank as the winos nearly always bring their own) 
+- ½L Brandy 
+- 1L Vermouth 
+- 2L Ginger Ale 
+- 2L Tonic Water 
+- 2L Soda Water 
+- 8L Fresh orange juice 
+- 1L Blackcurrant Juice 
+- 1L Lime Juice 
+- 1L Lemon Juice 
+- 6L Cola 
+- 4L Lemonade 
+- 1L Grenadine 
+- 1L Strawberry milk 
+- 1L Malibu 
+- 2L Taboo (original) 
+- A bag of citrus fruits (Lemons, Limes, Oranges. usually about 6-8 of each)
 
 I find this combination of alcohol and mixers is enough to make quite a few of the more popular cocktails (plus one of my own invention) and is generally enough booze to accommodate everyone at the party, I often find at the end of the party I still have quite a bit left for the next one.
 
 Food works well at a party but unless it is a dinner party, I’d advise against anything that could be considered a ‘meal’. Party snacks always go down a treat, again my shopping list usually consists of the following:
 
-> 2 Tubes of pringles 3 Bags of Doritos (different flavours) 1 large bag of peanuts 4 tubs of dip (usually, sour cream, salsa, hummous and nacho cheese) A hand full of carrot and celery sticks A couple of pizzas
+- 2 Tubes of pringles 
+- 3 Bags of Doritos (different flavours)
+- 1 large bag of peanuts
+- 4 tubs of dip (usually, sour cream, salsa, hummous and nacho cheese) 
+- A hand full of carrot and celery sticks
+- A couple of pizzas
 
 Plus my sister often bakes some muffins (or if it’s a special event, a cake).
 
@@ -123,10 +150,10 @@ This does not have to be something 100% original nor does it have to be unique f
 
 For example, if it’s Halloween, don’t just put some plastic bats on the kitchen table and the monster mash on the playlist, make the effort to turn your place into a haunted house.
 
-\[caption id="attachment\_72" align="aligncenter" width="500" caption="As you can see, it doesn't have to look professional, this 'haunted hallway' was damn scary in the dark and cost me about £50, plus I have most of the stuff handy for next Halloween."\][![A 'ghost house' I set up in my hallway](http://foxleigh.me/wp-content/uploads/2012/02/halloween-party.jpg "Haunted Hallway")](http://foxleigh.me/wp-content/uploads/2012/02/halloween-party.jpg)\[/caption\]
+![A 'ghost house' I set up in my hallway](./images/halloween-party.jpg "As you can see, it doesn't have to look professional, this 'haunted hallway' was damn scary in the dark and cost me about £50, plus I have most of the stuff handy for next Halloween.")
 
 Don’t just put drinks out, invent (or google for) a really great tasting cocktail which people will love to drink and put it in a punch bowl. I invented a cocktail a few years ago which people always ask about now when they come to one of my parties (don’t ask for the recipe, it’s closely guarded :P), recently I bought a drinks fountain to make it into a centrepiece.
 
-\[caption id="attachment\_73" align="aligncenter" width="550" caption="Instagram can make any photo look great :) It did look pretty cool though :)"\][![A motorised cocktail fountain](http://foxleigh.me/wp-content/uploads/2012/02/cocktail-fountant.jpg "Cocktail Fountain")](http://foxleigh.me/wp-content/uploads/2012/02/cocktail-fountant.jpg)\[/caption\]
+![A motorised cocktail fountain](./images/cocktail-fountant.jpg "Instagram can make any photo look great. It did look pretty cool though :smile:")
 
 All in all, your parties should be fun, if you are going to make it structured fun then hide the structure as much as possible as the fun should feel natural and dynamic, if you put the extra effort in before the party then it will pay dividends.
