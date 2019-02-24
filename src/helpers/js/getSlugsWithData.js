@@ -19,7 +19,7 @@ const getSlugsWithData = (data, context) => {
         tags: node.frontmatter.tags,
         date: node.frontmatter.date,
         excerpt: node.frontmatter.excerpt || node.excerpt,
-        bgPos: node.frontmatter.bgPos,
+        bgPos: node.frontmatter.bgPos || '',
       }
       const output = {
         slug,
