@@ -8,7 +8,8 @@
     padding: $padding;
     background-color: rgba(#000, .7);
   }
-  .landing-page-container header & {
+  .landing-page-container header &,
+  .error-page & {
     display: none;
   }
 }
