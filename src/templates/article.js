@@ -3,11 +3,8 @@ import { DiscussionEmbed } from 'disqus-react';
 import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 
-import Header from '../components/header'
 import BlogArticle from '../components/blog-article'
-import SEO from '../components/seo'
-
-// import '../css/blog-post.css'; // make it pretty!
+import Layout from '../components/layout'
 
 // Run the Graphql query
 export const pageQuery = graphql`
@@ -45,16 +42,11 @@ export default function Template({ data }) {
     title: post.frontmatter.title,
   }
   return (
-    <>
-      <div className={`article-page-container ${post.frontmatter.tags}`}>
-        <SEO title={pageTitle} />
-        <Header />
+    <Layout seoTitle={pageTitle} headerTags={post.frontmatter.tags} className={`article-page-container ${post.frontmatter.tags}`}>
         <BlogArticle tags={post.frontmatter.tags} postData={post}>
           {post.frontmatter.comments && <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />}
         </BlogArticle>
-
-      </div>
-    </>
+    </Layout>
   )
 }
 

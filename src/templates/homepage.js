@@ -3,12 +3,9 @@ import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 
-import Header from '../components/header'
+import Layout from '../components/layout'
 import BlogArticle from '../components/blog-article'
 import CategoryList from '../components/category-list'
-import SEO from '../components/seo';
-
-// import '../css/blog-post.css'; // make it pretty!
 
 // Run the Graphql query
 export const pageQuery = graphql`
@@ -62,15 +59,11 @@ export default function Template({ data }) {
   const { markdownRemark: post } = data // data.markdownRemark holds our post data
   const { allMarkdownRemark: articleQueryData } = data
   return (
-    <>
-      <SEO />
-      <Header />
-      <div className="landing-page-container">
+    <Layout className="landing-page-container">
         <BlogArticle tags={post.frontmatter.tags} postData={post}>
           <CategoryList posts={articleQueryData.edges} context="/" />
         </BlogArticle>
-      </div>
-    </>
+    </Layout>
   )
 }
 

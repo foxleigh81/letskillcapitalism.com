@@ -2,9 +2,8 @@
 body {
   font-family: 'Open Sans';
   background-color: rgba(#333, .04);
-}
 
-p { 
+  p { 
   font-size: $paragraph;
   line-height: 1.7;
 }
@@ -29,11 +28,5 @@ h4 {
   font-family: 'Maven Pro';
   font-weight: 500;
 }
-
-// Sets padding on the main content
-main {
-  float: left;
-  padding-top: $padding*7;
-  padding-left: 3vw;
-  padding-right: 3vw;
 }
+

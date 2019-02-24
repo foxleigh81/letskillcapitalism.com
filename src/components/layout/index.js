@@ -3,11 +3,12 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from '../header'
+import SEO from '../seo'
 import './layout.scss'
 
 require('prismjs/plugins/line-numbers/prism-line-numbers.css')
 
-const Layout = ({ children }) => (
+const Layout = ({ children, className, seoTitle, headerTags }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -20,24 +21,27 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 960,
-            padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
-          }}
-        >
+        <SEO title={seoTitle} />
+        <Header tags={headerTags} />
+        <main className={className}>
           {children}
-        </div>
+        </main>
       </>
     )}
   />
 )
 
 Layout.propTypes = {
+  className: PropTypes.string,
   children: PropTypes.node.isRequired,
+  seoTitle: PropTypes.string,
+  headerTags: PropTypes.string,
+}
+
+Layout.defaultProps = {
+  className: '',
+  seoTitle: '',
+  headerTags: '',
 }
 
 export default Layout

@@ -1,9 +1,10 @@
 import { Link, StaticQuery, graphql } from 'gatsby'
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import './style.scss'
 
-export default () => (
+const Header = props => (
   <StaticQuery
     query={graphql`
       query HeaderData {
@@ -45,7 +46,7 @@ export default () => (
       const nav = categoryList.map(cat => <li key={cat.slug}><Link to={`/${cat.slug}`}>{cat.name}</Link></li>)
 
       return (
-        <header className="site-header">
+        <header className={`site-header ${props.tags}`}>
           <h1><Link to="/">{meta.title}</Link></h1>
           <nav>
             <ul>
@@ -59,3 +60,13 @@ export default () => (
   }
   />
 )
+
+Header.propTypes = {
+  tags: PropTypes.string,
+}
+
+Header.defaultProps = {
+  tags: '',
+}
+
+export default Header

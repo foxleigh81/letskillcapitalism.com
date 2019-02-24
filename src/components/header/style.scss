@@ -2,7 +2,7 @@
   position: relative;
   background: black;
   padding: $padding $padding * 2 0;
-  .legacy & {
+  &.legacy {
     &:after {
       content: "LEGACY POST";
       position: absolute;
