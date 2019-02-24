@@ -22,7 +22,7 @@ const CategoryList = ({ posts, context }) => {
             const hasHero = top.hero.childImageSharp && true
             const style = (hasHero) && { backgroundImage: `url(${top.hero.childImageSharp.fluid.src})` }
             const bgp = top.bgPos
-            if (bgp) { style.backgroundPosition = bgp }
+            if (bgp && style) { style.backgroundPosition = bgp }
             const hasClicked = () => navigate(top.slug)
             return (
               <li key={uuid()} className={`${top.tags} ${category} ${hasHero ? 'has-hero' : 'no-hero'}`} onClick={hasClicked}>
