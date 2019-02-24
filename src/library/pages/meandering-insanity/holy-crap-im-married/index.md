@@ -5,6 +5,7 @@ comments: true
 author: Alex Foxleigh
 title: "Holy crap, I'm married!"
 date: "2017-04-03"
+bgPos: 50% 15%
 ---
 
 In my last post, I mentioned that one of my year goals was to marry my wonderful girlfriend. I also said that it wasn't going to happen this year as we had neither the time nor the money to have a wedding.

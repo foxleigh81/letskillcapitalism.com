@@ -43,7 +43,11 @@ Want an example? A backend developer would look at this code and possibly see no
  
 ```html
 <div id="navigation"> 
-     <a href="/link1" style="color: red"><span><b>Link 1</b></span></a> | <a href="/link2"><span>Link 2</span></a> | <a href="/link3"><span>Link 3</span></a> | <a href="/link4"><span>Link 4</span></a> <p></p> 
+    <p>
+    <a href="/link1" style="color: red"><span><b>Link 1</b></span></a> | 
+    <a href="/link2"><span>Link 2</span></a> | 
+    <a href="/link3"><span>Link 3</span></a> | 
+    <a href="/link4"><span>Link 4</span></a></p> 
 </div>
 ```
  

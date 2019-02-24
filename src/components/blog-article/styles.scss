@@ -76,4 +76,10 @@
       border-bottom: 1px dotted $text-dl;
     }
   }
+  .gatsby-highlight {
+    :not(pre) > code[class*="language-"], pre[class*="language-"] {
+      background: #3b3b52;
+      font-size: $paragraph;
+    }
+  }
 }
