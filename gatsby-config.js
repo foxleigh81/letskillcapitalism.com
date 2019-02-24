@@ -3,7 +3,7 @@ module.exports = {
     title: 'The Foxleigh Blog',
     description: 'The blog of Alexander Foxleigh',
     author: 'Alex Foxleigh',
-    siteUrl: 'http://blog.alexfoxleigh.com',
+    siteUrl: 'http://foxleigh.me',
     social: [
       {
         name: 'Facebook',
@@ -22,6 +22,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
+    'gatsby-remark-copy-linked-files',
     'gatsby-plugin-react-svg',
     'gatsby-plugin-sass',
     {
@@ -44,7 +45,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://blog.alexfoxleigh.co.uk',
+        host: 'https://foxleigh.me',
         policy: [{ userAgent: '*', disallow: '/' }],
       },
     },
@@ -85,8 +86,8 @@ module.exports = {
         plugins: [
           'gatsby-remark-component',
           'gatsby-remark-prismjs',
-          `gatsby-remark-emoji`,
-          `@weknow/gatsby-remark-twitter`,
+          'gatsby-remark-emoji',
+          '@weknow/gatsby-remark-twitter',
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -100,16 +101,16 @@ module.exports = {
             },
           },
           {
-            resolve: `@raae/gatsby-remark-oembed`,
+            resolve: '@raae/gatsby-remark-oembed',
             options: {
               providers: {
                 // Important to exclude providers
                 // that adds js to the page.
                 // If you do not need them.
-                exclude: ["Twitch", "Flickr"]
-              }
-            }
-          }
+                exclude: ['Twitch', 'Flickr'],
+              },
+            },
+          },
         ],
       },
     },
