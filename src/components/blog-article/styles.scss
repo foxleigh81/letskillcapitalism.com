@@ -10,7 +10,6 @@
     overflow: hidden;
     background-color: black;
     color: $text-ld;
-    padding: $padding;
     margin-bottom: $margin;
     &.has-hero {
       background-repeat: no-repeat;
@@ -18,11 +17,12 @@
       background-position: center;
       height: 350px;
       h1 {
-        margin: $margin * 2;
-        width: 50%;
+        padding: $padding * 2 $padding * 60 $padding * 2 $padding * 2;
+        height: 100%;
         font-size: $baseFontSize * 6;
         text-shadow: 2px 2px rgba(#000, .5);
         text-transform: uppercase;
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
       }
     }
   }
@@ -40,7 +40,7 @@
       font-weight: bold;
       margin-top: $margin*2;
       margin-bottom: $margin * 2;
-  }
+    }
     ul {
       font-weight: normal;
       font-size: $paragraph;
@@ -49,6 +49,31 @@
     }
     li {
       margin-bottom: $margin;
+    }
+
+    a {
+      color: lighten($text-dl, 5%);
+      text-decoration: underline;
+      &:hover {
+        text-decoration: none;
+        color: $text-dl;
+      }
+    }
+    figcaption {
+      font-size: $paragraph;
+      text-align: center;
+      font-style: italic;
+      color: lighten($text-dl, 5%);
+      margin-bottom: $margin * 2;
+    }
+    iframe {
+      display: block;
+      margin: $margin * 2 auto;
+    }
+    hr {
+      margin: $margin * 2 0;
+      border: 0;
+      border-bottom: 1px dotted $text-dl;
     }
   }
 }
