@@ -2,6 +2,7 @@
 title: FOUROHFOUR!!! There's nowt here!
 template: article
 tags: 'error-page'
+in_nav: false
 ---
 
 Could it be that you typed an incorrect URL? Could it be that the page has been deleted?
