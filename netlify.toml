@@ -4,3 +4,10 @@
 [build.environment]
   YARN_VERSION = "1.3.2"
   YARN_FLAGS = "--no-ignore-optional"
+
+[[redirects]]
+  from = "/2018/04/13/what-should-we-expect-from-the-next-gen-of-vr/"
+  to = "/technically-minded/what-should-we-expect-from-the-next-gen-of-vr/"
+[[redirects]]
+  from = "/2018/04/09/the-future-of-vr/"
+  to = "/technically-minded/the-future-of-vr/"
