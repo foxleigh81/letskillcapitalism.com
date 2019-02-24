@@ -22,7 +22,6 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
-    'gatsby-remark-copy-linked-files',
     'gatsby-plugin-react-svg',
     'gatsby-plugin-sass',
     {
@@ -87,6 +86,7 @@ module.exports = {
           'gatsby-remark-component',
           'gatsby-remark-prismjs',
           'gatsby-remark-emoji',
+          'gatsby-remark-copy-linked-files',
           '@weknow/gatsby-remark-twitter',
           {
             resolve: 'gatsby-remark-images',
