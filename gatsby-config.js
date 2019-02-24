@@ -59,7 +59,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'pages',
-        path: `${__dirname}/src/library/pages`,
+        path: `${__dirname}/library`,
       },
     },
     'gatsby-plugin-sharp',
