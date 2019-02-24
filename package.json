@@ -2,7 +2,7 @@
   "name": "blog.foxleigh.me",
   "private": false,
   "description": "The blog of Alex Foxleigh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Alex Foxleigh <alex@alexfoxleigh.com>",
   "dependencies": {
     "@babel/core": "^7.2.2",
