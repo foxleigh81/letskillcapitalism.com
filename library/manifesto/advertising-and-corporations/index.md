@@ -5,6 +5,7 @@ tags: "manifesto"
 author: Alexander Foxleigh
 title: "Manifesto: Advertising and Corporations"
 date: "2019-07-08"
+excerpt: "Currently the world is highly unbalanced; this is almost entirely the fault of capitalism being allowed to run rampant. Corporations lobby for things, which do not serve to help humanity, but line the corporation’s own pockets."
 ---
 
 Currently the world is highly unbalanced; this is almost entirely the fault of capitalism being allowed to run rampant. Corporations lobby for things, which do not serve to help humanity, but line the corporation’s own pockets. Sportsmen are grossly overpaid because corporate sponsorship allows the teams to become too big.
