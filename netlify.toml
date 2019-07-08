@@ -15,5 +15,5 @@
   from = "/2018/08/21/trumpism-the-result-of-the-cult-of-capitalism/"
   to = "/blog/trumpism-the-result-of-the-cult-of-capitalism/"
 [[redirects]]
-  from = "/the-aretecratic-manifesto"
-  to = "/manifesto/"
+  from = "/the-aretecratic-manifesto/*"
+  to = "/manifesto/:splat"
