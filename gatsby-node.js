@@ -15,7 +15,7 @@ exports.createPages = ({ actions, graphql, getNode }) => {
 
   // Register templates
   const templateRegister = {
-    homepage: path.resolve('src/templates/homepage.js'),
+    homepage: path.resolve('src/templates/category.js'),
     article: path.resolve('src/templates/article.js'),
     category: path.resolve('src/templates/category.js'),
   }

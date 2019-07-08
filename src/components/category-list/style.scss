@@ -41,60 +41,16 @@
     article {
       height: 100%;
     }
-    &.scribblings { 
-      border-color: $scribblings; 
+    &.blog { 
+      border-color: $blog; 
       .category-list__meta-data__category {
-        color: $scribblings;
+        color: $blog;
       }
       &.no-hero .category-list__header {
-        background-color: $scribblings;
+        background-color: $blog;
       }
     }
-    &.rise-against { 
-      border-color: $rise-against; 
-      .category-list__meta-data__category {
-        color: $rise-against;
-      }
-      &.no-hero .category-list__header {
-        background-color: $rise-against;
-      }
-    }
-    &.mind-body-and-soul { 
-      border-color: $mind-body-and-soul; 
-      .category-list__meta-data__category {
-        color: $mind-body-and-soul;
-      }
-      &.no-hero .category-list__header {
-        background-color: $mind-body-and-soul;
-      }
-    }
-    &.meandering-insanity {
-      border-color: $meandering-insanity; 
-      .category-list__meta-data__category {
-        color: $meandering-insanity;
-      }
-      &.no-hero .category-list__header {
-        background-color: $meandering-insanity;
-      }
-    }
-    &.digital-industry { 
-      border-color: $digital-industry; 
-      .category-list__meta-data__category {
-        color: $digital-industry;
-      }
-      &.no-hero .category-list__header {
-        background-color: $digital-industry;
-      }
-    }
-    &.technically-minded { 
-      border-color: $technically-minded; 
-      .category-list__meta-data__category {
-        color: $technically-minded;
-      }
-      &.no-hero header {
-        background-color: $technically-minded;
-      }
-    }
+
   }
   h1 {
     position: absolute;
