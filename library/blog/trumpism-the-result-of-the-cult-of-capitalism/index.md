@@ -1,7 +1,9 @@
 ---
 template: article 
 comments: true 
+tags: "legacy"
 author: Jenny Watson
+bgPos: top
 title: "TRUMPISM: THE RESULT OF THE CULT OF CAPITALISM"
 date: "2018-08-21"
 ---

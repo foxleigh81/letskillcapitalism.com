@@ -6,131 +6,14 @@
   YARN_FLAGS = "--no-ignore-optional"
 
 [[redirects]]
-  from = "/2018/04/13/what-should-we-expect-from-the-next-gen-of-vr/"
-  to = "/technically-minded/what-should-we-expect-from-the-next-gen-of-vr/"
+  from = "/2017/06/09/hello-world/"
+  to = "/blog/welcome/"
 [[redirects]]
-  from = "/2018/04/09/the-future-of-vr/"
-  to = "/technically-minded/the-future-of-vr/"
+  from = "/2018/06/06/capitalism-the-cancer-of-society/"
+  to = "/blog/capitalism-the-cancer-of-society/"
 [[redirects]]
-  from = "/2018/03/07/i-without-internet/"
-  to = "/meandering-insanity/i-without-internet/"
+  from = "/2018/08/21/trumpism-the-result-of-the-cult-of-capitalism/"
+  to = "/blog/trumpism-the-result-of-the-cult-of-capitalism/"
 [[redirects]]
-  from = "/2018/02/15/2017-goals-how-did-i-do/"
-  to = "/mind-body-and-soul/2017-goals-how-did-i-do/"
-[[redirects]]
-  from = "/2018/02/15/2018-goals/"
-  to = "/mind-body-and-soul/2018-goals/"
-[[redirects]]
-  from = "/2017/07/31/top-5-tips-for-a-new-dev-just-starting-out/"
-  to = "/digital-industry/top-5-tips-for-a-new-dev-just-starting-out/"
-[[redirects]]
-  from = "/2017/06/29/100-healthy-days/"
-  to = "/mind-body-and-soul/100-healthy-days/"
-[[redirects]]
-  from = "/2017/06/26/lets-kill-capitalism/"
-  to = "/scribblings/lets-kill-capitalism/"
-[[redirects]]
-  from = "/2017/04/03/holy-crap-im-married/"
-  to = "/meandering-insanity/holy-crap-im-married/"
-[[redirects]]
-  from = "/2017/01/27/2017-goals/"
-  to = "/mind-body-and-soul/2017-goals/"
-[[redirects]]
-  from = "/2016/09/28/so-you-want-to-be-a-web-contractor-part-1-tips-for-getting-started/"
-  to = "/digital-industry/so-you-want-to-be-a-web-contractor-part-1-tips-for-getting-started/"
-[[redirects]]
-  from = "/2016/12/13/so-you-want-to-be-a-web-contractor-part-2-essential-purchases/"
-  to = "/digital-industry/so-you-want-to-be-a-web-contractor-part-2-essential-purchases/"
-[[redirects]]
-  from = "/2016/02/02/how-i-learned-to-stop-worrying-and-love-task-runners/"
-  to = "/technically-minded/how-i-learned-to-stop-worrying-and-love-task-runners/"
-[[redirects]]
-  from = "/2016/08/24/the-problem-with-front-end-development-recruitment/"
-  to = "/digital-industry/the-problem-with-front-end-development-recruitment/"
-[[redirects]]
-  from = "/2015/05/07/internet-changing-face-politics/"
-  to = "/rise-against/internet-changing-face-politics/"
-[[redirects]]
-  from = "/2015/04/13/emmet-and-sublime-text/"
-  to = "/technically-minded/emmet-and-sublime-text/"
-[[redirects]]
-  from = "/2015/03/29/using-graveyard-files/"
-  to = "/technically-minded/using-graveyard-files/"
-[[redirects]]
-  from = "/2015/03/05/head-cloud-justified-rant-technology/"
-  to = "/technically-minded/head-cloud-justified-rant-technology/"
-[[redirects]]
-  from = "/2015/02/04/using-a-taskrunnner/"
-  to = "/technically-minded/using-a-taskrunnner/"
-[[redirects]]
-  from = "/2015/02/02/2015-time-to-fight-the-flab-and-get-healthy/"
-  to = "/mind-body-and-soul/2015-time-to-fight-the-flab-and-get-healthy/"
-[[redirects]]
-  from = "/2015/01/13/london-baby/"
-  to = "/meandering-insanity/london-baby/"
-[[redirects]]
-  from = "/2014/10/10/introducing-bbq-digital/"
-  to = "/digital-industry/introducing-bbq-digital/"
-[[redirects]]
-  from = "/2014/09/12/why-content-is-king/"
-  to = "/digital-industry/why-content-is-king/"
-[[redirects]]
-  from = "/2014/05/05/farewell-to-my-best-friend/"
-  to = "/meandering-insanity/farewell-to-my-best-friend/"
-[[redirects]]
-  from = "/2014/04/25/the-times-they-are-a-changin/"
-  to = "/meandering-insanity/the-times-they-are-a-changin/"
-[[redirects]]
-  from = "/2013/05/21/diary-of-a-new-contractor/"
-  to = "/digital-industry/diary-of-a-new-contractor/"
-[[redirects]]
-  from = "/2013/05/21/becoming-a-contractor/"
-  to = "/digital-industry/becoming-a-contractor/"
-[[redirects]]
-  from = "/2013/01/02/2012-goals-how-did-i-do/"
-  to = "/mind-body-and-soul/2012-goals-how-did-i-do/"
-[[redirects]]
-  from = "/2012/10/23/i-moustache-you-a-question/"
-  to = "/meandering-insanity/i-moustache-you-a-question/"
-[[redirects]]
-  from = "/2012/07/20/harrys-song-and-the-power-of-free/"
-  to = "/scribblings/harrys-song-and-the-power-of-free/"
-[[redirects]]
-  from = "/2012/04/21/a-beginners-guide-to-depression/"
-  to = "/mind-body-and-soul/a-beginners-guide-to-depression/"
-[[redirects]]
-  from = "/2012/02/20/ten-tips-for-throwing-a-great-party/"
-  to = "/meandering-insanity/ten-tips-for-throwing-a-great-party/"
-[[redirects]]
-  from = "/2012/01/12/2012-not-the-end-the-beginning/"
-  to = "/mind-body-and-soul/2012-not-the-end-the-beginning/"
-[[redirects]]
-  from = "/2012/02/01/2012-goals-progress-so-far-feb/"
-  to = "/mind-body-and-soul/2012-goals-progress-so-far-feb/"
-[[redirects]]
-  from = "/2012/01/08/how-to-get-started-in-blogging/"
-  to = "/scribblings/how-to-get-started-in-blogging/"
-[[redirects]]
-  from = "/2010/10/04/what-type-of-twitter-user-are-you/"
-  to = "/meandering-insanity/what-type-of-twitter-user-are-you/"
-[[redirects]]
-  from = "/2010/06/06/the-rise-and-fall-and-rise-again-of-classic-2d-adventure-games/"
-  to = "/technically-minded/the-rise-and-fall-and-rise-again-of-classic-2d-adventure-games/"
-[[redirects]]
-  from = "/2010/05/18/the-fully-automated-media-centre-windows-only/"
-  to = "/technically-minded/the-fully-automated-media-centre-windows-only/"
-[[redirects]]
-  from = "/2010/05/18/eventghost-the-little-automation-program-which-can-change-your-life/"
-  to = "/technically-minded/eventghost-the-little-automation-program-which-can-change-your-life/"
-[[redirects]]
-  from = "/2010/05/05/rip-your-movies-with-ease-using-dvdfab/"
-  to = "/technically-minded/rip-your-movies-with-ease-using-dvdfab/"
-[[redirects]]
-  from = "/2010/03/22/it-is-2010-why-can-you-still-not-use-a-computer/"
-  to = "/technically-minded/it-is-2010-why-can-you-still-not-use-a-computer/"
-[[redirects]]
-  from = "/2010/04/09/why-a-quality-website-is-more-important-than-you-realise/"
-  to = "/technically-minded/why-a-quality-website-is-more-important-than-you-realise/"
-[[redirects]]
-  from = "/2010/03/10/taming-the-wild-wild-web/"
-  to = "/technically-minded/taming-the-wild-wild-web/"
+  from = "/the-aretecratic-manifesto"
+  to = "/manifesto/"

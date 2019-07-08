@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'The Foxleigh Blog',
-    description: 'The blog of Alexander Foxleigh',
+    title: 'Let\'s Kill Capitalism',
+    description: 'The blog of lets kill capitalism',
     author: 'Alex Foxleigh',
-    siteUrl: 'http://foxleigh.me',
+    siteUrl: 'https://www.letskillcapitalism.com',
     social: [
       {
         name: 'Facebook',
