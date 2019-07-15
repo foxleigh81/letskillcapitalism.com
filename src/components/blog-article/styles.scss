@@ -1,9 +1,11 @@
 .blog-article {
   position: relative;
   background-color: #fff;
-  width: 75vw;
-  margin: $margin auto 0;
   box-shadow: 0 0 20px rgba(#000, .05);
+  @include bp(m) {
+    margin: $margin auto 0;
+    width: 75vw;
+  }
 
   &__header {
     position: relative;
@@ -15,14 +17,22 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
-      height: 350px;
+      min-height: 180px;
+      @include bp(m) {
+        height: 350px;
+      }
       h1 {
-        padding: $padding * 2 $padding * 60 $padding * 2 $padding * 2;
+        min-height: 180px;
         height: 100%;
-        font-size: $baseFontSize * 6;
+        padding: $padding * 2 $padding * 2 $padding * 2 $padding * 2;
+        font-size: $baseFontSize * 4;
         text-shadow: 2px 2px rgba(#000, .5);
         text-transform: uppercase;
         background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+        @include bp(m) {
+          padding: $padding * 2 $padding * 60 $padding * 2 $padding * 2;
+          font-size: $baseFontSize * 5;
+        }
       }
     }
     &.no-hero {
@@ -32,7 +42,10 @@
 
   
   &__content {
-    padding: $padding * 2 $padding * 5;
+    padding: $padding * 3 $padding * 7;
+    .landing-page-container & {
+      padding: $padding * 2 $padding * 2;
+    }
     p {
       margin-bottom: $margin;
       img {

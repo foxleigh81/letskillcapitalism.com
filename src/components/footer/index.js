@@ -4,10 +4,10 @@ import PropTypes from 'prop-types'
 
 import './style.scss'
 
-const Header = props => (
+const Footer = props => (
   <StaticQuery
     query={graphql`
-      query HeaderData {
+      query FooterData {
         site {
           siteMetadata {
             title
@@ -46,27 +46,27 @@ const Header = props => (
       const nav = categoryList.map(cat => <li key={cat.slug}><Link to={`/${cat.slug}`}>{cat.name}</Link></li>)
 
       return (
-        <header className={`site-header ${props.tags}`}>
-          <h1><Link to="/">{meta.title}</Link></h1>
+        <footer className={`site-footer ${props.tags}`}>
           <nav>
             <ul>
-              <li><Link to="/blog">Home</Link></li>
+              <li><Link to="/">Home</Link></li>
               {nav}
             </ul>
           </nav>
-        </header>
+          <span class="copyright">Copyright 2019: Alexander foxleigh. All Rights reserved</span>
+        </footer>
       )
     }
   }
   />
 )
 
-Header.propTypes = {
+Footer.propTypes = {
   tags: PropTypes.string,
 }
 
-Header.defaultProps = {
+Footer.defaultProps = {
   tags: '',
 }
 
-export default Header
+export default Footer

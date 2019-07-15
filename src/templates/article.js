@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 
 import BlogArticle from '../components/blog-article'
 import Layout from '../components/layout'
+import Footer from '../components/footer'
 
 // Run the Graphql query
 export const pageQuery = graphql`
@@ -46,6 +47,7 @@ export default function Template({ data }) {
         <BlogArticle tags={post.frontmatter.tags} postData={post}>
           {post.frontmatter.comments && <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />}
         </BlogArticle>
+        <Footer />
     </Layout>
   )
 }

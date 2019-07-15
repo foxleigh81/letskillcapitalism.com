@@ -1,0 +1,22 @@
+.meta-date {
+  position: absolute;
+      background-color: #fff;
+      top: 0;
+      right: 0;
+      padding: $padding;
+      text-align: center;
+      span {
+        display: block;
+        color: $text-dl-darker;
+      }
+      .day {
+        font-size: $header-level-1;
+        font-weight: bold;
+      }
+      .month {
+        font-size: $paragraph;
+      }
+      .year {
+        font-size: $paragraph;
+      }
+}

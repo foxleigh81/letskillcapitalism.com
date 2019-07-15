@@ -6,6 +6,9 @@
   YARN_FLAGS = "--no-ignore-optional"
 
 [[redirects]]
+  from = "/"
+  to = "/blog/"
+[[redirects]]
   from = "/2017/06/09/hello-world/"
   to = "/blog/welcome/"
 [[redirects]]

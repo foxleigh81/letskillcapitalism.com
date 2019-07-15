@@ -1,0 +1,11 @@
+/* Media Query Mixin */
+
+@mixin bp($size) {
+  @if $size == s {
+    @media (min-width: 900px) { @content; }
+  } @else if $size == m {
+    @media (min-width: 1200px) { @content; }
+  } @else if $size == l {
+    @media (min-width: 1800px) { @content; }
+  }
+}

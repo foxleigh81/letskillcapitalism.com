@@ -1,5 +1,5 @@
 ---
 template: homepage 
 title: "Blog Articles"
-in_nav: true
+in_nav: false
 ---

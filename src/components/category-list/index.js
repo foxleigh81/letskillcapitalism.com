@@ -16,6 +16,16 @@ const CategoryList = ({ posts, context }) => {
     <nav className="category-list">
       <ul>
         {slugsWithData.map((top) => {
+
+          const dateParts = date => {
+            const array = date.split(' ')
+            return {
+              day: array[0],
+              month: array[1].replace(',', ''),
+              year: array[2]
+            }
+          }
+
           // Display all pages (excluding index pages)
           if (!top.slug.match(/^\/([\w-]+)\/$/) && top.slug !== '/') {
             const category = top.slug.split('/')[1]
@@ -32,9 +42,10 @@ const CategoryList = ({ posts, context }) => {
                       <h1>{top.title}</h1>
                     </Link>
                   </header>
-                  <div className="category-list__meta-data">
-                    <span className="category-list__meta-data__date">{top.date}</span>
-                    <Link className="category-list__meta-data__category" to={`/${category}/`}>{category.replace(/-/g, ' ')}</Link>
+                  <div className="category-list__meta-data__date">
+                    <span class="day">{dateParts(top.date).day}</span>
+                    <span class="month">{dateParts(top.date).month}</span>
+                    <span class="year">{dateParts(top.date).year}</span>
                   </div>
                   <div className="category-list__excerpt" dangerouslySetInnerHTML={{__html: top.excerpt}} />
                 </article>

@@ -12,7 +12,11 @@ $danger: #F6755E;
 $warning: rgb(224, 175, 11);
 $success: #158327;
 
-$blog: #db2534;
+$meta: #777;
+$advice: #db2534;
+$supplies: #a027d8; 
+$skills: #4286f4;
+$media: #0c5f01;
 
 // Spacing
 $baseSpacing: 1rem;
@@ -27,3 +31,4 @@ $header-level-3: $baseFontSize * 2;
 $header-level-4: $baseFontSize * 1.8;
 $paragraph: $baseFontSize * 1.6;
 $nav-link: $baseFontSize * 1.6;
+$teeny: $baseFontSize*1.2;

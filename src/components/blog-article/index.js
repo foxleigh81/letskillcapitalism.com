@@ -7,7 +7,8 @@ import './styles.scss'
 // Import components
 import NoteBlock from '../note-block'
 import LegacyBanner from '../legacy-banner'
-import MetaData from '../article-meta-data'
+import MetaAuthor from '../meta-author'
+import MetaDate from '../meta-date'
 
 const BlogArticle = ({
   tags, postData, children,
@@ -27,21 +28,27 @@ const BlogArticle = ({
   const style = (hasHero) && { backgroundImage: `url(${postData.fields.hero.childImageSharp.fluid.src})` }
   if (style) { style.backgroundPosition = bgp }
   // Check if article is legacy
-  const legacyCheck = (t) => {
+  const legacyCheck = t => {
     const tagArray = t.split(',')
     return tagArray.includes('legacy')
   }
 
+  // Check if we are currently on an article page
+  const articleCheck = () => postData.frontmatter.template === 'article' && true
+  
   return (
     <div className="blog-article-container">
       {legacyCheck(tags) && <LegacyBanner year={postData.frontmatter.date.split('-')[0]} /> }
       <article className={`blog-article ${tags}`}>
+      { postData.frontmatter.title && 
         <header className={`blog-article__header ${hasHero ? 'has-hero' : 'no-hero'}`} style={style}>
           <h1>{postData.frontmatter.title}</h1>
-          <MetaData author={postData.frontmatter.author} date={postData.frontmatter.date} />
+          {articleCheck() && <MetaDate date={postData.frontmatter.date} /> }
         </header>
+      }
         <div className="blog-article__content">
           {renderAst(postData.htmlAst)}
+          {articleCheck() && <MetaAuthor author={postData.frontmatter.author} />}
           { children }
         </div>
       </article>
